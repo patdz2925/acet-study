@@ -1,0 +1,11 @@
+An average (mean) is the sum of values divided by the count.
+
+Key formulas:
+1. Average = Sum / Count
+2. Sum = Average × Count
+3. Count = Sum / Average
+
+Example: The average of 5 numbers is 12.
+  Sum = 12 × 5 = 60
+
+If you know the average and any two of the three values (sum, count, average), you can find the third.

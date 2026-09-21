@@ -1,0 +1,11 @@
+Percentages express a part per hundred.
+
+To solve percentage problems:
+1. Percent increase: ((new - old) / old) × 100
+2. Percent of a number: (percent / 100) × number
+3. Find the original: if X% of Y = Z, then Y = Z / (X/100)
+
+Example: A store sold 200 items in January and 250 in February.
+  Percent increase = ((250 - 200) / 200) × 100 = 25%
+
+Always identify the base (the "of" number) carefully.
