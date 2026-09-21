@@ -206,7 +206,7 @@ if __name__ == "__main__":
     debug = os.environ.get("FLASK_DEBUG", "0") == "1"
     print("=" * 50)
     print("  ACET Adaptive Study System")
-    print(f"  Running on http://0.0.0.0:{port}")
-    print("=" * 50)
+    print(f"  Binding to 0.0.0.0:{port}")
+    print("=" * 50, flush=True)
     init_db()
-    app.run(host="0.0.0.0", port=port, debug=debug, use_reloader=False)
+    app.run(host="0.0.0.0", port=port, debug=False, use_reloader=False)
