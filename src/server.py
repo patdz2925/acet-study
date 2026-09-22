@@ -71,6 +71,53 @@ def auto_seed_db():
 auto_seed_db()
 
 
+def apply_text_patches():
+    """One-way sync of known-corrected question text/choices from canonical JSON.
+
+    Runs on every boot so existing databases (local, Render, other PCs) converge
+    to fixed content without a reseed. Only touches listed IDs, only when the
+    stored content differs. Never touches answers, mistakes, or sessions.
+    """
+    patched = 0
+    try:
+        canonical = {}
+        for name, items_key, id_key in (("full_booklet.json", "questions", "id"),
+                                        ("mistakes.json", "mistakes", "original_id")):
+            p = os.path.join(project_root, "data", name)
+            if not os.path.exists(p):
+                continue
+            with open(p, "r", encoding="utf-8") as f:
+                d = json.load(f)
+            for q in d.get(items_key, []):
+                qid = q.get(id_key)
+                if not qid:
+                    continue
+                choices = q.get("choices", [])
+                canonical[qid] = (q.get("question_text", ""),
+                                  json.dumps(choices) if isinstance(choices, list) else choices)
+        if not canonical:
+            return
+        conn = sqlite3.connect(DB_PATH)
+        for qid, (text, choices) in canonical.items():
+            for target in (qid, f"BOOKLET-{qid}"):
+                row = conn.execute(
+                    "SELECT question_text, choices FROM questions WHERE id = ?", (target,)
+                ).fetchone()
+                if row and (row[0] != text or row[1] != choices):
+                    conn.execute(
+                        "UPDATE questions SET question_text = ?, choices = ? WHERE id = ?",
+                        (text, choices, target))
+                    patched += 1
+        conn.commit()
+        conn.close()
+        if patched:
+            print(f"Applied {patched} question text patch(es) from canonical data.", flush=True)
+    except Exception as e:
+        print(f"Notice: apply_text_patches skipped ({e})", flush=True)
+
+apply_text_patches()
+
+
 # Serve static files (Flask's built-in static handler is disabled, so we use a custom route)
 @app.route("/static/<path:filename>")
 def serve_static(filename):
