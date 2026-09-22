@@ -197,6 +197,83 @@ def get_study_recommendation():
     return study_concept(next_concept["concept_id"])
 
 
+def get_mock_questions():
+    """
+    Return every unique ORIGINAL booklet question for a full mock run.
+    Excludes BOOKLET- practice copies and template/curated questions,
+    so each ACET question appears exactly once, in booklet order.
+    """
+    from database import get_db
+    conn = get_db()
+    rows = conn.execute(
+        "SELECT * FROM questions WHERE source = 'booklet' AND id NOT LIKE 'BOOKLET-%' ORDER BY id"
+    ).fetchall()
+    conn.close()
+    return [dict(r) for r in rows]
+
+
+def grade_mock(answers):
+    """
+    Grade a full mock submission in one call and record per-concept sessions.
+    answers: dict of {question_id: chosen_letter}
+    Returns totals, per-section breakdown, and per-question results.
+    """
+    from database import get_db, record_study_session
+    conn = get_db()
+    rows = conn.execute(
+        "SELECT * FROM questions WHERE source = 'booklet' AND id NOT LIKE 'BOOKLET-%'"
+    ).fetchall()
+    conn.close()
+    questions = {r["id"]: dict(r) for r in rows}
+
+    per_question = []
+    section_stats = {}
+    concept_stats = {}
+    total_correct = 0
+    total = 0
+    for qid, q in questions.items():
+        if qid not in answers:
+            continue
+        chosen = str(answers[qid]).strip().upper()
+        correct_ans = str(q["correct_answer"]).strip().upper()
+        # Support "A. ..." style correct answers
+        if len(correct_ans) > 1 and correct_ans[0].isalpha() and correct_ans[1] == ".":
+            correct_ans = correct_ans[0]
+        is_correct = chosen == correct_ans
+        total += 1
+        if is_correct:
+            total_correct += 1
+        per_question.append({
+            "question_id": qid,
+            "concept": q["concept"],
+            "section": q.get("section", ""),
+            "correct": is_correct,
+            "chosen_answer": chosen,
+            "correct_answer": q["correct_answer"],
+        })
+        for key, bucket in (("section", section_stats), ("concept", concept_stats)):
+            name = q.get(key, "") or "Unknown"
+            b = bucket.setdefault(name, {"answered": 0, "correct": 0})
+            b["answered"] += 1
+            if is_correct:
+                b["correct"] += 1
+
+    # Record one study session per concept so mastery/priority update
+    for concept_id, b in concept_stats.items():
+        record_study_session(
+            concept_id, b["answered"], b["correct"], b["answered"] - b["correct"]
+        )
+
+    return {
+        "total": total,
+        "correct": total_correct,
+        "incorrect": total - total_correct,
+        "accuracy": round(total_correct / total, 2) if total else 0,
+        "sections": section_stats,
+        "per_question": per_question,
+    }
+
+
 def import_mistakes_data(data):
     """
     Import mistakes from JSON data.

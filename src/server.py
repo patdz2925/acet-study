@@ -125,6 +125,24 @@ def api_study_concept(concept_id):
     })
 
 
+@app.route("/api/mock", methods=["GET"])
+def api_mock():
+    """Return every unique original booklet question for a full mock run."""
+    questions = study_logic.get_mock_questions()
+    return jsonify({"status": "ok", "count": len(questions), "questions": questions})
+
+
+@app.route("/api/mock/grade", methods=["POST"])
+def api_mock_grade():
+    """Grade a full mock submission and record per-concept sessions."""
+    data = request.get_json() or {}
+    answers = data.get("answers", {})
+    if not isinstance(answers, dict) or not answers:
+        return jsonify({"status": "error", "message": "No answers provided."}), 400
+    result = study_logic.grade_mock(answers)
+    return jsonify({"status": "ok", **result})
+
+
 @app.route("/api/check", methods=["POST"])
 def api_check():
     """Check an answer."""

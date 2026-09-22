@@ -41,6 +41,11 @@ export const API = {
     loadDemo: () => api("/api/load-demo", { method: "POST" }),
     checkEmpty: () => api("/api/check-empty"),
     bookletQuestions: () => api("/api/booklet"),
+    mockQuestions: () => api("/api/mock"),
+    gradeMock: (answers) => api("/api/mock/grade", {
+        method: "POST",
+        body: { answers }
+    }),
     questionSources: () => api("/api/question-sources"),
     syncProgress: (sessions) => api("/api/sync-progress", {
         method: "POST",

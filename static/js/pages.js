@@ -9,12 +9,16 @@ let currentStudyData = null;
 let currentPracticeQuestions = [];
 let currentAnswers = {};
 let currentConceptId = null;
+let currentMockQuestions = [];
+let currentMockAnswers = {};
 
 export function setPage(name, preserveStudy) {
     currentPage = name;
     currentStudyData = null;
     currentPracticeQuestions = [];
     currentAnswers = {};
+    currentMockQuestions = [];
+    currentMockAnswers = {};
     // Only reset conceptId when navigating AWAY from study, or when explicitly not preserving
     if (name !== "study" || !preserveStudy) {
         currentConceptId = null;
@@ -39,6 +43,7 @@ function renderPage() {
         case "dashboard": renderDashboard(main); break;
         case "mistakes": renderMistakes(main); break;
         case "study": renderStudy(main); break;
+        case "mock": renderMock(main); break;
         case "concepts": renderConcepts(main); break;
         case "import": renderImport(main); break;
         default: renderDashboard(main);
@@ -453,6 +458,173 @@ function showStudyResultsSummary(conceptId, questions, answers, summary) {
     main.innerHTML = html;
     showStatus(`Study complete! ${summary.correct}/${summary.total} correct.`, "success");
 }
+
+// ─── FULL MOCK TEST ──────────────────────────────────────────
+
+function parseMockChoices(q) {
+    let choices;
+    try {
+        choices = typeof q.choices === "string" ? JSON.parse(q.choices) : q.choices;
+        if (typeof choices === "string") choices = JSON.parse(choices);
+    } catch (e) {
+        choices = [];
+    }
+    return Array.isArray(choices) ? choices : [];
+}
+
+async function renderMock(el) {
+    el.innerHTML = '<div class="loading">Loading full mock test...</div>';
+    const result = await API.mockQuestions();
+    if (!result.ok || result.data.status !== "ok" || !result.data.questions.length) {
+        el.innerHTML = `<div class="error-message">No mock questions available. Import mistakes first.</div>`;
+        return;
+    }
+    currentMockQuestions = result.data.questions;
+    currentMockAnswers = {};
+
+    let html = `
+        <div class="concept-header">
+            <h1>Full Mock Test</h1>
+            <p>${currentMockQuestions.length} original ACET questions • answer all, then submit</p>
+        </div>
+    `;
+    currentMockQuestions.forEach((q, index) => {
+        const choices = parseMockChoices(q);
+        const instruction = getInstruction(q.concept, q.id);
+        const keyWord = getKeyWord(q.id);
+        const questionHtml = keyWord ? highlightKeyWord(q.question_text, keyWord) : escapeHtml(q.question_text);
+        const cleanText = questionHtml.replace(/^\[.*?\]\s*/, '');
+        const hasFigure = FIGURE_QUESTIONS.has(q.id);
+        const figureUrl = hasFigure ? `/static/img/${q.id}.png` : null;
+        let choicesHtml = "";
+        choices.forEach((choice, ci) => {
+            const letter = String.fromCharCode(65 + ci);
+            choicesHtml += `
+                <div class="answer-option" data-index="${index}" data-letter="${letter}" onclick="selectMockAnswer(${index}, '${letter}', this)">
+                    <span class="answer-letter">${letter}</span>
+                    <span>${escapeHtml(choice)}</span>
+                </div>
+            `;
+        });
+        html += `
+            <div class="card" id="mock-question-${index}">
+                <div style="margin-bottom:8px;">
+                    <span class="source-label source-booklet">Original ACET</span>
+                    <span style="font-size:0.8rem;color:var(--ink-subtle);"> Question ${index + 1} of ${currentMockQuestions.length} • ${escapeHtml(q.section || "")}</span>
+                </div>
+                ${instruction ? `<div style="margin-bottom:10px;padding:10px 14px;background:var(--accent-wash);border:1px solid rgba(80,70,229,0.15);border-radius:var(--radius-sm);font-size:13px;color:var(--accent-strong);font-weight:500;">${escapeHtml(instruction)}</div>` : ''}
+                ${hasFigure ? `<div style="margin-bottom:12px;border:1px solid var(--line-strong);border-radius:var(--radius-sm);overflow:hidden;"><img src="${figureUrl}" alt="Question figure" style="width:100%;display:block;"></div>` : ''}
+                <div style="margin-bottom:12px;"><strong>${cleanText}</strong></div>
+                <div>${choicesHtml}</div>
+            </div>
+        `;
+    });
+    html += `
+        <div class="btn-group" style="margin-top:16px;">
+            <button class="btn btn-success" onclick="submitMock()">Submit Mock Test</button>
+            <button class="btn btn-outline" onclick="setPage('dashboard')">Dashboard</button>
+        </div>
+    `;
+    el.innerHTML = html;
+    showStatus(`Mock loaded: ${currentMockQuestions.length} questions. No feedback until you submit.`, "info");
+}
+
+window.selectMockAnswer = function(questionIndex, letter, element) {
+    currentMockAnswers[questionIndex] = letter;
+    const optionElements = element.parentElement.querySelectorAll(".answer-option");
+    optionElements.forEach(opt => opt.classList.remove("selected"));
+    element.classList.add("selected");
+};
+
+window.submitMock = async function() {
+    const unanswered = [];
+    currentMockQuestions.forEach((q, i) => {
+        if (!currentMockAnswers[i]) unanswered.push(i + 1);
+    });
+    if (unanswered.length > 0) {
+        const shown = unanswered.slice(0, 20).join(", ") + (unanswered.length > 20 ? ` (+${unanswered.length - 20} more)` : "");
+        showStatus(`Please answer all questions. Missing: ${shown}`, "warning");
+        return;
+    }
+    const answers = {};
+    currentMockQuestions.forEach((q, i) => { answers[q.id] = currentMockAnswers[i]; });
+    showStatus("Grading mock test...", "info");
+    const result = await API.gradeMock(answers);
+    if (!result.ok || result.data.status !== "ok") {
+        showStatus("Failed to grade mock test.", "danger");
+        return;
+    }
+    const data = result.data;
+    // Mirror per-concept results to localStorage (server already recorded sessions)
+    try {
+        const byConcept = {};
+        (data.per_question || []).forEach(p => {
+            const b = byConcept[p.concept] = byConcept[p.concept] || { answered: 0, correct: 0 };
+            b.answered += 1;
+            if (p.correct) b.correct += 1;
+        });
+        Object.entries(byConcept).forEach(([concept, b]) => {
+            saveSessionToLocalStorage({
+                concept,
+                concept_id: concept,
+                study_date: new Date().toISOString().replace("T", " ").substring(0, 19),
+                questions_answered: b.answered,
+                correct: b.correct,
+                incorrect: b.answered - b.correct
+            });
+        });
+    } catch (e) {
+        console.warn("Could not save mock to localStorage", e);
+    }
+    renderMockResults(data);
+};
+
+function renderMockResults(data) {
+    const main = document.getElementById("main-content");
+    const pct = Math.round(data.accuracy * 100);
+    let html = `
+        <div class="concept-header">
+            <h1>Mock Complete: ${data.correct} / ${data.total} (${pct}%)</h1>
+            <p>Per-section breakdown below, then full answer review</p>
+        </div>
+        <div class="card">
+            <h3>Score by Section</h3>
+            ${Object.entries(data.sections || {}).map(([section, s]) =>
+                `<div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid var(--line);">
+                    <span>${escapeHtml(section)}</span>
+                    <strong>${s.correct} / ${s.answered}</strong>
+                </div>`
+            ).join("")}
+        </div>
+        <div class="section-label">Answer Review</div>
+    `;
+    const byId = {};
+    currentMockQuestions.forEach(q => { byId[q.id] = q; });
+    (data.per_question || []).forEach((p, i) => {
+        const q = byId[p.question_id] || {};
+        html += `
+            <div class="card">
+                <div style="display:flex;justify-content:space-between;align-items:center;">
+                    <span class="source-label source-booklet">Q${i + 1} • ${escapeHtml(p.section || "")}</span>
+                    <span class="${p.correct ? 'text-success' : 'text-danger'}">${p.correct ? '✓ Correct' : '✗ Incorrect'}</span>
+                </div>
+                <div style="margin-top:8px;">${escapeHtml(q.question_text || p.question_id)}</div>
+                <div style="margin-top:4px;font-size:0.85rem;">
+                    You answered: <strong>${escapeHtml(p.chosen_answer)}</strong>
+                    ${!p.correct ? ` → Correct: <strong>${escapeHtml(String(p.correct_answer))}</strong>` : ''}
+                </div>
+            </div>
+        `;
+    });
+    html += `
+        <div class="btn-group" style="margin-top:16px;">
+            <button class="btn btn-primary" onclick="setPage('mock')">Retake Mock</button>
+            <button class="btn btn-outline" onclick="setPage('dashboard')">Dashboard</button>
+        </div>
+    `;
+    main.innerHTML = html;
+    showStatus(`Mock complete! ${data.correct}/${data.total} correct (${pct}%).`, "success");
+};
 
 // ─── CONCEPTS ────────────────────────────────────────────────
 
