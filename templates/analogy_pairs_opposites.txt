@@ -1,0 +1,14 @@
+Pairs of Opposites analogies compare binary contrasting pairs across various contexts.
+
+Relationship: [A] directly contrasts with or negates [B].
+
+Strategy:
+1. Formulate the contrast: "[A] represents the presence or extreme of a quality, while [B] represents its absence or opposite."
+2. Check nuance: Are both words describing states, traits, or motions?
+3. Match the parts of speech precisely across both pairs.
+
+Example: EXPAND : CONTRACT
+  Bridge: To expand is to increase in size; to contract is to decrease in size.
+  Match: ASCEND : DESCEND (To go up vs. to go down).
+
+Tip: Watch out for cause-and-effect distractors disguised as opposites (e.g., hunger : eating). Opposites must reflect inverse states or actions.

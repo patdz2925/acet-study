@@ -1,0 +1,21 @@
+Algebraic manipulation involves rewriting, expanding, and factoring algebraic expressions efficiently.
+
+Essential Algebraic Identities:
+1. Difference of Squares: a² - b² = (a - b)(a + b)
+2. Perfect Square Trinomials:
+   (a + b)² = a² + 2ab + b²
+   (a - b)² = a² - 2ab + b²
+3. Sum and Difference of Cubes:
+   a³ + b³ = (a + b)(a² - ab + b²)
+   a³ - b³ = (a - b)(a² + ab + b²)
+
+Strategy:
+- If asked for the value of (x + y)² when given (x² + y²) and xy, use:
+  (x + y)² = (x² + y²) + 2xy.
+
+Example: If x + y = 7 and xy = 10, find x² + y².
+  (x + y)² = x² + 2xy + y²
+  7² = (x² + y²) + 2(10)
+  49 = (x² + y²) + 20  =>  x² + y² = 29.
+
+Tip: Look for ways to calculate the required expression as a whole without solving for individual variables!

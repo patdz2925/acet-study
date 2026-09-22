@@ -22,6 +22,36 @@ app = Flask(__name__, static_folder=None, static_url_path=None)
 # Initialize database on startup
 init_db()
 
+def auto_seed_db():
+    """Auto-seed questions and concepts on startup if the database is empty."""
+    try:
+        conn = sqlite3.connect(DB_PATH)
+        count = conn.execute("SELECT COUNT(*) FROM questions").fetchone()[0]
+        conn.close()
+        if count == 0:
+            mistakes_path = os.path.join(project_root, "data", "mistakes.json")
+            if os.path.exists(mistakes_path):
+                print("Database is empty. Auto-seeding mistakes from data/mistakes.json...", flush=True)
+                with open(mistakes_path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                res = study_logic.import_mistakes_data(data)
+                print(f"Auto-seeded {res.get('imported', 0)} questions across {res.get('concepts', 0)} concepts.", flush=True)
+
+            curated_path = os.path.join(project_root, "data", "curated_questions.json")
+            if os.path.exists(curated_path):
+                try:
+                    with open(curated_path, "r", encoding="utf-8") as f:
+                        cdata = json.load(f)
+                    if cdata and isinstance(cdata, dict) and "questions" in cdata:
+                        study_logic.import_curated_data(cdata)
+                except Exception:
+                    pass
+    except Exception as e:
+        print(f"Notice: auto_seed_db skipped ({e})", flush=True)
+
+auto_seed_db()
+
+
 # Serve static files (Flask's built-in static handler is disabled, so we use a custom route)
 @app.route("/static/<path:filename>")
 def serve_static(filename):
@@ -189,6 +219,75 @@ def api_check_empty():
     count = conn.execute("SELECT COUNT(*) FROM questions").fetchone()[0]
     conn.close()
     return jsonify({"empty": count == 0, "question_count": count})
+
+
+@app.route("/api/health", methods=["GET"])
+def api_health():
+    """Health check endpoint for cloud hosting probes."""
+    return jsonify({"status": "ok", "service": "acet-study"}), 200
+
+
+@app.route("/api/sync-progress", methods=["POST"])
+def api_sync_progress():
+    """Sync/restore batch study session history from client localStorage."""
+    data = request.get_json() or {}
+    sessions = data.get("sessions", [])
+    if not isinstance(sessions, list):
+        return jsonify({"status": "error", "message": "sessions must be a list"}), 400
+
+    from database import get_db
+    conn = get_db()
+    c = conn.cursor()
+    restored = 0
+    for s in sessions:
+        concept = s.get("concept")
+        answered = s.get("questions_answered", 0)
+        correct = s.get("correct", 0)
+        incorrect = s.get("incorrect", 0)
+        study_date = s.get("study_date")
+        if concept and answered > 0:
+            if study_date:
+                c.execute("""
+                    INSERT INTO study_sessions (concept, study_date, questions_answered, correct, incorrect)
+                    VALUES (?, ?, ?, ?, ?)
+                """, (concept, study_date, answered, correct, incorrect))
+            else:
+                c.execute("""
+                    INSERT INTO study_sessions (concept, questions_answered, correct, incorrect)
+                    VALUES (?, ?, ?, ?)
+                """, (concept, answered, correct, incorrect))
+            restored += 1
+    conn.commit()
+    conn.close()
+    return jsonify({"status": "ok", "restored_sessions": restored})
+
+
+@app.route("/api/export-progress", methods=["GET"])
+def api_export_progress():
+    """Export all study sessions and concept stats as JSON."""
+    from database import get_db, get_concept_stats
+    conn = get_db()
+    rows = conn.execute("SELECT * FROM study_sessions ORDER BY study_date ASC").fetchall()
+    conn.close()
+    sessions = [dict(r) for r in rows]
+    stats = get_concept_stats()
+    return jsonify({
+        "exported_at": study_logic.datetime_now(),
+        "total_sessions": len(sessions),
+        "sessions": sessions,
+        "stats": stats
+    })
+
+
+@app.route("/api/reset-progress", methods=["POST"])
+def api_reset_progress():
+    """Reset all study sessions (allows student to restart study tracking)."""
+    from database import get_db
+    conn = get_db()
+    conn.execute("DELETE FROM study_sessions")
+    conn.commit()
+    conn.close()
+    return jsonify({"status": "ok", "message": "Study progress reset successfully."})
 
 
 # ── FALLBACK: serve index.html for all other routes ──────────────────

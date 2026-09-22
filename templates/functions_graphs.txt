@@ -1,0 +1,19 @@
+Graph transformations and analyzing functional relationships.
+
+Transformations of f(x):
+1. Vertical Shift:
+   - f(x) + c moves UP by c units.
+   - f(x) - c moves DOWN by c units.
+2. Horizontal Shift:
+   - f(x - c) moves RIGHT by c units.
+   - f(x + c) moves LEFT by c units.
+3. Reflections:
+   - -f(x) reflects across the x-axis.
+   - f(-x) reflects across the y-axis.
+
+Example: If the graph of y = x² is shifted 3 units right and 2 units down, what is its new equation?
+  Shift right 3: (x - 3)²
+  Shift down 2: (x - 3)² - 2
+  New equation: y = (x - 3)² - 2.
+
+Tip: Watch out for horizontal shifts: f(x - 3) moves in the POSITIVE x direction (right), not left!

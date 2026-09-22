@@ -1,0 +1,16 @@
+Function analogies test the relationship between an object/tool and its primary purpose.
+
+Relationship: [TOOL / OBJECT] is specifically designed to [FUNCTION / ACTION].
+
+Strategy:
+1. Bridge sentence: "The primary purpose of [A] is to [B]."
+2. Focus on PRIMARY function, not incidental uses:
+   - A knife is designed to cut (not just to spread butter).
+   - A ruler is designed to measure length.
+3. Ensure the direction of the bridge matches (Tool : Function vs. Function : Tool).
+
+Example: SCISSORS : CUT
+  Bridge: Scissors are an instrument used to cut.
+  Match: PEN : WRITE or THERMOMETER : MEASURE (A pen is used to write).
+
+Tip: Verify that the tool performs the action directly rather than merely being present during the action.

@@ -1,0 +1,16 @@
+Composite functions apply one function to the result of another.
+
+Notation:
+  (f ∘ g)(x) = f(g(x))  ["f of g of x"]
+  This means: Evaluate g(x) first, then plug that output into f.
+
+Step-by-Step:
+1. Work from the INSIDE out.
+2. For (f ∘ g)(a), compute b = g(a), then calculate f(b).
+3. Note that f(g(x)) is generally NOT equal to g(f(x)).
+
+Example: If f(x) = 2x + 1 and g(x) = x² - 3, find f(g(4)).
+  1. Inner: g(4) = 4² - 3 = 16 - 3 = 13.
+  2. Outer: f(13) = 2(13) + 1 = 26 + 1 = 27.
+
+Tip: Don't multiply f by g! (f ∘ g)(x) means substitution, not multiplication f(x) × g(x).

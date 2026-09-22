@@ -1,0 +1,15 @@
+Dice probability deals with standard 6-sided dice rolls (faces 1 through 6).
+
+Key Concepts & Rules:
+1. One die: 6 possible outcomes {1, 2, 3, 4, 5, 6}.
+2. Two dice: 6 × 6 = 36 total outcomes.
+3. Common Sums for two dice:
+   - Sum of 2: (1,1) -> 1 way (1/36)
+   - Sum of 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) -> 6 ways (6/36 = 1/6, most frequent sum!)
+   - Sum of 12: (6,6) -> 1 way (1/36)
+
+Example: What is the probability that the sum of two rolled dice is 9?
+  Favorable pairs: (3,6), (4,5), (5,4), (6,3) = 4 pairs.
+  P(Sum = 9) = 4 / 36 = 1 / 9.
+
+Tip: Remember the symmetry of two-dice sums: The number of ways to roll a sum increases from 2 (1 way) up to 7 (6 ways), then decreases down to 12 (1 way).

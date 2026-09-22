@@ -1,0 +1,21 @@
+Basic arithmetic involves mastery of PEMDAS/BODMAS, sign rules, and arithmetic efficiency.
+
+Order of Operations (PEMDAS):
+1. Parentheses / Brackets
+2. Exponents / Roots
+3. Multiplication and Division (from left to right!)
+4. Addition and Subtraction (from left to right!)
+
+Sign Rules:
+- Negative × Negative = Positive
+- Negative × Positive = Negative
+- Subtracting a negative: a - (-b) = a + b
+
+Example: Evaluate: 18 - 3 × (4 - 6)² ÷ 2
+  1. Parentheses: (4 - 6) = -2
+  2. Exponent: (-2)² = 4
+  3. Expression is now: 18 - 3 × 4 ÷ 2
+  4. Multiply/Divide left to right: 3 × 4 = 12; 12 ÷ 2 = 6
+  5. Subtract: 18 - 6 = 12.
+
+Tip: Do multiplication and division strictly left-to-right as they appear. Multiplication does NOT take priority over division.

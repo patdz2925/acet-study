@@ -1,0 +1,16 @@
+Probability measures the likelihood of an event occurring.
+
+Core Formula:
+  P(Event) = (Number of favorable outcomes) / (Total number of possible outcomes)
+  0 ≤ P(E) ≤ 1
+
+Key Rules:
+1. Complement Rule: P(Not E) = 1 - P(E)
+2. Independent Events (Both A and B occur): P(A and B) = P(A) × P(B)
+3. Mutually Exclusive Events (Either A or B occurs): P(A or B) = P(A) + P(B)
+
+Example: A bag has 4 red, 6 blue, and 5 green marbles (total = 15).
+  P(Blue) = 6 / 15 = 2 / 5.
+  P(Not Red) = 1 - (4 / 15) = 11 / 15.
+
+Tip: For "at least one" problems, compute 1 - P(none). It is usually much faster than adding multiple cases!

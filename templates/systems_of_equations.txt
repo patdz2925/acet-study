@@ -1,0 +1,19 @@
+Solving systems of two linear equations in two variables.
+
+Methods:
+1. Substitution: Solve one equation for one variable and substitute into the other.
+2. Elimination: Multiply equations by constants so adding or subtracting eliminates one variable.
+
+Types of Systems:
+- Consistent & Independent: One unique solution (intersecting lines).
+- Inconsistent: No solution (parallel lines with same slope, different intercepts).
+- Dependent: Infinitely many solutions (coincident lines).
+
+Example: Solve 2x + y = 7 and 3x - y = 8.
+  Add the two equations directly:
+  (2x + 3x) + (y - y) = 7 + 8  =>  5x = 15  =>  x = 3.
+  Substitute x = 3 into 2x + y = 7:
+  2(3) + y = 7  =>  y = 1.
+  Solution: (3, 1).
+
+Tip: If adding or subtracting eliminates a variable immediately, Elimination is much faster than Substitution!

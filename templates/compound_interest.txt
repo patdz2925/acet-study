@@ -1,0 +1,18 @@
+Compound interest calculates growth where accumulated interest also earns interest.
+
+Formulas:
+1. Compounded n times per year:
+   A = P(1 + r/n)^(nt)
+   Where: P = Principal, r = annual rate (decimal), n = compounding frequency, t = years.
+   - Annually: n = 1
+   - Semi-annually: n = 2
+   - Quarterly: n = 4
+   - Monthly: n = 12
+2. Simple Interest (for comparison):
+   I = P × r × t;  A = P + I = P(1 + rt).
+
+Example: $1,000 invested at 10% compounded semi-annually for 1 year.
+  A = 1000(1 + 0.10/2)^(2 × 1) = 1000(1.05)² = 1000(1.1025) = $1,102.50.
+  (Simple interest would yield only $1,100).
+
+Tip: In ACET, problems usually use simple periods (1 or 2 years) or small integers. Watch out for the compounding period!

@@ -1,0 +1,11 @@
+Improving Paragraphs evaluates organization, unity, and cohesion in writing.
+
+Key Rules & Strategy:
+1. Identify the topic sentence and main idea of the paragraph.
+2. Check for logical flow: Look for transitional words (furthermore, however, consequently, in contrast).
+3. Eliminate off-topic sentences that disrupt the paragraph's unity.
+4. When asked where to insert a new sentence, identify the sentence it connects to chronologically or conceptually.
+
+Example: If Sentence 1 introduces a theory and Sentence 3 gives results, a sentence describing the experiment belongs between Sentences 1 and 2 or 2 and 3.
+
+Tip: Pay close attention to pronoun references (e.g., "this discovery", "these results")—they must immediately follow the noun they refer to.

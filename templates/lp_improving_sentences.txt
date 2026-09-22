@@ -1,0 +1,12 @@
+Improving Sentences tests sentence structure, clarity, and conciseness.
+
+Key Rules & Strategy:
+1. Look for conciseness: The most effective sentence conveys the complete thought with zero redundant words.
+2. Eliminate run-on sentences and comma splices (connect independent clauses with semicolons or conjunctions).
+3. Fix awkward phrasing and passive voice constructions when active voice is clearer.
+4. Ensure parallel structure in compound verbs, prepositional phrases, and series.
+
+Example: "Due to the fact that it was raining, therefore the game was postponed."
+  Improvement: "Because it was raining, the game was postponed." (Removes redundant "therefore" and bloated "due to the fact that").
+
+Tip: Beware of choices that sound overly formal but introduce grammatical awkwardness. Simpler, grammatically tight sentences are almost always correct.

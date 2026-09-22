@@ -1,0 +1,14 @@
+Inferring Purpose requires deducing unstated intentions behind a specific paragraph, sentence, or phrase.
+
+Key Strategy:
+1. Ask yourself: "Why did the author include THIS specific detail, quote, or example?"
+2. Common roles of specific paragraphs/sentences:
+   - Provide an illustrative example of an abstract concept.
+   - Introduce a counter-argument to refute it.
+   - Clarify a potential misconception.
+   - Transition from background theory to practical application.
+3. Link the part to the whole: A single paragraph's purpose always supports the central thesis of the entire passage.
+
+Example: An author describing a 19th-century failed expedition is likely using it as an illustrative historical example of underestimating Arctic weather conditions.
+
+Tip: Beware of choices that describe what the sentence says rather than why the author said it.

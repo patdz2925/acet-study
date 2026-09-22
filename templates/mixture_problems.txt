@@ -1,0 +1,17 @@
+Mixture problems involve blending solutions of different concentrations or ingredients of different costs.
+
+Core Formula:
+  Amount₁ × Concentration₁ + Amount₂ × Concentration₂ = Total Amount × Final Concentration
+  Or for pricing: Quantity₁ × Price₁ + Quantity₂ × Price₂ = Total Cost
+
+Step-by-Step:
+1. Let x be the unknown amount added or mixed.
+2. Express total volume as (Volume₁ + x).
+3. Set up the conservation of pure substance equation:
+   (Pure substance from Part 1) + (Pure substance from Part 2) = (Total pure substance).
+
+Example: How much pure water (0% salt) must be added to 10 liters of a 20% salt solution to make a 10% solution?
+  10(0.20) + x(0) = (10 + x)(0.10)
+  2 = 1 + 0.10x  =>  0.10x = 1  =>  x = 10 liters.
+
+Tip: Pure water has 0% concentration; pure solute (like pure alcohol or salt) has 100% (or 1.0) concentration.

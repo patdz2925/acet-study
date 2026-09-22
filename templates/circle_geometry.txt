@@ -1,0 +1,13 @@
+Circle geometry theorems deal with chords, inscribed angles, and tangents.
+
+Key Theorems:
+1. Inscribed Angle Theorem: An angle inscribed in a circle is HALF the measure of its intercepted central arc:
+   Inscribed Angle = (1/2) × Central Angle.
+2. Thales's Theorem: An angle inscribed in a semicircle (subtended by the diameter) is ALWAYS 90° (a right angle).
+3. Tangent-Radius Theorem: A tangent is perpendicular to the radius at the point of tangency.
+4. Two Tangents from an External Point: Tangent segments from the same external point to a circle are equal in length.
+
+Example: Triangle ABC is inscribed in a circle where AC is the diameter. What is angle B?
+  By Thales's Theorem, angle B = 90°.
+
+Tip: When a diameter is part of an inscribed triangle, you immediately have a right triangle—you can use the Pythagorean Theorem!

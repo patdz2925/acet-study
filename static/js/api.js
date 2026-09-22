@@ -41,5 +41,11 @@ export const API = {
     loadDemo: () => api("/api/load-demo", { method: "POST" }),
     checkEmpty: () => api("/api/check-empty"),
     bookletQuestions: () => api("/api/booklet"),
-    questionSources: () => api("/api/question-sources")
+    questionSources: () => api("/api/question-sources"),
+    syncProgress: (sessions) => api("/api/sync-progress", {
+        method: "POST",
+        body: { sessions }
+    }),
+    exportProgress: () => api("/api/export-progress"),
+    resetProgress: () => api("/api/reset-progress", { method: "POST" })
 };

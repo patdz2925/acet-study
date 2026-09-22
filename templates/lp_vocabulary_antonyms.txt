@@ -1,0 +1,14 @@
+Antonym questions test your ability to determine the exact opposite meaning of a word.
+
+Key Rules & Strategy:
+1. Determine the root, prefix, and suffix of the target word:
+   - "in-", "un-", "dis-" (not); "bene-" (good); "mal-" (bad).
+2. Establish the connotation: Is the target word positive (+), negative (-), or neutral (0)?
+3. If the target is negative, its antonym must be positive.
+4. Beware of the Trap: The synonym is almost always included in the choices to fool hasty test-takers!
+
+Example: EPHEMERAL (short-lived, fleeting)
+  Opposite: PERMANENT, ENDURING, EVERLASTING.
+  Trap: "Brief" and "Transient" are synonyms, not antonyms.
+
+Tip: Mentally define the target word in a short sentence first, negate that sentence, and then match the negated meaning to the choices.

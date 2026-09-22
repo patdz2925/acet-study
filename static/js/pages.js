@@ -49,7 +49,7 @@ function renderPage() {
 
 async function renderDashboard(el) {
     el.innerHTML = '<div class="loading">Loading...</div>';
-    const result = await API.concepts();
+    let result = await API.concepts();
     if (!result.ok) {
         const detail = result.data && (result.data.error || result.data.message)
             ? escapeHtml(result.data.error || result.data.message)
@@ -57,7 +57,29 @@ async function renderDashboard(el) {
         el.innerHTML = `<div class="error-message">Failed to load data. (${detail}) Make sure the server is running, then refresh the page.</div>`;
         return;
     }
-    const { concepts, stats } = result.data;
+    let { concepts, stats } = result.data;
+
+    // Auto-restore from localStorage if server was redeployed/empty of study sessions
+    const totalPracticeOnServer = (stats || []).reduce((sum, s) => sum + (s.total_practice || 0), 0);
+    if (totalPracticeOnServer === 0) {
+        try {
+            const localSessions = JSON.parse(localStorage.getItem("acet_study_sessions") || "[]");
+            if (Array.isArray(localSessions) && localSessions.length > 0) {
+                const syncRes = await API.syncProgress(localSessions);
+                if (syncRes.ok && syncRes.data.restored_sessions > 0) {
+                    showStatus(`Restored ${syncRes.data.restored_sessions} study sessions from browser storage!`, "success");
+                    result = await API.concepts();
+                    if (result.ok) {
+                        concepts = result.data.concepts;
+                        stats = result.data.stats;
+                    }
+                }
+            }
+        } catch (e) {
+            console.warn("Could not auto-restore progress from localStorage", e);
+        }
+    }
+
 
     let html = `
         <div class="concept-header">
@@ -359,12 +381,32 @@ function submitStudyResults() {
     API.recordResults(conceptId, results).then(recordResult => {
         if (recordResult.ok) {
             const summary = recordResult.data.summary;
+            // Save to localStorage for client-side persistence across redeploys
+            saveSessionToLocalStorage({
+                concept: conceptId,
+                concept_id: conceptId,
+                study_date: summary.study_date || new Date().toISOString().replace("T", " ").substring(0, 19),
+                questions_answered: results.length,
+                correct: summary.correct,
+                incorrect: summary.incorrect
+            });
             showStudyResultsSummary(conceptId, questions, answers, summary);
         } else {
             showStatus("Failed to record results.", "danger");
         }
     });
 }
+
+function saveSessionToLocalStorage(sessionData) {
+    try {
+        const stored = JSON.parse(localStorage.getItem("acet_study_sessions") || "[]");
+        stored.push(sessionData);
+        localStorage.setItem("acet_study_sessions", JSON.stringify(stored));
+    } catch (e) {
+        console.warn("Could not save to localStorage", e);
+    }
+}
+
 
 function showStudyResultsSummary(conceptId, questions, answers, summary) {
     const main = document.getElementById("main-content");
@@ -479,6 +521,19 @@ function renderImport(el) {
             <p>Use demo data to test the system. Replace with your real ACET mistakes later.</p>
             <button class="btn btn-outline" onclick="loadDemo()">Load Demo Data</button>
         </div>
+        <div class="card">
+            <h2>Study Progress & Backup</h2>
+            <p>Your study history is automatically preserved locally in this browser. You can also download a backup file or transfer your progress to another device.</p>
+            <div class="btn-group" style="margin-top:12px;gap:8px;display:flex;flex-wrap:wrap;">
+                <button class="btn btn-primary" onclick="exportProgress()">📥 Export Backup (JSON)</button>
+                <label class="btn btn-outline" style="cursor:pointer;margin-bottom:0;display:inline-flex;align-items:center;">
+                    📤 Restore Backup (JSON)
+                    <input type="file" id="restore-progress-file" accept=".json" style="display:none;" onchange="restoreProgressFile(event)">
+                </label>
+                <button class="btn btn-outline" style="color:var(--text-danger, #ef4444);" onclick="resetLocalProgress()">Reset Progress</button>
+            </div>
+            <div id="backup-status" style="margin-top:10px;"></div>
+        </div>
         <div id="import-result" style="margin-top:16px;"></div>
     `;
 }
@@ -561,6 +616,70 @@ window.loadDemo = async function() {
     } catch (e) {
         resultEl.innerHTML = `<div class="error-message">Error: ${escapeHtml(e.message)} (is the server running?)</div>`;
     }
+};
+
+window.exportProgress = async function() {
+    try {
+        const result = await API.exportProgress();
+        const localSessions = JSON.parse(localStorage.getItem("acet_study_sessions") || "[]");
+        const exportData = {
+            export_date: new Date().toISOString(),
+            app: "ACET Adaptive Study System",
+            server_sessions: result.ok ? result.data.sessions : [],
+            local_sessions: localSessions,
+            stats: result.ok ? result.data.stats : []
+        };
+        const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = `acet_study_backup_${new Date().toISOString().slice(0, 10)}.json`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        showStatus("Study progress backup exported successfully!", "success");
+    } catch (e) {
+        showStatus("Export failed: " + e.message, "danger");
+    }
+};
+
+window.restoreProgressFile = function(event) {
+    const file = event.target.files && event.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = async function(e) {
+        try {
+            const data = JSON.parse(e.target.result);
+            const sessions = data.local_sessions || data.sessions || (Array.isArray(data) ? data : []);
+            if (!Array.isArray(sessions) || sessions.length === 0) {
+                alert("No valid study sessions found in the selected backup file.");
+                return;
+            }
+            localStorage.setItem("acet_study_sessions", JSON.stringify(sessions));
+            const syncRes = await API.syncProgress(sessions);
+            if (syncRes.ok) {
+                alert(`Successfully restored ${syncRes.data.restored_sessions || sessions.length} study sessions!`);
+                setPage("dashboard");
+            } else {
+                alert("Progress saved locally, but server sync reported: " + (syncRes.data?.message || "unknown error"));
+                setPage("dashboard");
+            }
+        } catch (err) {
+            alert("Error parsing backup file: " + err.message);
+        }
+    };
+    reader.readAsText(file);
+};
+
+window.resetLocalProgress = async function() {
+    if (!confirm("Are you sure you want to reset your study progress? This clears your test history so you can start fresh.")) {
+        return;
+    }
+    localStorage.removeItem("acet_study_sessions");
+    await API.resetProgress();
+    showStatus("Study progress reset successfully.", "info");
+    setPage("dashboard");
 };
 
 window.loadNextConcept = async function() {

@@ -1,0 +1,17 @@
+Exponential equations are equations where the variable appears in an exponent.
+
+Primary Solving Strategies:
+1. Same Base Method: If b^x = b^y (with b > 0, b ≠ 1), then x = y.
+   Rewrite both sides with a common prime base (2, 3, 5, etc.).
+2. Common Powers to memorize:
+   - Powers of 2: 2, 4, 8, 16, 32, 64, 128, 256.
+   - Powers of 3: 3, 9, 27, 81, 243.
+   - Powers of 5: 5, 25, 125, 625.
+
+Example: Solve 4^(x + 1) = 32
+  Express both with base 2:
+  (2²)^(x + 1) = 2⁵
+  2^(2x + 2) = 2⁵
+  Equate exponents: 2x + 2 = 5  =>  2x = 3  =>  x = 3/2.
+
+Tip: Always rewrite bases as powers of primes before trying to compare exponents!

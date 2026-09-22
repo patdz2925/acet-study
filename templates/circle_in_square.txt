@@ -1,0 +1,18 @@
+Circle inscribed in a square (or square inscribed in a circle) geometry problems.
+
+Case 1: Circle INSCRIBED in a Square of side s:
+  - Diameter of circle = Side of square (d = s, r = s/2).
+  - Area of square = s²
+  - Area of circle = πr² = π(s/2)² = (π/4)s² ≈ 0.785s²
+  - Shaded area (corners) = s² - π(s/2)².
+
+Case 2: Square INSCRIBED in a Circle of radius r:
+  - Diagonal of square = Diameter of circle = 2r.
+  - Side of square = (2r) / √2 = r√2.
+  - Area of square = (r√2)² = 2r².
+
+Example: A circle is inscribed in a square of side 10. What is the area of the circle?
+  Diameter = 10  =>  Radius r = 5.
+  Area = π(5)² = 25π.
+
+Tip: Draw a quick sketch! Check whether the circle is INSIDE the square (d = side) or OUTSIDE the square (d = diagonal).

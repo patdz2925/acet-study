@@ -1,0 +1,15 @@
+Average speed is the total distance traveled divided by the total time taken.
+
+Core Formula:
+  Average Speed = (Total Distance) / (Total Time)
+
+CRITICAL RULE:
+Average speed is NOT the arithmetic average of speeds!
+If you travel at speed v₁ for distance d and return at speed v₂ over the same distance d:
+  Harmonic Average: v_avg = (2 × v₁ × v₂) / (v₁ + v₂)
+
+Example: A car travels from City A to City B at 60 km/h, and returns along the same route at 40 km/h. What is the average speed for the round trip?
+  v_avg = (2 × 60 × 40) / (60 + 40) = 4800 / 100 = 48 km/h.
+  (Notice it is 48 km/h, NOT 50 km/h!)
+
+Tip: Because more time is spent traveling at the slower speed, the average speed is always pulled closer to the slower speed.

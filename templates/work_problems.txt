@@ -1,0 +1,20 @@
+Work rate problems involve people or machines working together to complete a task.
+
+Core Formula:
+  Work = Rate × Time  (W = r × t)
+  If a person completes a job in T hours, their rate is 1/T jobs per hour.
+
+Combined Work Rate:
+  When workers work together, their rates add:
+  r_total = r₁ + r₂ = (1 / t₁) + (1 / t₂)
+  Time together = 1 / r_total = (t₁ × t₂) / (t₁ + t₂)
+
+Example: Person A completes a task in 4 hours; Person B completes it in 6 hours. How long working together?
+  Rate A = 1/4; Rate B = 1/6.
+  Combined Rate = 1/4 + 1/6 = 3/12 + 2/12 = 5/12 jobs/hour.
+  Time Together = 12 / 5 = 2.4 hours (or 2 hours 24 minutes).
+
+Shortcut for 2 workers:
+  Time = (Product of times) / (Sum of times) = (4 × 6) / (4 + 6) = 24 / 10 = 2.4 hours.
+
+Tip: Combined time is ALWAYS less than the fastest individual worker's time!

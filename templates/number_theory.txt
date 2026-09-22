@@ -1,0 +1,19 @@
+Number theory covers divisibility, primes, factors, and integer properties.
+
+Key Rules:
+1. Divisibility Rules:
+   - By 3: Sum of digits is divisible by 3.
+   - By 4: Last two digits form a number divisible by 4.
+   - By 6: Divisible by both 2 and 3.
+   - By 9: Sum of digits is divisible by 9.
+2. Even and Odd Rules:
+   - Even × Any Integer = Even
+   - Odd × Odd = Odd
+   - Even + Even = Even, Odd + Odd = Even, Even + Odd = Odd
+3. Primes: 2 is the ONLY even prime number. 1 is NEITHER prime nor composite.
+   First primes: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31.
+
+Example: Is 4,752 divisible by 9?
+  Sum of digits: 4 + 7 + 5 + 2 = 18. Since 18 is divisible by 9, yes!
+
+Tip: Remember that 0 is an even integer (0 = 2 × 0).

@@ -1,0 +1,18 @@
+Linear equations represent straight-line relationships with variables to the first power.
+
+Forms of a Line:
+1. Slope-Intercept Form: y = mx + b
+   m = slope = (y₂ - y₁) / (x₂ - x₁), b = y-intercept.
+2. Point-Slope Form: y - y₁ = m(x - x₁)
+3. Standard Form: Ax + By = C
+
+Slope Interpretation:
+- Positive slope (m > 0): rises from left to right.
+- Negative slope (m < 0): falls from left to right.
+- Zero slope (m = 0): horizontal line (y = c).
+- Undefined slope: vertical line (x = c).
+
+Example: Find the slope of the line passing through (2, 5) and (6, 13).
+  m = (13 - 5) / (6 - 2) = 8 / 4 = 2.
+
+Tip: Be careful with negative coordinates when calculating slope: y₂ - y₁ requires subtracting negative numbers correctly.

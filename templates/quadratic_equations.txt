@@ -1,0 +1,19 @@
+Quadratic equations have the form ax² + bx + c = 0 (a ≠ 0).
+
+Methods of Solving:
+1. Factoring: Look for two numbers that multiply to ac and add to b.
+2. Quadratic Formula:
+   x = [-b ± √(b² - 4ac)] / (2a)
+3. Discriminant D = b² - 4ac:
+   - D > 0: Two distinct real roots.
+   - D = 0: Exactly one real root (a repeated root).
+   - D < 0: No real roots (two complex roots).
+4. Vieta's Formulas (Sum and Product of Roots):
+   - Sum of roots: r₁ + r₂ = -b / a
+   - Product of roots: r₁ · r₂ = c / a
+
+Example: Find the sum and product of the roots of 2x² - 8x + 6 = 0.
+  Sum = -(-8) / 2 = 4.
+  Product = 6 / 2 = 3.
+
+Tip: If a question only asks for the sum or product of the roots, do NOT spend time finding the individual roots—use Vieta's formulas directly!

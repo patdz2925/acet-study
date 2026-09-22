@@ -1,0 +1,14 @@
+Understanding functions and reading their graphs on the Cartesian coordinate plane.
+
+Key Graphing Features:
+1. x-intercept: The point where y = 0 (roots or zeros of the function).
+2. y-intercept: The point where x = 0 (evaluate f(0)).
+3. Vertical Line Test: If any vertical line intersects a curve more than once, it is NOT a function.
+4. Vertex of a Parabola y = ax² + bx + c:
+   x_vertex = -b / (2a); plug x back in to find y_vertex.
+
+Example: What is the y-intercept of f(x) = 3x² - 5x + 7?
+  Set x = 0: f(0) = 3(0) - 5(0) + 7 = 7.
+  y-intercept is (0, 7).
+
+Tip: When given a function equation and a graph, test simple points like (0, y) and (1, y) to eliminate incorrect graph options quickly.

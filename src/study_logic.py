@@ -171,12 +171,18 @@ def record_results(concept_id, results):
 
     record_study_session(concept_id, len(results), correct_count, incorrect_count)
 
+    now_str = datetime_now()
     return {
+        "concept_id": concept_id,
+        "concept": concept_id,
+        "study_date": now_str,
+        "questions_answered": len(results),
         "total": len(results),
         "correct": correct_count,
         "incorrect": incorrect_count,
         "accuracy": round(correct_count / len(results), 2) if results else 0
     }
+
 
 
 def get_study_recommendation():

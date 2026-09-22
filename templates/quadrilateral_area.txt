@@ -1,0 +1,14 @@
+Formulas for the areas of various quadrilaterals.
+
+Core Area Formulas:
+1. Rectangle: Area = base × height = l × w
+2. Square: Area = s² = (1/2)d² (where d is diagonal)
+3. Parallelogram: Area = base × perpendicular height = b × h
+4. Rhombus: Area = (1/2) × d₁ × d₂ (where d₁, d₂ are diagonals)
+5. Trapezoid: Area = [(b₁ + b₂) / 2] × h
+
+Example: A parallelogram has a base of 12 cm and a slant side of 8 cm with an altitude (height) of 5 cm. What is its area?
+  Area = base × perpendicular height = 12 × 5 = 60 cm².
+  (The slant side of 8 cm is unnecessary information).
+
+Tip: Always use the PERPENDICULAR height, never the slant side length!

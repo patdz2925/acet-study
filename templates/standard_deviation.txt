@@ -1,0 +1,14 @@
+Standard deviation measures the spread or dispersion of data around the mean.
+
+Key Concepts:
+1. A small standard deviation means data points are clustered closely around the mean.
+2. A large standard deviation means data points are spread out over a wide range.
+3. If all data values are identical (e.g., 5, 5, 5, 5), the standard deviation is ZERO.
+4. Shifting data: Adding or subtracting a constant c to every data point DOES NOT CHANGE the standard deviation!
+5. Scaling data: Multiplying every data point by c multiplies the standard deviation by |c|.
+
+Example: Set A: {10, 10, 10, 10} vs Set B: {8, 9, 10, 11, 12}.
+  Set A has standard deviation = 0 (no spread).
+  Set B has a positive standard deviation.
+
+Tip: You are rarely asked to compute complex standard deviation by hand on ACET—instead, understand its conceptual meaning as a measure of consistency or variability!

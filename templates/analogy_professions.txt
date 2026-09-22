@@ -1,0 +1,16 @@
+Profession analogies relate a professional to their tool, workplace, or medium.
+
+Relationship: A [PROFESSIONAL] works with [TOOL / MEDIUM / WORKPLACE].
+
+Strategy:
+1. Build the specific bridge: "A [PROFESSION] works in a [WORKPLACE]" or "uses a [TOOL] to perform work."
+2. Check specificity:
+   - Carpenter : Wood (Worker : Raw Material).
+   - Surgeon : Scalpel (Worker : Characteristic Tool).
+   - Chef : Kitchen (Worker : Workplace).
+
+Example: SURGEON : SCALPEL
+  Bridge: A surgeon uses a scalpel as a primary instrument of work.
+  Match: AUTHOR : PEN (or PAINTER : BRUSH).
+
+Tip: Distinguish between the worker's tool, raw material, and finished product. All options might relate to professions, but only one will match the exact role.

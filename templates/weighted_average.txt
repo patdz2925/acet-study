@@ -1,0 +1,15 @@
+Weighted average accounts for values contributing with different degrees of importance or frequencies.
+
+Formula:
+  Weighted Average = (w₁x₁ + w₂x₂ + ... + wₙxₙ) / (w₁ + w₂ + ... + wₙ)
+  Where w = weight/frequency, x = value.
+
+Step-by-Step:
+1. Multiply each value by its corresponding weight or frequency.
+2. Sum all the products.
+3. Divide by the sum of all the weights.
+
+Example: A student scores 80 on a test worth 30% of the grade and 90 on a final exam worth 70%.
+  Weighted Average = (80 × 0.30) + (90 × 0.70) = 24 + 63 = 87.
+
+Tip: If weights are given as percentages, they must add up to 100% (or 1.0). The weighted average will always be pulled closer to the value with the higher weight.

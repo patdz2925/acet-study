@@ -1,0 +1,16 @@
+Problem-to-Solution analogies pair an issue with its direct remedy or resolution.
+
+Relationship: [SOLUTION] is used to relieve, cure, or eliminate [PROBLEM].
+
+Strategy:
+1. Bridge sentence: "[B] is applied to treat or eliminate [A]."
+2. Keep the problem and remedy precise:
+   - Thirst : Water (Water quenches thirst).
+   - Pain : Analgesic (An analgesic relieves pain).
+3. Confirm the order: Is the problem on the left and the solution on the right?
+
+Example: INSOMNIA : SLEEP
+  Bridge: Insomnia is the condition of being unable to sleep.
+  Match: DROUGHT : RAIN (A drought is the condition of lacking rain).
+
+Tip: Make sure the remedy directly solves the problem rather than merely masking or following it.

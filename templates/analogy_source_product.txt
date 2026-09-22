@@ -1,0 +1,14 @@
+Source-to-Product analogies pair an origin or raw material with what is derived from it.
+
+Relationship: [PRODUCT] is derived or manufactured from [SOURCE].
+
+Strategy:
+1. Bridge sentence: "[B] is made from or originates in [A]."
+2. Confirm the transformation: Is it raw material to finished good (Milk : Cheese) or natural source to output (Sun : Light)?
+3. Beware of reversed order: Source : Product vs Product : Source.
+
+Example: MILK : BUTTER
+  Bridge: Butter is a product processed from milk.
+  Match: WHEAT : BREAD (Bread is a product processed from wheat).
+
+Tip: Do not confuse a container (Bottle : Wine) with a raw source (Grape : Wine).

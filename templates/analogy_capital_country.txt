@@ -1,0 +1,14 @@
+Capital-to-Country analogies test geographical knowledge and place relationships.
+
+Relationship: [CITY] is the official capital of [NATION].
+
+Strategy:
+1. Form the bridge: "[A] is the capital city of country [B]."
+2. Verify orientation: Make sure the capital is on the left and the country on the right (or vice versa).
+3. Do not confuse largest cities with capital cities (e.g., Sydney is NOT the capital of Australia; Canberra is).
+
+Example: MANILA : PHILIPPINES
+  Bridge: Manila is the capital of the Philippines.
+  Match: TOKYO : JAPAN (Tokyo is the capital of Japan).
+
+Tip: ACET often tests well-known world capitals (Paris:France, Rome:Italy, Madrid:Spain, Beijing:China, London:United Kingdom).

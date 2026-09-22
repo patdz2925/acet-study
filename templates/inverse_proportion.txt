@@ -1,0 +1,17 @@
+Inverse proportion describes a relationship where an increase in one variable causes a proportional decrease in another.
+
+Core Concept:
+  x · y = k (constant product)
+  Or: x₁ · y₁ = x₂ · y₂
+
+Common Real-World Contexts:
+- Workers and time to complete a job (more workers = fewer days).
+- Speed and time for a fixed distance (faster speed = less travel time).
+- Pressure and volume of a gas (Boyle's Law).
+
+Example: If 6 workers can build a wall in 10 days, how many days will 15 workers take at the same rate?
+  x₁y₁ = x₂y₂
+  6 × 10 = 15 × d
+  60 = 15d  =>  d = 4 days.
+
+Tip: In direct proportion, the RATIO (y/x) is constant. In inverse proportion, the PRODUCT (x · y) is constant!
