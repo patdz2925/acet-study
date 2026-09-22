@@ -8,7 +8,13 @@ import json
 import os
 from datetime import datetime, date
 
-DB_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "database.db")
+if os.environ.get("VERCEL") == "1":
+    # Vercel serverless filesystem is read-only except /tmp.
+    # The DB is rebuilt here from the bundled JSON files on each cold start;
+    # user progress persists in browser localStorage + export backups.
+    DB_PATH = "/tmp/acet_database.db"
+else:
+    DB_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "database.db")
 
 
 def get_db():
