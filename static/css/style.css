@@ -870,3 +870,17 @@ body {
 .mistake-item:nth-child(3) { animation-delay: 60ms; }
 .mistake-item:nth-child(4) { animation-delay: 90ms; }
 .mistake-item:nth-child(5) { animation-delay: 120ms; }
+
+/* Question text: structured passages + scientific math notation */
+.qtext { font-weight: 600; line-height: 1.65; }
+.qtext sup, .answer-option sup { font-size: 0.72em; }
+.qtext sub, .answer-option sub { font-size: 0.72em; }
+.mfrac { display: inline-block; vertical-align: middle; text-align: center; margin: 0 2px; }
+.mfrac sup, .mfrac sub { display: block; font-size: 0.78em; line-height: 1.25; }
+.mfrac-bar { display: block; line-height: 1; opacity: 0.85; }
+.passage { background: var(--surface-sunken); border: 1px solid var(--line, rgba(255,255,255,0.08)); border-radius: 10px; padding: 12px 14px; font-weight: 400; }
+.pline { display: flex; gap: 10px; padding: 5px 0; }
+.pline + .pline { border-top: 1px dashed rgba(127,127,160,0.18); }
+.pline.plain { display: block; color: var(--ink-muted); }
+.pline.ctx { display: block; font-size: 0.82rem; font-weight: 600; color: var(--accent-strong); }
+.pnum { flex: 0 0 26px; height: 26px; align-self: flex-start; display: inline-flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 700; color: var(--accent-strong); background: var(--accent-wash); border: 1px solid rgba(80,70,229,0.25); border-radius: 8px; }

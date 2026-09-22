@@ -283,8 +283,6 @@ function renderStudyInteractive(el) {
         const sourceLabel = q.source === "template" ? "Practice - Verified" : q.source === "booklet" ? "Original ACET" : q.source === "curated" ? "Practice - Curated" : "Practice - AI Draft";
         const instruction = getInstruction(q.concept, q.id);
         const questionHtml = formatQuestionText(q);
-        // Strip [Figure referenced...] prefix for cleaner display
-        const cleanText = questionHtml.replace(/^\[.*?\]\s*/, '');
         // Check if this question references a figure
         const originalId = q.id.replace(/^BOOKLET-/, "");
         const hasFigure = FIGURE_QUESTIONS.has(originalId);
@@ -297,7 +295,7 @@ function renderStudyInteractive(el) {
                 </div>
                 ${instruction ? `<div style="margin-bottom:10px;padding:10px 14px;background:var(--accent-wash);border:1px solid rgba(80,70,229,0.15);border-radius:var(--radius-sm);font-size:13px;color:var(--accent-strong);font-weight:500;">${escapeHtml(instruction)}</div>` : ''}
                 ${hasFigure ? `<div style="margin-bottom:12px;border:1px solid var(--line-strong);border-radius:var(--radius-sm);overflow:hidden;"><img src="${figureUrl}" alt="Question figure" style="width:100%;display:block;"></div>` : ''}
-                <div style="margin-bottom:12px;"><strong>${cleanText}</strong></div>
+                <div class="qtext" style="margin-bottom:12px;">${questionHtml}</div>
                 <div id="choices-${index}"></div>
                 <div id="feedback-${index}" style="margin-top:12px;display:none;"></div>
             </div>
@@ -332,7 +330,7 @@ function renderStudyInteractive(el) {
                 choicesHtml += `
                     <div class="answer-option" data-index="${index}" data-letter="${letter}" onclick="selectAnswer(${index}, '${letter}', this)">
                         <span class="answer-letter">${letter}</span>
-                        <span>${escapeHtml(choice)}</span>
+                        <span>${mathify(escapeHtml(choice), q.section)}</span>
                     </div>
                 `;
             });
@@ -491,7 +489,6 @@ async function renderMock(el) {
         const choices = parseMockChoices(q);
         const instruction = getInstruction(q.concept, q.id);
         const questionHtml = formatQuestionText(q);
-        const cleanText = questionHtml.replace(/^\[.*?\]\s*/, '');
         const hasFigure = FIGURE_QUESTIONS.has(q.id);
         const figureUrl = hasFigure ? `/static/img/${q.id}.png` : null;
         let choicesHtml = "";
@@ -500,7 +497,7 @@ async function renderMock(el) {
             choicesHtml += `
                 <div class="answer-option" data-index="${index}" data-letter="${letter}" onclick="selectMockAnswer(${index}, '${letter}', this)">
                     <span class="answer-letter">${letter}</span>
-                    <span>${escapeHtml(choice)}</span>
+                    <span>${mathify(escapeHtml(choice), q.section)}</span>
                 </div>
             `;
         });
@@ -512,7 +509,7 @@ async function renderMock(el) {
                 </div>
                 ${instruction ? `<div style="margin-bottom:10px;padding:10px 14px;background:var(--accent-wash);border:1px solid rgba(80,70,229,0.15);border-radius:var(--radius-sm);font-size:13px;color:var(--accent-strong);font-weight:500;">${escapeHtml(instruction)}</div>` : ''}
                 ${hasFigure ? `<div style="margin-bottom:12px;border:1px solid var(--line-strong);border-radius:var(--radius-sm);overflow:hidden;"><img src="${figureUrl}" alt="Question figure" style="width:100%;display:block;"></div>` : ''}
-                <div style="margin-bottom:12px;"><strong>${cleanText}</strong></div>
+                <div class="qtext" style="margin-bottom:12px;">${questionHtml}</div>
                 <div>${choicesHtml}</div>
             </div>
         `;
@@ -1092,10 +1089,52 @@ function underlinePhrases(sentence, phrases) {
 
 // Single entry point for question text: booklet underlines first,
 // then vocab key-word highlight, otherwise plain escaped text.
+// Multi-line texts (paragraphs, RC excerpts) render as structured blocks;
+// math sections get scientific-notation upgrades (see mathify).
 function formatQuestionText(q) {
-    const under = getUnderlines(q.id);
-    if (under) return underlinePhrases(q.question_text, under);
-    const keyWord = getKeyWord(q.id);
-    if (keyWord) return highlightKeyWord(q.question_text, keyWord);
-    return escapeHtml(q.question_text);
+    let raw = q.question_text || "";
+    if (!raw.includes("\n")) {
+        raw = raw.replace(/^\[.*?\]\s*/, '');  // strip [Figure ...] label (image shows below)
+        const under = getUnderlines(q.id);
+        const section = q.section || "";
+        if (under) return mathify(underlinePhrases(raw, under), section);
+        const keyWord = getKeyWord(q.id);
+        if (keyWord) return mathify(highlightKeyWord(raw, keyWord), section);
+        return mathify(escapeHtml(raw), section);
+    }
+    return formatParagraph(raw);
+}
+
+function formatParagraph(raw) {
+    const out = ['<div class="passage">'];
+    for (const line of escapeHtml(raw).split("\n")) {
+        const t = line.trim();
+        if (!t) continue;
+        if (/^\[.*\]$/.test(t)) {
+            out.push(`<div class="pline ctx">${t}</div>`);
+            continue;
+        }
+        const m = t.match(/^(\d+)[.)]?\s+(.*)$/);
+        if (m) out.push(`<div class="pline"><span class="pnum">${m[1]}</span><span>${m[2]}</span></div>`);
+        else out.push(`<div class="pline plain">${t}</div>`);
+    }
+    out.push('</div>');
+    return out.join("");
+}
+
+function mathify(escaped, section) {
+    let html = escaped;
+    if (section === "Mathematics" || section === "Numerical Ability") {
+        html = html
+            .replace(/\btheta\b/g, "θ").replace(/\bdelta\b/g, "δ")
+            .replace(/\blambda\b/g, "λ").replace(/\bpi\b/g, "π")
+            .replace(/sqrt\(([^()]+)\)/g, "√($1)")
+            .replace(/\^(\([^()]*\)|[A-Za-z0-9]+)/g, (m, p) =>
+                `<sup>${p.startsWith("(") ? p.slice(1, -1) : p}</sup>`)
+            .replace(/ \* /g, " × ")
+            .replace(/!=/g, "≠").replace(/>=/g, "≥").replace(/<=/g, "≤")
+            .replace(/([A-Za-z0-9.^\-]+)\s*\/\s*([A-Za-z0-9.^\-]+)/g,
+                '<span class="mfrac"><sup>$1</sup><span class="mfrac-bar">⁄</span><sub>$2</sub></span>');
+    }
+    return html;
 }
