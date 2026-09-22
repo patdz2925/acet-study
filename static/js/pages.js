@@ -266,7 +266,7 @@ function renderStudyInteractive(el) {
             html += `
                 <div class="question-block">
                     <div style="margin-bottom:4px;"><span class="source-label source-booklet">Original ACET</span></div>
-                    <div style="margin-bottom:8px;">${escapeHtml(m.question_text || "No question text")}</div>
+                    <div style="margin-bottom:8px;">${formatQuestionText({ id: m.original_id, question_text: m.question_text || "No question text" })}</div>
                     <div style="font-size:0.85rem;">
                         <span class="text-danger">Your answer: ${escapeHtml(m.your_answer || "N/A")}</span>
                         <span style="margin:0 8px;">→</span>
@@ -282,8 +282,7 @@ function renderStudyInteractive(el) {
         const sourceClass = q.source === "template" ? "source-template" : q.source === "booklet" ? "source-booklet" : q.source === "curated" ? "source-curated" : "source-ai";
         const sourceLabel = q.source === "template" ? "Practice - Verified" : q.source === "booklet" ? "Original ACET" : q.source === "curated" ? "Practice - Curated" : "Practice - AI Draft";
         const instruction = getInstruction(q.concept, q.id);
-        const keyWord = getKeyWord(q.id);
-        const questionHtml = keyWord ? highlightKeyWord(q.question_text, keyWord) : escapeHtml(q.question_text);
+        const questionHtml = formatQuestionText(q);
         // Strip [Figure referenced...] prefix for cleaner display
         const cleanText = questionHtml.replace(/^\[.*?\]\s*/, '');
         // Check if this question references a figure
@@ -437,7 +436,7 @@ function showStudyResultsSummary(conceptId, questions, answers, summary) {
                     </span>
                 </div>
                 ${instruction ? `<div style="margin:8px 0;font-size:12px;color:var(--accent-strong);">${escapeHtml(instruction)}</div>` : ''}
-                <div style="margin-top:8px;">${escapeHtml(q.question_text)}</div>
+                <div style="margin-top:8px;">${formatQuestionText(q)}</div>
                 <div style="margin-top:4px;font-size:0.85rem;">
                     You answered: <strong>${escapeHtml(answers[i] || "N/A")}</strong>
                     ${!wasCorrect ? ` → Correct: <strong>${escapeHtml(q.correct_answer)}</strong>` : ''}
@@ -491,8 +490,7 @@ async function renderMock(el) {
     currentMockQuestions.forEach((q, index) => {
         const choices = parseMockChoices(q);
         const instruction = getInstruction(q.concept, q.id);
-        const keyWord = getKeyWord(q.id);
-        const questionHtml = keyWord ? highlightKeyWord(q.question_text, keyWord) : escapeHtml(q.question_text);
+        const questionHtml = formatQuestionText(q);
         const cleanText = questionHtml.replace(/^\[.*?\]\s*/, '');
         const hasFigure = FIGURE_QUESTIONS.has(q.id);
         const figureUrl = hasFigure ? `/static/img/${q.id}.png` : null;
@@ -608,7 +606,7 @@ function renderMockResults(data) {
                     <span class="source-label source-booklet">Q${i + 1} • ${escapeHtml(p.section || "")}</span>
                     <span class="${p.correct ? 'text-success' : 'text-danger'}">${p.correct ? '✓ Correct' : '✗ Incorrect'}</span>
                 </div>
-                <div style="margin-top:8px;">${escapeHtml(q.question_text || p.question_id)}</div>
+                <div style="margin-top:8px;">${formatQuestionText({ id: p.question_id, question_text: q.question_text || p.question_id })}</div>
                 <div style="margin-top:4px;font-size:0.85rem;">
                     You answered: <strong>${escapeHtml(p.chosen_answer)}</strong>
                     ${!p.correct ? ` → Correct: <strong>${escapeHtml(String(p.correct_answer))}</strong>` : ''}
@@ -1039,4 +1037,58 @@ function highlightKeyWord(sentence, keyWord) {
     const escaped = escapeHtml(sentence);
     const regex = new RegExp(`\\b(${keyWord.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})\\b`, "i");
     return escaped.replace(regex, '<u style="text-decoration-color:var(--accent);text-underline-offset:3px;font-weight:600;">$1</u>');
+}
+
+// Underlined portions transcribed from the original booklet geometry.
+// Error Identification (Q1-10): the A/B/C spans. Improving Sentences (Q41-50):
+// the target phrase (identical to choice A). Verified against PDF page images.
+const QUESTION_UNDERLINES = {
+    "LA-Q1": ["In the 1990's,", "territorially, and", "culturally."],
+    "LA-Q2": ["practically", "spoken only by students,", "and the Catholic clergy."],
+    "LA-Q3": ["In November 29, 1890,", "Diet", "for the first time."],
+    "LA-Q4": ["financial expert", "which", "came from London."],
+    "LA-Q5": ["had an acceptance", "will have rejected", "perfect SAT scores."],
+    "LA-Q6": ["as many of the", "valuable and groundbreaking", "as he can"],
+    "LA-Q7": ["in the 2010", "ahead of La Salle,", "ranked 451."],
+    "LA-Q8": ["The Continental Congress", "a constitution for", "they"],
+    "LA-Q9": ["off", "and the goalkeeper", "to make a save."],
+    "LA-Q10": ["by the British Labour Party", "opposition of", "of state holdings."],
+    "LA-Q41": ["Having moderated inflation, economic growth and the rapid creation of jobs is"],
+    "LA-Q42": ["Right of the bat, the critics"],
+    "LA-Q43": ["Dan Brown is the author which had been the major cause"],
+    "LA-Q44": ["staying at home for the game or his girlfriend's debut"],
+    "LA-Q45": ["exhibited wisdom and being idealistic, traits appropriate"],
+    "LA-Q46": ["monarchies was the cause"],
+    "LA-Q47": ["China were so high as to both countries"],
+    "LA-Q48": ["most children in the world of today"],
+    "LA-Q49": ["which is higher than China, which grew by 7.5%."],
+    "LA-Q50": ["to the 1800's, when the Jesuits returned from its exile."]
+};
+
+function getUnderlines(questionId) {
+    if (!questionId) return null;
+    if (QUESTION_UNDERLINES[questionId]) return QUESTION_UNDERLINES[questionId];
+    const stripped = questionId.replace(/^BOOKLET-/, "");
+    return QUESTION_UNDERLINES[stripped] || null;
+}
+
+function underlinePhrases(sentence, phrases) {
+    if (!phrases || !phrases.length || !sentence) return escapeHtml(sentence);
+    let html = escapeHtml(sentence);
+    const sorted = [...phrases].sort((a, b) => b.length - a.length);
+    for (const p of sorted) {
+        const esc = p.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        html = html.replace(new RegExp(`(${esc})`, "i"), '<u style="text-decoration-color:var(--accent);text-underline-offset:3px;">$1</u>');
+    }
+    return html;
+}
+
+// Single entry point for question text: booklet underlines first,
+// then vocab key-word highlight, otherwise plain escaped text.
+function formatQuestionText(q) {
+    const under = getUnderlines(q.id);
+    if (under) return underlinePhrases(q.question_text, under);
+    const keyWord = getKeyWord(q.id);
+    if (keyWord) return highlightKeyWord(q.question_text, keyWord);
+    return escapeHtml(q.question_text);
 }
