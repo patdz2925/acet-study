@@ -80,55 +80,56 @@ def study_concept(concept_id):
                 "section": m.get("section", "")
             })
 
-    # Generate exactly 3 practice questions
-    practice_questions = generate_questions(concept_id, count=3)
+    # Practice set: EVERY unique mistake for this concept (answerable, uncapped),
+    # plus 3 fresh template questions where a generator exists.
+    practice_questions = []
 
-    # Store generated questions in database so they can be looked up by ID
-    if practice_questions:
-        add_questions(practice_questions)
+    # 1. Fresh template questions (exactly 3) where supported
+    generated = generate_questions(concept_id, count=3)
+    if generated:
+        # Store generated questions in database so they can be looked up by ID
+        add_questions(generated)
         # Re-fetch from database to get stored versions
-        stored_questions = []
-        for q in practice_questions:
+        for q in generated:
             stored = get_question_by_id(q["id"])
             if stored:
-                stored_questions.append(stored)
-        practice_questions = stored_questions
-    else:
-        # No templates for this concept — use original ACET booklet questions as practice
-        # Pull ALL booklet questions for this concept (not just the ones the user got wrong)
-        practice_questions = []
+                practice_questions.append(stored)
+
+    # 2. Every unique mistake as an answerable booklet question (no cap).
+    # `mistakes` above is already deduped by original_question_id.
+    if mistakes:
         from database import get_db
         conn = get_db()
-        rows = conn.execute(
-            "SELECT * FROM questions WHERE source = 'booklet' AND concept = ? ORDER BY id",
+        concept_booklet = {r["id"] for r in conn.execute(
+            "SELECT id FROM questions WHERE source = 'booklet' AND concept = ?",
             (concept_id,)
-        ).fetchall()
+        ).fetchall()}
         conn.close()
-        all_booklet = [dict(r) for r in rows]
-
-        if not all_booklet:
-            # Fallback: use the mistake questions directly
-            for m in mistakes[:3]:
-                q = {
-                    "id": f"BOOKLET-{m['original_id']}",
-                    "source": "booklet",
-                    "verified": 1,
-                    "section": m.get("section", ""),
-                    "concept": concept_id,
-                    "question_text": m["question_text"],
-                    "choices": m["choices"],
-                    "correct_answer": m["correct_answer"],
-                }
-                add_questions([q])
-                stored = get_question_by_id(q["id"])
-                if stored:
-                    practice_questions.append(stored)
-        else:
-            # Use booklet questions, prioritizing ones the user got wrong
-            mistake_ids = {m["original_id"] for m in mistakes}
-            # Sort: mistakes first, then others
-            sorted_booklet = sorted(all_booklet, key=lambda q: q["id"] not in [f"BOOKLET-{mid}" for mid in mistake_ids])
-            practice_questions = sorted_booklet[:3]
+        booklet_qs = []
+        for m in mistakes:
+            qid = f"BOOKLET-{m['original_id']}"
+            if m["original_id"] in concept_booklet or qid in concept_booklet:
+                continue  # original already stored under this concept
+            concept_booklet.add(qid)
+            booklet_qs.append({
+                "id": qid,
+                "source": "booklet",
+                "verified": 1,
+                "section": m.get("section", ""),
+                "concept": concept_id,
+                "question_text": m["question_text"],
+                "choices": m["choices"],  # keep as list; add_questions will json.dumps it
+                "correct_answer": m["correct_answer"],
+            })
+        # Store in DB so check_answer can find them
+        if booklet_qs:
+            add_questions(booklet_qs)
+        # Re-fetch stored versions: pre-existing originals first (mistakes first),
+        # then newly stored copies — every unique mistake appears exactly once.
+        for m in mistakes:
+            stored = get_question_by_id(m["original_id"]) or get_question_by_id(f"BOOKLET-{m['original_id']}")
+            if stored and all(s["id"] != stored["id"] for s in practice_questions):
+                practice_questions.append(stored)
 
     return {
         "concept": concept,
@@ -325,20 +326,30 @@ def import_mistakes_data(data):
     if not validated:
         return {"success": False, "error": "No valid mistakes to import."}
 
+    # Skip questions already recorded (re-imports must not duplicate rows)
+    from database import get_db as _get_db
+    _conn = _get_db()
+    already = {r[0] for r in _conn.execute("SELECT DISTINCT original_question_id FROM mistakes").fetchall()}
+    _conn.close()
+    fresh = [m for m in validated if m["original_id"] not in already]
+    if not fresh:
+        return {"success": True, "imported": 0, "concepts": 0,
+                "note": "All questions were already recorded; nothing new to import."}
+
     # Add concepts from mistakes
     concepts_set = set()
-    for m in validated:
+    for m in fresh:
         concepts_set.add(m["concept"])
     concepts = [{"id": c, "name": c.replace("_", " ").title()} for c in concepts_set]
     add_concepts(concepts)
 
     # Add mistakes and questions
-    add_mistakes(validated)
+    add_mistakes(fresh)
 
     set_metadata("last_import", datetime_now())
-    set_metadata("imported_count", str(len(validated)))
+    set_metadata("imported_count", str(len(fresh)))
 
-    return {"success": True, "imported": len(validated), "concepts": len(concepts_set)}
+    return {"success": True, "imported": len(fresh), "concepts": len(concepts_set)}
 
 
 def import_curated_data(data):

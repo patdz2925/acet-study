@@ -348,7 +348,7 @@ function startStudy() {
     });
     const btn = document.getElementById("btn-start-study");
     if (btn) btn.style.display = "none";
-    showStatus("Answer all 3 questions, then click Submit All Answers.", "info");
+    showStatus(`Answer all ${currentPracticeQuestions.length} questions, then click Submit All Answers.`, "info");
 
     const navGroup = document.querySelector(".btn-group");
     if (navGroup && !document.getElementById("btn-submit-study")) {
@@ -732,7 +732,8 @@ window.doImport = async function() {
         const data = JSON.parse(textarea.value);
         const result = await API.importData(data);
         if (result.ok && result.data.success) {
-            resultEl.innerHTML = `<div class="success-message">Imported ${result.data.imported} mistakes across ${result.data.concepts} concepts!</div>`;
+            const note = result.data.note ? `<div style="margin-top:6px;font-size:0.85rem;">${escapeHtml(result.data.note)}</div>` : "";
+            resultEl.innerHTML = `<div class="success-message">Imported ${result.data.imported} mistakes across ${result.data.concepts} concepts!${note}</div>`;
             showStatus(`Imported ${result.data.imported} mistakes`, "success");
         } else {
             resultEl.innerHTML = `<div class="error-message">Error: ${result.data.error || "Unknown error"}</div>`;
@@ -996,10 +997,16 @@ const CONCEPT_INSTRUCTIONS = {
 
 // Key words from original ACET questions (maps question_id to the underlined word)
 const QUESTION_KEY_WORDS = {
-    "LA-Q33": "applauded", "LA-Q34": "phlegmatic", "LA-Q35": "proletarian",
+    // Synonyms Q21-30 (target word from booklet)
+    "LA-Q21": "hemophilia", "LA-Q22": "staccato", "LA-Q23": "faux pas",
+    "LA-Q24": "dystopia", "LA-Q25": "facetious", "LA-Q26": "nuncio",
+    "LA-Q27": "obtruncated", "LA-Q28": "vernacular", "LA-Q29": "sedulous",
+    "LA-Q30": "Apotheosis",
+    // Antonyms Q31-40 (target word from booklet)
+    "LA-Q31": "acquitted", "LA-Q32": "achromatic", "LA-Q33": "applauded",
+    "LA-Q34": "phlegmatic", "LA-Q35": "proletarian", "LA-Q36": "rigid",
     "LA-Q37": "eminent", "LA-Q38": "redoubtable", "LA-Q39": "profligate",
-    "LA-Q21": "acquiesce", "LA-Q23": "perfunctory", "LA-Q24": "ambivalent",
-    "LA-Q29": "disseminate", "LA-Q30": "pragmatic",
+    "LA-Q40": "abrogated",
 };
 
 // Questions that reference figures/diagrams — show the PDF page image
