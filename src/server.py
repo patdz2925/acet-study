@@ -14,6 +14,7 @@ sys.path.insert(0, os.path.join(project_root, "src"))
 
 from flask import Flask, request, jsonify, send_from_directory
 from database import init_db, get_metadata, set_metadata, get_question_sources, DB_PATH
+from database import get_all_concepts, add_questions, add_concepts
 import study_logic
 import json
 
@@ -46,6 +47,24 @@ def auto_seed_db():
                         study_logic.import_curated_data(cdata)
                 except Exception:
                     pass
+
+            # Full booklet (all 250 original questions excl. General Information).
+            # INSERT OR IGNORE makes this idempotent and safe on every boot.
+            full_path = os.path.join(project_root, "data", "full_booklet.json")
+            if os.path.exists(full_path):
+                try:
+                    with open(full_path, "r", encoding="utf-8") as f:
+                        fdata = json.load(f)
+                    full_qs = fdata.get("questions", []) if isinstance(fdata, dict) else []
+                    if full_qs:
+                        new_concepts = {q.get("concept", "") for q in full_qs if q.get("concept")}
+                        existing = {c["id"] for c in get_all_concepts()}
+                        add_concepts([{"id": c, "name": c.replace("_", " ").title()}
+                                      for c in sorted(new_concepts - existing)])
+                        add_questions(full_qs)
+                        print(f"Auto-seeded full booklet: {len(full_qs)} questions.", flush=True)
+                except Exception as e:
+                    print(f"Notice: full booklet seed skipped ({e})", flush=True)
     except Exception as e:
         print(f"Notice: auto_seed_db skipped ({e})", flush=True)
 

@@ -982,6 +982,18 @@ const CONCEPT_INSTRUCTIONS = {
     "equations_infinite_solutions": "For infinite solutions, the equation must be an identity.",
     "basic_arithmetic": "Perform the calculation step by step.",
     "number_theory": "Apply number theory principles (divisibility, primes, etc.).",
+    "solid_geometry": "Use volume and surface area formulas for 3D shapes.",
+    "basic_trigonometry": "Apply trigonometric identities (e.g., 1 + tan²θ = sec²θ).",
+    "triangles_30_60_90": "Use 30-60-90 ratios: sides are x, x√3, 2x.",
+    "basic_logarithms": "Use: log_b(x) = y means b^y = x.",
+    "basic_statistics": "Identify the most frequent value (mode), middle value (median), or average.",
+    "basic_geometry": "Apply the basic area and perimeter formulas.",
+    // Logical Reasoning
+    "logical_deduction": "Apply the stated premises. Choose the conclusion that must follow.",
+    "logical_conditional": "Follow the if-then logic. Choose the statement that must be true.",
+    "logical_sets": "Reason about the groups described. Choose the valid conclusion.",
+    "logical_language_puzzle": "Compare the translated sentences. Match the common words.",
+    "logical_arrangement": "Apply each constraint. Eliminate lineups that break a rule.",
 };
 
 // Key words from original ACET questions (maps question_id to the underlined word)
