@@ -1,0 +1,15 @@
+Combinatorics covers counting techniques, permutations, and combinations.
+
+Key Formulas:
+1. Fundamental Counting Principle: If task 1 has m ways and task 2 has n ways, together there are m × n ways.
+2. Permutation (Order Matters):
+   nPr = n! / (n - r)!
+   Example: First, second, third place; arrangements in a line.
+3. Combination (Order Does NOT Matter):
+   nCr = n! / [r! × (n - r)!]
+   Example: Committees, selecting a group of friends, hands of cards.
+
+Example: How many ways to choose a committee of 3 from 7 people?
+  nCr = 7C3 = (7 × 6 × 5) / (3 × 2 × 1) = 35 ways.
+
+Tip: Always ask first: "Does changing the order create a different outcome?" If yes -> Permutation. If no -> Combination.

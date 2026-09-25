@@ -1,0 +1,19 @@
+Geometry and area calculations for trapezoids.
+
+Formulas:
+1. Area = [(b₁ + b₂) / 2] × h
+   Where b₁, b₂ are the two parallel bases and h is the perpendicular height.
+2. Median (Mid-segment) of a Trapezoid:
+   m = (b₁ + b₂) / 2
+   Therefore: Area = Median × Height.
+
+Isosceles Trapezoid Properties:
+- Non-parallel sides (legs) are equal in length.
+- Base angles are equal.
+- Diagonals are equal in length.
+- Dropping heights from top corners splits the trapezoid into a rectangle and two congruent right triangles.
+
+Example: A trapezoid has parallel bases of 8 cm and 14 cm and a height of 6 cm. Find its area.
+  Area = [(8 + 14) / 2] × 6 = [22 / 2] × 6 = 11 × 6 = 66 cm².
+
+Tip: The height must be perpendicular to both bases. Do not use the length of the slanted non-parallel sides for height!

@@ -1,0 +1,17 @@
+Action-to-Object analogies examine the relationship between an action and what it acts upon.
+
+Relationship: [ACTION] is performed upon [OBJECT].
+
+Strategy:
+1. Build a strict bridging sentence: "One [ACTION]s an [OBJECT]."
+2. Test the sentence on every option:
+   - Read : Book -> One reads a book.
+   - Drive : Car -> One drives a car.
+3. Check the grammatical parts of speech: Both pairs must match (Verb : Noun).
+4. Watch out for reversed order (e.g., Noun : Verb).
+
+Example: SCULPT : STATUE
+  Bridge: To sculpt is to create a statue.
+  Match: COMPOSE : SYMPHONY (To compose is to create a symphony).
+
+Tip: Be precise with the relationship. Does the action modify, create, or destroy the object?

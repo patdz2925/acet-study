@@ -1,0 +1,17 @@
+Analogy Synonyms compare pairs where both terms share the same or highly similar meanings.
+
+Relationship: [WORD A] means essentially the same thing as [WORD B].
+
+Strategy:
+1. Bridge sentence: "[A] is a synonym for [B]."
+2. Check nuance and intensity:
+   - Neutral synonyms: Huge : Large.
+   - Elevated/literary synonyms: Melancholy : Sad.
+   - Intensity analogies: Whimpering : Sobbing (mild to extreme).
+3. If the first pair contains two formal or elevated words, the answer pair often follows the same register.
+
+Example: METICULOUS : CAREFUL
+  Bridge: Meticulous means extremely careful.
+  Match: COURTEOUS : POLITE (Courteous means polite).
+
+Tip: Eliminate choices where one word is an antonym or merely related by topic rather than meaning.

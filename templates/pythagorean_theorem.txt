@@ -1,0 +1,21 @@
+The Pythagorean Theorem relates the three sides of a right triangle.
+
+Formula:
+  a² + b² = c²  (where c is the hypotenuse, the longest side opposite the 90° angle).
+
+Essential Pythagorean Triples (memorize these!):
+- 3 - 4 - 5  (and multiples: 6-8-10, 9-12-15, 30-40-50)
+- 5 - 12 - 13 (and 10-24-26)
+- 8 - 15 - 17
+- 7 - 24 - 25
+
+Special Right Triangles:
+1. 45°-45°-90° Triangle (Isosceles Right):
+   Sides are in ratio: x : x : x√2.
+2. 30°-60°-90° Triangle:
+   Sides are in ratio: x (opposite 30°) : x√3 (opposite 60°) : 2x (hypotenuse).
+
+Example: A right triangle has legs of length 9 and 12. Find the hypotenuse.
+  Recognize 3-4-5 scaled by 3: 3(3) = 9, 3(4) = 12  =>  hypotenuse = 3(5) = 15.
+
+Tip: The theorem ONLY applies to right triangles. If a triangle does not have a 90° angle, you cannot use a² + b² = c²!

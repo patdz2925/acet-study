@@ -1,0 +1,14 @@
+Cause and Effect questions test the ability to recognize causal relationships in texts.
+
+Key Indicators & Strategy:
+1. Look for explicit causal markers: because, as a result, consequently, due to, led to, produced by, thereby.
+2. Distinguish between Cause and Correlation: Just because Event B followed Event A does not necessarily mean Event A caused Event B.
+3. Identify multi-step causal chains: Factor A -> Factor B -> Outcome C.
+4. Don't invert the relationship: Make sure you identify what caused what (Cause vs. Effect).
+
+Example: "Increased ocean temperatures led to coral bleaching, which drastically reduced fish biodiversity."
+  Primary Cause: Higher ocean temperatures.
+  Immediate Effect: Coral bleaching.
+  Subsequent Effect: Decline in fish biodiversity.
+
+Tip: Scan the passage specifically for the keyword mentioned in the question stem and read the sentences immediately before and after it.

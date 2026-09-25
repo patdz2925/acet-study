@@ -1,0 +1,14 @@
+Linear equations can have one solution, no solution, or infinitely many solutions.
+
+Consider the simplified equation ax = b:
+1. Exactly One Solution: a ≠ 0  =>  x = b/a.
+2. No Solution (Inconsistent): a = 0 and b ≠ 0 (e.g., 0x = 5  =>  0 = 5, impossible!).
+   - Graphically: Parallel lines that never intersect.
+3. Infinitely Many Solutions (Identity): a = 0 and b = 0 (e.g., 0x = 0  =>  0 = 0, always true!).
+   - Graphically: The exact same line overlapping.
+
+Example: For what value of k does 2(kx + 3) = 6x + 6 have infinitely many solutions?
+  Expand: 2kx + 6 = 6x + 6
+  Subtract 6: 2kx = 6x  =>  2k = 6  =>  k = 3.
+
+Tip: For infinite solutions, both the x-coefficients and the constant terms on both sides of the equation must be identical!

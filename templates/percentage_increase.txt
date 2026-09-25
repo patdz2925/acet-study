@@ -1,0 +1,17 @@
+Percentage increase measures relative growth compared to an original base value.
+
+Key Formulas:
+1. Percent Increase = ((New Value - Original Value) / Original Value) × 100
+2. New Value = Original Value × (1 + Percent / 100)
+3. New Value after Decrease = Original Value × (1 - Percent / 100)
+
+Step-by-Step:
+1. Always identify the ORIGINAL (starting) amount—this is your denominator.
+2. Find the absolute change: Difference = |New - Old|.
+3. Divide difference by the original value and multiply by 100.
+
+Example: An item priced at $50 increases to $65. What is the percent increase?
+  Increase = 65 - 50 = $15.
+  Percent Increase = (15 / 50) × 100 = 30%.
+
+Tip: Common trap: Dividing by the new value instead of the original value (15/65 = 23% is wrong!). Always divide by the base (starting) value.

@@ -1,0 +1,12 @@
+Factual Recall tests direct comprehension of explicit facts presented by the author.
+
+Key Strategy:
+1. Locate the exact paragraph dealing with the fact queried.
+2. Verify numbers, conditions, qualifiers, and exceptions (e.g., "all", "most", "only", "except").
+3. In "EXCEPT" or "NOT" questions:
+   - Find three choices that ARE explicitly stated in the text.
+   - The remaining choice (either contradictory or absent) is the correct answer.
+
+Example: If the text states "The enzyme functions at temperatures between 20°C and 37°C," an option stating "The enzyme operates optimally at 50°C" is false and would be the answer in an EXCEPT question.
+
+Tip: Never guess from memory alone; always verify the text coordinates before selecting.

@@ -1,0 +1,16 @@
+Circle area and perimeter (circumference) formulas are standard ACET geometry staples.
+
+Core Formulas:
+  Area = πr²
+  Circumference = 2πr = πd
+  Diameter = 2r
+
+Sectors and Arcs (for central angle θ in degrees):
+  Arc Length = (θ / 360°) × 2πr
+  Sector Area = (θ / 360°) × πr²
+
+Example: If the circumference of a circle is 10π, what is its area?
+  2πr = 10π  =>  r = 5
+  Area = πr² = π(5)² = 25π.
+
+Tip: Pay attention to whether the problem provides the diameter or the radius. Forgetting to divide the diameter by 2 is the #1 mistake!

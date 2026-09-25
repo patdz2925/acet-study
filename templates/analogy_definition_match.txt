@@ -1,0 +1,15 @@
+Definition Match analogies test words where one term is the dictionary definition or defining quality of the other.
+
+Relationship: By definition, [A] is characterized by [B].
+
+Strategy:
+1. Bridge sentence: "A person or thing that is [A] inherently exhibits [B]."
+2. Look for essential, non-accidental qualities:
+   - A martyr is inherently willing to sacrifice.
+   - A novice is inherently lacking in experience.
+
+Example: PHILANTHROPIST : BENEVOLENCE
+  Bridge: A philanthropist is defined by benevolence.
+  Match: SKEPTIC : DOUBT (A skeptic is defined by doubt).
+
+Tip: The relationship must be true by definition, not just by coincidence or common occurrence.

@@ -1,0 +1,18 @@
+Arithmetic and Geometric sequences and series.
+
+1. Arithmetic Sequence (Common difference d):
+   - n-th term: aₙ = a₁ + (n - 1)d
+   - Sum of n terms: Sₙ = (n / 2) × [a₁ + aₙ] = (n / 2) × [2a₁ + (n - 1)d]
+
+2. Geometric Sequence (Common ratio r):
+   - n-th term: aₙ = a₁ · r^(n - 1)
+   - Sum of n terms: Sₙ = a₁ · (1 - rⁿ) / (1 - r)  (r ≠ 1)
+   - Infinite Geometric Series (valid ONLY if |r| < 1):
+     S_∞ = a₁ / (1 - r)
+
+Example: Find the sum of the first 20 terms of 3, 7, 11, 15, ...
+  a₁ = 3, d = 4, n = 20.
+  a₂₀ = 3 + (20 - 1)(4) = 3 + 76 = 79.
+  S₂₀ = (20 / 2) × (3 + 79) = 10 × 82 = 820.
+
+Tip: For infinite geometric series, if |r| ≥ 1, the series diverges and has no finite sum.

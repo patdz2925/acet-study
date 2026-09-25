@@ -1,0 +1,14 @@
+Category analogies test the relationship between a specific item and its general class (Item : Class).
+
+Relationship: [ITEM] is a specific type / member of [CATEGORY].
+
+Strategy:
+1. Formulate: "An [A] is a type/member of [B]."
+2. Notice the order: Is it Specific : General or General : Specific?
+3. Avoid loose associations: A whale is a mammal (classification), not just something found in the ocean.
+
+Example: TROUT : FISH
+  Bridge: A trout is a specific kind of fish.
+  Match: OAK : TREE (An oak is a specific kind of tree).
+
+Tip: Beware of "part-to-whole" vs "category" confusion: A branch is a PART of a tree, but an oak IS A tree.

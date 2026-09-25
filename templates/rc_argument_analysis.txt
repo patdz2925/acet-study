@@ -1,0 +1,11 @@
+Argument Analysis evaluates your ability to dissect claims, premises, and logical conclusions.
+
+Key Concepts & Strategy:
+1. Identify the Main Conclusion: What is the author ultimately trying to prove or persuade you to accept?
+2. Distinguish Premises from Claims: Premises are stated facts or evidence; conclusions are inferences derived from them.
+3. Check for Assumptions: An unstated premise necessary for the argument to hold true.
+4. Identify Flaws: Common logical fallacies include hasty generalization, circular reasoning, and correlation vs. causation.
+
+Example: If an argument claims "City X reduced crime after adding streetlights; therefore, streetlights reduce crime," it assumes no other variables (like increased police patrols) caused the reduction.
+
+Tip: The correct answer strictly follows the given text. Do not rely on outside knowledge or personal opinions.

@@ -1,0 +1,17 @@
+Exponential functions model rapid growth or decay: f(x) = a · b^x.
+
+Key Properties:
+1. If b > 1: Exponential Growth (curves upward steeply to the right).
+2. If 0 < b < 1: Exponential Decay (approaches the x-axis horizontally as x increases).
+3. The y-intercept occurs at (0, a) because b⁰ = 1.
+4. Horizontal Asymptote: y = 0 (the graph approaches but never touches the x-axis for a · b^x).
+
+Half-Life and Doubling:
+- Doubling formula: N(t) = N₀ · 2^(t / d)
+- Half-life formula: N(t) = N₀ · (1/2)^(t / h)
+
+Example: A bacterial culture doubles every 3 hours. If there are 50 bacteria initially, how many after 9 hours?
+  Number of doubling periods = 9 / 3 = 3 periods.
+  N = 50 · 2³ = 50 · 8 = 400 bacteria.
+
+Tip: Remember any non-zero number to the zero power equals 1 (b⁰ = 1).

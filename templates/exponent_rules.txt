@@ -1,0 +1,17 @@
+Exponent rules govern the simplification and combination of powers.
+
+Essential Laws of Exponents:
+1. Product Rule: xᵃ · xᵇ = x^(a + b)
+2. Quotient Rule: xᵃ / xᵇ = x^(a - b)
+3. Power of a Power: (xᵃ)ᵇ = x^(ab)
+4. Power of a Product: (xy)ᵃ = xᵃyᵃ
+5. Zero Exponent: x⁰ = 1 (for x ≠ 0)
+6. Negative Exponent: x^(-a) = 1 / xᵃ
+7. Fractional Exponent (Radicals): x^(m/n) = ⁿ√(xᵐ) = (ⁿ√x)ᵐ
+
+Example: Simplify (2x³y²)³ / (4x⁴y)
+  Numerator: 2³ · (x³)³ · (y²)³ = 8x⁹y⁶
+  Denominator: 4x⁴y¹
+  Simplify: (8/4) · x^(9 - 4) · y^(6 - 1) = 2x⁵y⁵.
+
+Tip: Add exponents when MULTIPLYING common bases; multiply exponents when RAISING a power to another power!

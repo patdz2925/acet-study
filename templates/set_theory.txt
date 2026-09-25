@@ -1,0 +1,14 @@
+Set Theory deals with collections of elements, unions, intersections, and Venn diagrams.
+
+Core Formulas:
+1. Two Sets:
+   n(A ∪ B) = n(A) + n(B) - n(A ∩ B)
+2. Elements in only A = n(A) - n(A ∩ B)
+3. Three Sets:
+   n(A ∪ B ∪ C) = n(A) + n(B) + n(C) - n(A∩B) - n(B∩C) - n(A∩C) + n(A∩B∩C)
+
+Example: In a class of 50 students, 30 take Math, 25 take Science, and 10 take both. How many take neither?
+  n(Math ∪ Science) = 30 + 25 - 10 = 45.
+  Neither = Total - n(Math ∪ Science) = 50 - 45 = 5 students.
+
+Tip: Always fill Venn diagrams from the innermost intersection (both/all three) outward!

@@ -1,0 +1,15 @@
+Algebraic fractions are rational expressions involving polynomials in the numerator and denominator.
+
+Key Operations:
+1. Simplifying: Factor both numerator and denominator completely, then cancel common factors.
+2. Multiplication: Multiply straight across: (A/B) × (C/D) = (AC) / (BD).
+3. Division: Multiply by the reciprocal: (A/B) ÷ (C/D) = (A/B) × (D/C).
+4. Addition/Subtraction: Find the Least Common Denominator (LCD).
+   (a/x) + (b/y) = (ay + bx) / (xy).
+
+Example: Simplify (x² - 9) / (x² + 5x + 6)
+  Factor: ((x - 3)(x + 3)) / ((x + 2)(x + 3))
+  Cancel common factor (x + 3):
+  Result = (x - 3) / (x + 2).
+
+Tip: Never cancel terms that are added or subtracted—only cancel factors that are multiplied!

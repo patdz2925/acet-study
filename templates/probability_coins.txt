@@ -1,0 +1,19 @@
+Coin probability problems deal with combinations of Heads (H) and Tails (T) across independent tosses.
+
+Key Concepts & Rules:
+1. Each coin toss is independent with P(H) = 1/2 and P(T) = 1/2.
+2. Total possible outcomes for n coins = 2^n.
+   - 1 coin: 2 outcomes (H, T)
+   - 2 coins: 4 outcomes (HH, HT, TH, TT)
+   - 3 coins: 8 outcomes (HHH, HHT, HTH, HTT, THH, THT, TTH, TTT)
+   - 4 coins: 16 outcomes
+
+Formula for exactly k heads in n tosses:
+  P(k heads) = nCk / (2^n)
+
+Example: In 3 coin flips, what is the probability of getting exactly 2 heads?
+  Favorable outcomes: HHT, HTH, THH (3 outcomes = 3C2).
+  Total outcomes: 2³ = 8.
+  Probability = 3/8.
+
+Tip: "At least 1 head" in 3 flips = 1 - P(0 heads) = 1 - 1/8 = 7/8.

@@ -1,0 +1,16 @@
+Slope relationships for parallel and perpendicular lines.
+
+Rules:
+1. Parallel Lines have IDENTICAL slopes:
+   m₁ = m₂
+2. Perpendicular Lines have NEGATIVE RECIPROCAL slopes:
+   m₁ · m₂ = -1  =>  m₂ = -1 / m₁
+3. Special Cases:
+   - Horizontal line (m = 0) is perpendicular to a vertical line (undefined slope).
+
+Example: Find the equation of the line perpendicular to y = -(3/4)x + 2 that passes through (0, 0).
+  Original slope m₁ = -3/4.
+  Perpendicular slope m₂ = -(-4/3) = +4/3.
+  Through origin (0, 0): y = (4/3)x.
+
+Tip: To find a perpendicular slope, remember two steps: flip the fraction upside down AND change the positive/negative sign!

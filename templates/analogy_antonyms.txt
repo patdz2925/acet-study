@@ -1,0 +1,16 @@
+Analogy Antonyms compare word pairs that express opposite meanings.
+
+Relationship: [WORD A] is the exact opposite of [WORD B].
+
+Strategy:
+1. State the relationship: "A is the opposite of B."
+2. Determine degree of intensity:
+   - If A and B are absolute opposites (e.g., Dead : Alive), the answer must also be absolute.
+   - If they are graded opposites (e.g., Chilly : Warm), the answer should reflect a similar scale.
+3. Check parts of speech: Adjective : Adjective, Noun : Noun, Verb : Verb.
+
+Example: GARRULOUS : TACITURN (Extremely talkative : Habitually silent)
+  Bridge: Garrulous is the antonym of taciturn.
+  Match: PRODIGAL : FRUGAL (Wasteful/extravagant : Economical/sparing).
+
+Tip: Double-check that the relationship is opposite, not just loosely contrasting.

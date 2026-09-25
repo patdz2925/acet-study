@@ -1,0 +1,18 @@
+The circle equation and its relationship with lines (tangents and secants).
+
+Standard Equation of a Circle:
+  (x - h)² + (y - k)² = r²
+  Center = (h, k), Radius = r
+
+General Form:
+  x² + y² + Dx + Ey + F = 0 (complete the square to find center and radius).
+
+Tangents to a Circle:
+1. A tangent line touches the circle at exactly one point.
+2. The radius drawn to the point of tangency is PERPENDICULAR to the tangent line (m_radius × m_tangent = -1).
+
+Example: Find the center and radius of (x - 3)² + (y + 2)² = 49
+  Center: (3, -2) [Note the sign flip on y + 2 = y - (-2)]
+  Radius: √49 = 7.
+
+Tip: Remember that r² is on the right side. If the right side is 25, the radius is 5, not 25!

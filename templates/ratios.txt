@@ -1,0 +1,14 @@
+Ratios compare two quantities.
+
+To solve ratio problems:
+1. Identify the two quantities being compared.
+2. Set up a proportion if finding an unknown: a/b = c/d
+3. Cross-multiply: a × d = b × c
+4. Solve for the unknown.
+
+Example: If 3 notebooks cost $4.50, then 7 notebooks cost x.
+  3/4.50 = 7/x
+  3x = 31.50
+  x = 10.50
+
+Remember to keep units consistent and always check if your answer makes sense.

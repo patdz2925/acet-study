@@ -1,0 +1,2241 @@
+{
+ "questions": [
+  {
+   "id": "LA-Q1",
+   "section": "Language Proficiency",
+   "concept": "lp_error_identification",
+   "question_text": "In the 1990's, the People's Republic of China grew economically, territorially, and culturally. No Error.",
+   "choices": [
+    "A. In the 1990's,",
+    "B. territorially, and",
+    "C. culturally.",
+    "D. No Error."
+   ],
+   "correct_answer": "D",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "id": "LA-Q2",
+   "section": "Language Proficiency",
+   "concept": "lp_error_identification",
+   "question_text": "Latin is practically a dead language, spoken only by students, academics, and the Catholic clergy. No Error.",
+   "choices": [
+    "A. practically",
+    "B. spoken only by students,",
+    "C. and the Catholic clergy.",
+    "D. No Error."
+   ],
+   "correct_answer": "C",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "id": "LA-Q3",
+   "section": "Language Proficiency",
+   "concept": "lp_error_identification",
+   "question_text": "In November 29, 1890, the Imperial Japanese Diet convened for the first time. No Error.",
+   "choices": [
+    "A. In November 29, 1890,",
+    "B. Diet",
+    "C. for the first time.",
+    "D. No Error."
+   ],
+   "correct_answer": "A",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "id": "LA-Q4",
+   "section": "Language Proficiency",
+   "concept": "lp_error_identification",
+   "question_text": "The financial expert which flew in to advice the president, came from London. No Error.",
+   "choices": [
+    "A. financial expert",
+    "B. which",
+    "C. came from London.",
+    "D. No Error."
+   ],
+   "correct_answer": "B",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "id": "LA-Q5",
+   "section": "Language Proficiency",
+   "concept": "lp_error_identification",
+   "question_text": "In 2010, Harvard University had an acceptance rate of 6.9%, and will have rejected students with perfect SAT scores. No Error.",
+   "choices": [
+    "A. had an acceptance",
+    "B. will have rejected",
+    "C. perfect SAT scores.",
+    "D. No Error."
+   ],
+   "correct_answer": "B",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "id": "LA-Q7",
+   "section": "Language Proficiency",
+   "concept": "lp_error_identification",
+   "question_text": "Ateneo's rank of 307 in the 2010 QS University rankings is far ahead of La Salle, ranked 451. No Error.",
+   "choices": [
+    "A. in the 2010",
+    "B. ahead of La Salle,",
+    "C. ranked 451.",
+    "D. No Error."
+   ],
+   "correct_answer": "B",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "id": "LA-Q8",
+   "section": "Language Proficiency",
+   "concept": "lp_error_identification",
+   "question_text": "The Continental Congress is drafting a constitution for the delegates they will address in June. No Error.",
+   "choices": [
+    "A. The Continental Congress",
+    "B. a constitution for",
+    "C. they",
+    "D. No Error."
+   ],
+   "correct_answer": "C",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Stationary",
+    "B. Stationery",
+    "C. Stationarry",
+    "D. Stationairy"
+   ],
+   "concept": "lp_sentence_completion",
+   "correct_answer": "B",
+   "id": "LA-Q11",
+   "question_text": "Just like National Bookstore, Barnes & Noble sells _____ and writing tools.",
+   "section": "Language Proficiency",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Drove",
+    "B. Drived",
+    "C. Driven",
+    "D. Been Driving"
+   ],
+   "concept": "lp_sentence_completion",
+   "correct_answer": "C",
+   "id": "LA-Q13",
+   "question_text": "Alexei had ______ over the vast Siberian expanse more than once.",
+   "section": "Language Proficiency",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. He",
+    "B. They",
+    "C. I",
+    "D. One"
+   ],
+   "concept": "lp_sentence_completion",
+   "correct_answer": "D",
+   "id": "LA-Q14",
+   "question_text": "As one continues to play basketball, ____ will realize that handling the ball becomes second nature.",
+   "section": "Language Proficiency",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. A technocrat",
+    "B. Technocrats",
+    "C. Technocrat inclined",
+    "D. Technocrats, being"
+   ],
+   "concept": "lp_sentence_completion",
+   "correct_answer": "B",
+   "id": "LA-Q16",
+   "question_text": "Economics students in Cambridge University's Trinity College are tipped to become ______ in the future.",
+   "section": "Language Proficiency",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. All ready",
+    "B. Al ready",
+    "C. Already",
+    "D. Readily"
+   ],
+   "concept": "lp_sentence_completion",
+   "correct_answer": "C",
+   "id": "LA-Q17",
+   "question_text": "Johnny _____ ate the cookies by the time we got home.",
+   "section": "Language Proficiency",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Has",
+    "B. Have",
+    "C. Had",
+    "D. Will have"
+   ],
+   "concept": "lp_sentence_completion",
+   "correct_answer": "A",
+   "id": "LA-Q19",
+   "question_text": "The amalgamation of the various unions across the country _____ given workers more leverage.",
+   "section": "Language Proficiency",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Or",
+    "B. Nor",
+    "C. And",
+    "D. But"
+   ],
+   "concept": "lp_sentence_completion",
+   "correct_answer": "B",
+   "id": "LA-Q20",
+   "question_text": "Neither Mikhail Gorbachev ____ Boris Yeltsin emerged from the collapse of the Soviet Union with his reputation intact.",
+   "section": "Language Proficiency",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Sharp, rapid sounds",
+    "B. Heavy banging",
+    "C. Incessant tapping",
+    "D. Flowing"
+   ],
+   "concept": "lp_vocabulary_synonyms",
+   "correct_answer": "A",
+   "id": "LA-Q22",
+   "question_text": "The rapid staccato of raindrops on the roof kept everyone from sleeping early.",
+   "section": "Language Proficiency",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Inappropriate",
+    "B. Humorous",
+    "C. Strongly worded",
+    "D. Contentious"
+   ],
+   "concept": "lp_vocabulary_synonyms",
+   "correct_answer": "A",
+   "id": "LA-Q25",
+   "question_text": "Fabio made a facetious comment in the national assembly yesterday.",
+   "section": "Language Proficiency",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Bishop",
+    "B. Cardinal",
+    "C. Envoy",
+    "D. Prelate"
+   ],
+   "concept": "lp_vocabulary_synonyms",
+   "correct_answer": "C",
+   "id": "LA-Q26",
+   "question_text": "The Pope appointed a new apostolic nuncio to France.",
+   "section": "Language Proficiency",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Deported",
+    "B. Beheaded",
+    "C. Tortured",
+    "D. Imprisoned"
+   ],
+   "concept": "lp_vocabulary_synonyms",
+   "correct_answer": "B",
+   "id": "LA-Q27",
+   "question_text": "In medieval England, papists, or Catholics, could be obtruncated if caught.",
+   "section": "Language Proficiency",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Native Language or Dialect",
+    "B. Local Slang",
+    "C. Peculiar manner",
+    "D. Surrounding area"
+   ],
+   "concept": "lp_vocabulary_synonyms",
+   "correct_answer": "A",
+   "id": "LA-Q28",
+   "question_text": "In the U.K. the name of the Scottish city Edinburgh, in the vernacular, is actually pronounced \"E-din-burrah.\"",
+   "section": "Language Proficiency",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Arrested",
+    "B. Absolved",
+    "C. Convicted",
+    "D. Released"
+   ],
+   "concept": "lp_vocabulary_antonyms",
+   "correct_answer": "C",
+   "id": "LA-Q31",
+   "question_text": "The defendant was acquitted by the court in yesterday's hearing.",
+   "section": "Language Proficiency",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Colorful",
+    "B. Abstract",
+    "C. Matte",
+    "D. Multifaceted"
+   ],
+   "concept": "lp_vocabulary_antonyms",
+   "correct_answer": "A",
+   "id": "LA-Q32",
+   "question_text": "Van Gogh certainly wasn't a proponent of achromatic painting.",
+   "section": "Language Proficiency",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Flaccid",
+    "B. Pliable",
+    "C. Broken",
+    "D. Bent"
+   ],
+   "concept": "lp_vocabulary_antonyms",
+   "correct_answer": "A",
+   "id": "LA-Q36",
+   "question_text": "The shaft that kept the roof up stayed rigid, even as the wind and rain gained strength.",
+   "section": "Language Proficiency",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Ratified",
+    "B. Liquidated",
+    "C. Permitted",
+    "D. Countermanded"
+   ],
+   "concept": "lp_vocabulary_antonyms",
+   "correct_answer": "A",
+   "id": "LA-Q40",
+   "question_text": "Germany abrogated its agreements with the Allied powers, continuing with the Anschluß and the annexation of Czechoslovakia.",
+   "section": "Language Proficiency",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Having moderated inflation, economic growth and the rapid creation of jobs is",
+    "B. Having moderated inflation, economic growth and jobs created is already",
+    "C. Having moderated inflation, economic growth and rapid creation of jobs are",
+    "D. Having moderated inflation, economic growth and rapid job creation is"
+   ],
+   "concept": "lp_improving_sentences",
+   "correct_answer": "D",
+   "id": "LA-Q41",
+   "question_text": "Having moderated inflation, economic growth and the rapid creation of jobs is the objective of the incoming administration.",
+   "section": "Language Proficiency",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Right of the bat, the critics",
+    "B. Right off the bat, the critics",
+    "C. Right with the bat, the critics had",
+    "D. Right on the bat, critics have"
+   ],
+   "concept": "lp_improving_sentences",
+   "correct_answer": "B",
+   "id": "LA-Q42",
+   "question_text": "Right of the bat, the critics told the painter that his work was horrendous.",
+   "section": "Language Proficiency",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Dan Brown is the author which had been the major cause",
+    "B. Dan Brown has been causing",
+    "C. Dan Brown is the author who caused",
+    "D. Dan Brown has been the author who had caused"
+   ],
+   "concept": "lp_improving_sentences",
+   "correct_answer": "C",
+   "id": "LA-Q43",
+   "question_text": "Dan Brown is the author which had been the major cause of numerous conspiracy theories regarding the Church, the Masons and the Illuminati.",
+   "section": "Language Proficiency",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. China were so high as to both countries",
+    "B. China was so high that both countries",
+    "C. China were so high that both countries",
+    "D. China were so high that both, beginning today with missile barriers"
+   ],
+   "concept": "lp_improving_sentences",
+   "correct_answer": "C",
+   "id": "LA-Q47",
+   "question_text": "The tensions between Japan and China were so high as to both countries have prepared their militaries for a potential attack.",
+   "section": "Language Proficiency",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Most children in the world of today",
+    "B. Most children in the modern world",
+    "C. Most children now",
+    "D. Most children, as of the present,"
+   ],
+   "concept": "lp_improving_sentences",
+   "correct_answer": "B",
+   "id": "LA-Q48",
+   "question_text": "By the age of 21, most children in the world of today would have gone on to live by themselves.",
+   "section": "Language Proficiency",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Which is higher than China, which drew by 7.5%",
+    "B. Which is higher than 7.5%.",
+    "C. Which is higher than China's growth of 7.5%.",
+    "D. Which is higher than the Chinese rate of growth."
+   ],
+   "concept": "lp_improving_sentences",
+   "correct_answer": "C",
+   "id": "LA-Q49",
+   "question_text": "The Philippine economy grew by 7.8%, which is higher than China, which grew by 7.5%.",
+   "section": "Language Proficiency",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. To the 1800's, when the Jesuits returned from its exile.",
+    "B. In the 1800's, when the Jesuits returned it from exile.",
+    "C. In the 1800's, when the Jesuits have returned from their extensive exile.",
+    "D. To the 1800's, when the Jesuits returned from their exile."
+   ],
+   "concept": "lp_improving_sentences",
+   "correct_answer": "D",
+   "id": "LA-Q50",
+   "question_text": "The Ateneo is one of the oldest institutions in Asia, dating back to the 1800's, when the Jesuits returned from its exile.",
+   "section": "Language Proficiency",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. 2",
+    "B. 4",
+    "C. 9",
+    "D. 6"
+   ],
+   "concept": "lp_improving_paragraphs",
+   "correct_answer": "B",
+   "id": "LA-Q54",
+   "question_text": "Read the paragraph below, then answer the question. (First draft of an essay; it contains errors in usage and grammar.)\n\n1 The Japanese have built a reputation for the most eccentric things.\n2 Its difficult to find a place to begin with, as this eccentricity is present in most facets of Japanese life.\n3 For example, to show how this eccentricity affects everything, we can start with the humble toilet.\n4 Japanese toilets are naturally weird.\n5 First off, is the famous Washlet, which is one of the most advanced toilets in the world.\n6 These toilets have heated seats, warm water massages, warm air dryers, automatic deodorizers and a digital thermostat.\n7 Also, one more Japanese oddity in the toilet world is the Otohime or \"Sound Princess.\"\n8 These devices are available in women's cubicles, mainly because Japanese women feel ashamed when other people hear the sounds they make when they are in the toilet.\n9 The Otohime, when activated, creates the sound of flushing water, therefore drowning out the sounds the users make.\n\nWhich sentence should be removed?",
+   "section": "Language Proficiency",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. It cannot be improved",
+    "B. Replace the phrase \"Also, one more\" with \"Another\"",
+    "C. Remove the word \"Otohime\"",
+    "D. Attach sentence 8 to sentence 7."
+   ],
+   "concept": "lp_improving_paragraphs",
+   "correct_answer": "B",
+   "id": "LA-Q55",
+   "question_text": "Read the paragraph below, then answer the question. (First draft of an essay; it contains errors in usage and grammar.)\n\n1 The Japanese have built a reputation for the most eccentric things.\n2 Its difficult to find a place to begin with, as this eccentricity is present in most facets of Japanese life.\n3 For example, to show how this eccentricity affects everything, we can start with the humble toilet.\n4 Japanese toilets are naturally weird.\n5 First off, is the famous Washlet, which is one of the most advanced toilets in the world.\n6 These toilets have heated seats, warm water massages, warm air dryers, automatic deodorizers and a digital thermostat.\n7 Also, one more Japanese oddity in the toilet world is the Otohime or \"Sound Princess.\"\n8 These devices are available in women's cubicles, mainly because Japanese women feel ashamed when other people hear the sounds they make when they are in the toilet.\n9 The Otohime, when activated, creates the sound of flushing water, therefore drowning out the sounds the users make.\n\nHow can sentence 7 be improved?",
+   "section": "Language Proficiency",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. It refers to the gadget as \"Otohime.\"",
+    "B. The use of the verb \"drowning\" is inappropriate.",
+    "C. The word \"creates\" does not follow Subject-Verb Agreement rules.",
+    "D. There is no error."
+   ],
+   "concept": "lp_improving_paragraphs",
+   "correct_answer": "D",
+   "id": "LA-Q56",
+   "question_text": "Read the paragraph below, then answer the question. (First draft of an essay; it contains errors in usage and grammar.)\n\n1 The Japanese have built a reputation for the most eccentric things.\n2 Its difficult to find a place to begin with, as this eccentricity is present in most facets of Japanese life.\n3 For example, to show how this eccentricity affects everything, we can start with the humble toilet.\n4 Japanese toilets are naturally weird.\n5 First off, is the famous Washlet, which is one of the most advanced toilets in the world.\n6 These toilets have heated seats, warm water massages, warm air dryers, automatic deodorizers and a digital thermostat.\n7 Also, one more Japanese oddity in the toilet world is the Otohime or \"Sound Princess.\"\n8 These devices are available in women's cubicles, mainly because Japanese women feel ashamed when other people hear the sounds they make when they are in the toilet.\n9 The Otohime, when activated, creates the sound of flushing water, therefore drowning out the sounds the users make.\n\nWhat is wrong with sentence 9?",
+   "section": "Language Proficiency",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. (a)",
+    "B. (b)",
+    "C. (c)",
+    "D. (d)"
+   ],
+   "concept": "lp_paragraph_arrangement",
+   "correct_answer": "D",
+   "id": "LA-Q57",
+   "question_text": "a. Before him, people thought of themselves as beings that were special, set apart from all creation. b. With this is mind, the notion of being no different from the heathen chimpanzees in the rainforests of Africa caused quite a stir back in his day. c. In time, Darwin has proved that he was correct, and his theory is now generally accepted students, teachers and academics everywhere. d. Charles Darwin was the man who formulated the theory of evolution. What should be the first sentence?",
+   "section": "Language Proficiency",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. (x-5)",
+    "B. (x+5)",
+    "C. -10x",
+    "D. 25x^2"
+   ],
+   "concept": "algebraic_fractions",
+   "correct_answer": "B",
+   "id": "MA-Q87",
+   "notes": "BONUS per booklet correction",
+   "question_text": "Simplify the expression: (x^2 + 25) / (x^2 - 10x + 25)",
+   "section": "Mathematics",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. 3",
+    "B. 5",
+    "C. 10",
+    "D. -3"
+   ],
+   "concept": "equations_infinite_solutions",
+   "correct_answer": "A",
+   "id": "MA-Q88",
+   "notes": "BONUS per booklet correction",
+   "question_text": "Given the equation (x - y) × (y - x) = -4, where x and y are whole numbers, which of the following can be the value of x?",
+   "section": "Mathematics",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. 64",
+    "B. 24",
+    "C. 16",
+    "D. 42"
+   ],
+   "concept": "exponent_rules",
+   "correct_answer": "A",
+   "id": "MA-Q93",
+   "question_text": "Given that x^3 * x^5 = y^8, what is y^3 equal to if x = 4?",
+   "section": "Mathematics",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. x^7",
+    "B. x^(3/4)",
+    "C. x^16",
+    "D. x^2"
+   ],
+   "concept": "exponent_rules",
+   "correct_answer": "B",
+   "id": "MA-Q94",
+   "question_text": "What is the expression 4th root of x^3 equivalent to?",
+   "section": "Mathematics",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. 9π^2",
+    "B. 20",
+    "C. 36π",
+    "D. 40π"
+   ],
+   "concept": "circle_geometry",
+   "correct_answer": "C",
+   "id": "MA-Q96",
+   "question_text": "What is the volume of the biggest sphere that can fit in a cube with a volume of 216cm^3?",
+   "section": "Mathematics",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. (0, 3)",
+    "B. (0, 2)",
+    "C. (0, 1)",
+    "D. (0, 2.1)"
+   ],
+   "concept": "linear_equations",
+   "correct_answer": "B",
+   "id": "MA-Q97",
+   "question_text": "Given the figure, what is the x-intercept of the ray with endpoint (0,3)? [Figure in booklet]",
+   "section": "Mathematics",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. 221",
+    "B. 198",
+    "C. 214",
+    "D. 266"
+   ],
+   "concept": "solid_geometry",
+   "correct_answer": "C",
+   "id": "MA-Q102",
+   "question_text": "What is the surface area of a rectangular prism that has a length of 7, a width of 5 and a height of 6?",
+   "section": "Mathematics",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. 1",
+    "B. 16",
+    "C. 4",
+    "D. 21"
+   ],
+   "concept": "domain_expression",
+   "correct_answer": "A",
+   "id": "MA-Q103",
+   "question_text": "Simplify the expression sqrt(256)/(x^2 - 4) if x = 4.",
+   "section": "Mathematics",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. sin^2θ",
+    "B. 2",
+    "C. cos^2θ",
+    "D. sec^2θ"
+   ],
+   "concept": "basic_trigonometry",
+   "correct_answer": "D",
+   "id": "MA-Q104",
+   "question_text": "1 + tan^2θ = ?",
+   "section": "Mathematics",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. x^4 * sqrt(15) / (z^2 * sqrt(3))",
+    "B. z^2 * x^4 * sqrt(45)",
+    "C. x^10 * sqrt(5) / z^2",
+    "D. z^2 * x^2 / sqrt(45)"
+   ],
+   "concept": "exponent_rules",
+   "correct_answer": "C",
+   "id": "MA-Q106",
+   "question_text": "Simplify the expression ((z^1 * x^6)^2 * sqrt(15)) / (z^4 * x^2 * sqrt(3)).",
+   "section": "Mathematics",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. 9 + 3sqrt(2)",
+    "B. 9 + 3sqrt(3)",
+    "C. 12 + 6sqrt(3)",
+    "D. 14"
+   ],
+   "concept": "triangles_30_60_90",
+   "correct_answer": "B",
+   "id": "MA-Q108",
+   "question_text": "What is the perimeter of the triangle ABC, which is within an equilateral triangle with line AB as its altitude, if AC=6?",
+   "section": "Mathematics",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. {x | x > 0}",
+    "B. {x | x < 0}",
+    "C. {x | x = 1}",
+    "D. {x | x ∈ W}"
+   ],
+   "concept": "linear_equations",
+   "correct_answer": "A",
+   "id": "MA-Q109",
+   "question_text": "Given the inequality -6x - 4 < (5x + 4)/-1, what are the possible values of x?",
+   "section": "Mathematics",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Quadrupled",
+    "B. Doubled",
+    "C. Squared",
+    "D. Cubed"
+   ],
+   "concept": "proportional_reasoning",
+   "correct_answer": "A",
+   "id": "MA-Q113",
+   "question_text": "When the perimeter of square ABCD is doubled, then its area, x, will be ____.",
+   "section": "Mathematics",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. 1.6π",
+    "B. (4/10)π",
+    "C. 0.8π",
+    "D. 1.2566"
+   ],
+   "concept": "circle_geometry",
+   "correct_answer": "C",
+   "id": "MA-Q117",
+   "question_text": "The radius of a circle is 4. What is the length of 1/10 of its perimeter?",
+   "section": "Mathematics",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. (3, 0)",
+    "B. (2, 0)",
+    "C. (1, 0)",
+    "D. (4, 0)"
+   ],
+   "concept": "quadratic_equations",
+   "correct_answer": "C",
+   "id": "MA-Q123",
+   "question_text": "In the parabola with the equation y = x^2 + 2x - 3, with an axis of symmetry at x = 1, what is the ordered pair that has the same y-value as the ordered pair (-3, 0)?",
+   "section": "Mathematics",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. n^2",
+    "B. 4n",
+    "C. 2n",
+    "D. 2n + 3"
+   ],
+   "concept": "basic_algebra",
+   "correct_answer": "C",
+   "id": "MA-Q124",
+   "question_text": "If 3x + 4 = n, 6x + 8 is equal to what?",
+   "section": "Mathematics",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. 9",
+    "B. 6",
+    "C. 1.5",
+    "D. 3"
+   ],
+   "concept": "circle_geometry",
+   "correct_answer": "B",
+   "id": "MA-Q126",
+   "question_text": "Given this figure, what is the length of x? (Reminder: figures are not drawn to scale.) [Figure in booklet]",
+   "section": "Mathematics",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. 10",
+    "B. 5/2",
+    "C. 7",
+    "D. 25"
+   ],
+   "concept": "basic_logarithms",
+   "correct_answer": "D",
+   "id": "MA-Q127",
+   "question_text": "log5 z = 2. What is the value of z?",
+   "section": "Mathematics",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. (0, 1)",
+    "B. (1, -2)",
+    "C. (-1, -1)",
+    "D. (-1, -2)"
+   ],
+   "concept": "linear_equations",
+   "correct_answer": "C",
+   "id": "MA-Q133",
+   "question_text": "What is the point of intersection of the following lines? y = 2x + 1, y = -2x - 2",
+   "section": "Mathematics",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. 5",
+    "B. 7",
+    "C. 4",
+    "D. 1"
+   ],
+   "concept": "basic_statistics",
+   "correct_answer": "A",
+   "id": "MA-Q138",
+   "question_text": "What is the mode of the following set of numbers? {1,1,2,2,4,5,5,5,7}",
+   "section": "Mathematics",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. 72π",
+    "B. 40π",
+    "C. 32π^2",
+    "D. 69π + 32"
+   ],
+   "concept": "solid_geometry",
+   "correct_answer": "A",
+   "id": "MA-Q140",
+   "question_text": "What is the surface area of a cylinder with a height of 5 and a radius of 4?",
+   "section": "Mathematics",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. 3",
+    "B. 6",
+    "C. 2sqrt(3)",
+    "D. 12"
+   ],
+   "concept": "triangles_30_60_90",
+   "correct_answer": "B",
+   "id": "MA-Q142",
+   "question_text": "Given the figure below, what is the value of y? [Figure in booklet]",
+   "section": "Mathematics",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. 4",
+    "B. 30",
+    "C. 60",
+    "D. 15"
+   ],
+   "concept": "basic_geometry",
+   "correct_answer": "D",
+   "id": "MA-Q144",
+   "question_text": "What is the area of a triangle with a base of 5 and a height of 6?",
+   "section": "Mathematics",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Furniture",
+    "B. Insect",
+    "C. Wood",
+    "D. Mound"
+   ],
+   "concept": "analogy_word_partnerships",
+   "correct_answer": "C",
+   "id": "VE-Q146",
+   "question_text": "Cow: Plants :: Termite: _____.",
+   "section": "Verbal Analogy",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Celebrate",
+    "B. Dissolve",
+    "C. Destroy",
+    "D. Oppose"
+   ],
+   "concept": "analogy_antonyms",
+   "correct_answer": "B",
+   "id": "VE-Q150",
+   "question_text": "Life:Death; Coagulate:______.",
+   "section": "Verbal Analogy",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Extinction",
+    "B. Dissipation",
+    "C. Emancipation",
+    "D. Infection"
+   ],
+   "concept": "analogy_action_object",
+   "correct_answer": "A",
+   "id": "VE-Q153",
+   "question_text": "Oppresion:Revolution; Eradication:_______.",
+   "section": "Verbal Analogy",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Sadness",
+    "B. Mysteries",
+    "C. Memories",
+    "D. Creativity"
+   ],
+   "concept": "analogy_function",
+   "correct_answer": "C",
+   "id": "VE-Q154",
+   "question_text": "Music:Emotions; Pictures:_______.",
+   "section": "Verbal Analogy",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Engineering: Structures",
+    "B. Mathematics: Equations",
+    "C. Pencils: Books",
+    "D. Poets: Laureates"
+   ],
+   "concept": "analogy_action_object",
+   "correct_answer": "A",
+   "id": "VE-Q158",
+   "question_text": "Journalism: News--___:____",
+   "section": "Verbal Analogy",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Learning: People",
+    "B. Money: Power",
+    "C. Creativity: Pedigree",
+    "D. Knowledge: Studies"
+   ],
+   "concept": "analogy_definition_match",
+   "correct_answer": "D",
+   "id": "VE-Q159",
+   "question_text": "Memories: Experiences--___:____",
+   "section": "Verbal Analogy",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Visualization: Photography",
+    "B. Anesthesia: Numbness",
+    "C. Mnemonic: Memorization",
+    "D. Magnets: Poles"
+   ],
+   "concept": "analogy_action_object",
+   "correct_answer": "C",
+   "id": "VE-Q160",
+   "question_text": "Scalpel: Surgery--___:___",
+   "section": "Verbal Analogy",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. L'Ouverture: Haiti",
+    "B. Napoleon: France",
+    "C. Raffles: Hong Kong",
+    "D. Togo: Japan"
+   ],
+   "concept": "analogy_capital_country",
+   "correct_answer": "A",
+   "id": "VE-Q165",
+   "question_text": "Washington: U.S.A.--____:____",
+   "section": "Verbal Analogy",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. The rock is a fruit.",
+    "B. The rock is a hard.",
+    "C. The rock could be a fruit.",
+    "D. The rock is not a fruit."
+   ],
+   "concept": "logical_deduction",
+   "correct_answer": "A",
+   "id": "LO-Q166",
+   "question_text": "All red items are fruits. A banana is red. All rocks are red, therefore ______.",
+   "section": "Logical Reasoning",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. There is fire.",
+    "B. There is no fire.",
+    "C. There could be a fire.",
+    "D. There will be fire."
+   ],
+   "concept": "logical_conditional",
+   "correct_answer": "C",
+   "id": "LO-Q167",
+   "question_text": "When a fire burns, smoke is formed. When smoke is formed, sometimes there is a fire. If there is smoke ______.",
+   "section": "Logical Reasoning",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Steven and Daniel had no money.",
+    "B. Steven has no money.",
+    "C. Daniel has no money.",
+    "D. Steven and Daniel both have money."
+   ],
+   "concept": "logical_conditional",
+   "correct_answer": "C",
+   "id": "LO-Q168",
+   "question_text": "If Steven has money, he eats ice cream. If Daniel has money, he buys ice cream and shares it with Steven. If only Steven is eating ice cream____________.",
+   "section": "Logical Reasoning",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Some workers have neither a spouse nor a child.",
+    "B. All workers have children.",
+    "C. All parents are married.",
+    "D. No single workers are parents."
+   ],
+   "concept": "logical_sets",
+   "correct_answer": "A",
+   "id": "LO-Q169",
+   "question_text": "All parents are workers. Not all workers are married, and only some parents are married. Some childless people are workers. Therefore, ______________.",
+   "section": "Logical Reasoning",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. \"Ya\"",
+    "B. \"Vsegda\"",
+    "C. \"Medved\"",
+    "D. \"Krasniy\""
+   ],
+   "concept": "logical_language_puzzle",
+   "correct_answer": "C",
+   "id": "LO-Q170",
+   "question_text": "In an unknown language “Ya smertel medveda,vsegda.” means That over there is the bear’s prey. In the same language, the sentence “Ya Otchizne krasniy medved,” means That big bear is red. What word most probably means bear?",
+   "section": "Logical Reasoning",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. The team will do well next year.",
+    "B. Alumni contributions will increase.",
+    "C. Alumni contributions will remain the same.",
+    "D. Alumni contributions will decrease."
+   ],
+   "concept": "logical_conditional",
+   "correct_answer": "D",
+   "id": "LO-Q171",
+   "question_text": "When the university’s basketball team does well, alumni contributions increase. When it doesn’t it decreases. This year, the team did not do well, therefore____________.",
+   "section": "Logical Reasoning",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. North High School actually has an even greater portion of its budget allotted for salaries.",
+    "B. The other expenses of East High School are higher than that of North High School’s",
+    "C. The total budget of North High School is higher.",
+    "D. The portion of North High School’s budget that goes to salaries is around 75%."
+   ],
+   "concept": "logical_sets",
+   "correct_answer": "B",
+   "id": "LO-Q172",
+   "question_text": "Payment of salaries takes up most of the budget of high schools. The total paid by North High School for salaries is higher than that paid by East High School, but the total budget of East High School is lower than that of North High School, therefore________.",
+   "section": "Logical Reasoning",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. 5",
+    "B. 4",
+    "C. 0",
+    "D. 2"
+   ],
+   "concept": "logical_sets",
+   "correct_answer": "D",
+   "id": "LO-Q173",
+   "question_text": "There are 10 pencils that are divided among Johnny, Nicky and Art. If Johnny gives all his pencils to Art, Art will have more than half of all the pencils. If Art and Nicky combine their pencils, they will have exactly half of the pencils available. If Art has an even number of pencils, and if Nicky has more pencils than Art, how many pencils does Art have?",
+   "section": "Logical Reasoning",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. James, Franco, Chris, Josh, Miguel.",
+    "B. Martin, Franco, Sam, Chris and Josh.",
+    "C. Dan, James, Ricky, Martin, Josh.",
+    "D. Dan, James, Miguel, Chris, Josh."
+   ],
+   "concept": "logical_arrangement",
+   "correct_answer": "A",
+   "id": "LO-Q174",
+   "question_text": "For questions 174-175, read the following passage: The coach of the college basketball team needs to pick 5 players for the starting lineup from James, Franco, Miguel, Ricky, Dan, Martin, Josh and Chris. The starting lineup must include only one big man and one guard. Martin, Franco and Ricky are guards. Dan and Josh are big men. Which of the following are possible starting lineups?",
+   "section": "Logical Reasoning",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. James, Martin, Dan, Chris, Josh",
+    "B. Martin, Dan, Chris, Ricky, Franco",
+    "C. Martin, Franco, Chris, Miguel, James",
+    "D. Martin, Dan, Chris, Miguel, James"
+   ],
+   "concept": "logical_arrangement",
+   "correct_answer": "D",
+   "id": "LO-Q175",
+   "question_text": "If Dan and Martin must start together, what is the only possible starting lineup?",
+   "section": "Logical Reasoning",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. In the Spanish colonial era",
+    "B. In the pre-Hispanic era",
+    "C. In the post-World War 2 era",
+    "D. The American period"
+   ],
+   "concept": "rc_factual_recall",
+   "correct_answer": "D",
+   "id": "RE-Q176",
+   "question_text": "[Passage 1: Culion leper colony]\n\nWhen was Culion founded as a leper colony?\n\n[Passage excerpt] Culion was called the \"Island of the Living Dead\" or the \"Island of No Return.\" Once the largest leper colony in the world, it stands today as a stark reminder of life in the Philippines when leprosy was still an incurable disease, and a testament to how leprosy was eradicated not just in the Philippines but in the entire world. It shows how technology and advances in medicine have improved and changed the way we live today. Culion was selected as the containment area of all those with leprosy in the Philippines during the American period.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Leprosy was unsightly and people preferred to have lepers hidden away.",
+    "B. Researchers needed subjects for the new cures they were creating.",
+    "C. To stop the spread of leprosy, which was incurable.",
+    "D. Lepers were not contributing to society, so they were sent to work in the island."
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "C",
+   "id": "RE-Q177",
+   "question_text": "[Passage 1: Culion leper colony]\n\nWhy was Culion needed?\n\n[Passage excerpt] Culion was called the \"Island of the Living Dead\" or the \"Island of No Return.\" Once the largest leper colony in the world, it stands today as a stark reminder of life in the Philippines when leprosy was still an incurable disease, and a testament to how leprosy was eradicated not just in the Philippines but in the entire world. It shows how technology and advances in medicine have improved and changed the way we live today. Culion was selected as the containment area of all those with leprosy in the Philippines during the American period.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. List",
+    "B. Hospital",
+    "C. Prison",
+    "D. Wage Bill"
+   ],
+   "concept": "rc_detail_recall",
+   "correct_answer": "A",
+   "id": "RE-Q178",
+   "question_text": "[Passage 1: Culion leper colony]\n\nWhat does the word \"roster\" in line 8, most nearly mean?\n\n[Passage excerpt] Culion was called the \"Island of the Living Dead\" or the \"Island of No Return.\" Once the largest leper colony in the world, it stands today as a stark reminder of life in the Philippines when leprosy was still an incurable disease, and a testament to how leprosy was eradicated not just in the Philippines but in the entire world. It shows how technology and advances in medicine have improved and changed the way we live today. Culion was selected as the containment area of all those with leprosy in the Philippines during the American period.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. All people who visit the island never come back.",
+    "B. When lepers got treated in Culion, their diseases never returned.",
+    "C. The government executed lepers in the island for the good of the general public.",
+    "D. Lepers who were contained in the island were expected to die there of their disease or of natural causes."
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "D",
+   "id": "RE-Q179",
+   "question_text": "[Passage 1: Culion leper colony]\n\nWhy was Culion referred to as the \"Island of No Return?\"\n\n[Passage excerpt] Culion was called the \"Island of the Living Dead\" or the \"Island of No Return.\" Once the largest leper colony in the world, it stands today as a stark reminder of life in the Philippines when leprosy was still an incurable disease, and a testament to how leprosy was eradicated not just in the Philippines but in the entire world. It shows how technology and advances in medicine have improved and changed the way we live today. Culion was selected as the containment area of all those with leprosy in the Philippines during the American period.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Culion is no longer a leper colony.",
+    "B. Lepers still form the majority of the population in Culion.",
+    "C. Culion is now a major research center for the treatment of leprosy.",
+    "D. The government created new leper colonies in response to increasing leper populations."
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "A",
+   "id": "RE-Q180",
+   "question_text": "[Passage 1: Culion leper colony]\n\nFrom the passage, it can be inferred that ________.\n\n[Passage excerpt] Culion was called the \"Island of the Living Dead\" or the \"Island of No Return.\" Once the largest leper colony in the world, it stands today as a stark reminder of life in the Philippines when leprosy was still an incurable disease, and a testament to how leprosy was eradicated not just in the Philippines but in the entire world. It shows how technology and advances in medicine have improved and changed the way we live today. Culion was selected as the containment area of all those with leprosy in the Philippines during the American period.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. To show her dislike for all forms of love",
+    "B. To contrast with the unusual symbol of love that is the onion",
+    "C. To convey her preference for a less romantic sort of love",
+    "D. To preclude the references to it in the lines 21-23"
+   ],
+   "concept": "rc_authors_purpose",
+   "correct_answer": "B",
+   "id": "RE-Q181",
+   "question_text": "[Passage 2: Valentine onion poem]\n\nWhy did the author place the line \"Not a red rose or a satin heart,\" before line 1?\n\n[Passage excerpt] Not a red rose or a satin heart. I give you an onion. It is a moon wrapped in brown paper. It promises light like the careful undressing of love. Here. It will blind you with tears like a lover. It will make your reflection a wobbling photo of grief. I am trying to be truthful. Not a cute card or a kissogram. I give you an onion. Its fierce kiss will stay on your lips, possessive and faithful as we are, for as long as we are. Take it. Its platinum loops shrink to a wedding ring, if you like. Lethal. Its scent will cling to your fingers, cling to your knife.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. The tears that their relationship will cause.",
+    "B. The tears that onions induce in people",
+    "C. Tears caused by infidelity",
+    "D. Jealousy and fighting between the in-laws"
+   ],
+   "concept": "rc_detail_recall",
+   "correct_answer": "A",
+   "id": "RE-Q182",
+   "question_text": "[Passage 2: Valentine onion poem]\n\nWhat do lines 7-8 refer to?\n\n[Passage excerpt] Not a red rose or a satin heart. I give you an onion. It is a moon wrapped in brown paper. It promises light like the careful undressing of love. Here. It will blind you with tears like a lover. It will make your reflection a wobbling photo of grief. I am trying to be truthful. Not a cute card or a kissogram. I give you an onion. Its fierce kiss will stay on your lips, possessive and faithful as we are, for as long as we are. Take it. Its platinum loops shrink to a wedding ring, if you like. Lethal. Its scent will cling to your fingers, cling to your knife.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Because it turns foul quickly, as love eventually does.",
+    "B. Because it induces tears, like a quarrel between lovers.",
+    "C. Because the onion provides shock value.",
+    "D. Because the smell of an onion clings, just as lovers cling to each other and their memories."
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "D",
+   "id": "RE-Q183",
+   "question_text": "[Passage 2: Valentine onion poem]\n\nLines 13-15 and line 22 show that one reason the author used the onion for her metaphor is _________.\n\n[Passage excerpt] Not a red rose or a satin heart. I give you an onion. It is a moon wrapped in brown paper. It promises light like the careful undressing of love. Here. It will blind you with tears like a lover. It will make your reflection a wobbling photo of grief. I am trying to be truthful. Not a cute card or a kissogram. I give you an onion. Its fierce kiss will stay on your lips, possessive and faithful as we are, for as long as we are. Take it. Its platinum loops shrink to a wedding ring, if you like. Lethal. Its scent will cling to your fingers, cling to your knife.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. It starts with a broken relationship that eventually descends into murder.",
+    "B. It starts with an insulting symbol and ends with a threatening symbol.",
+    "C. It begins with the enchanting first encounters with love and descends into possessiveness, and finally, conflict.",
+    "D. It starts and ends with condescending references to naïve love."
+   ],
+   "concept": "rc_argument_analysis",
+   "correct_answer": "C",
+   "id": "RE-Q184",
+   "question_text": "[Passage 2: Valentine onion poem]\n\nHow does the poem flow from beginning to end?\n\n[Passage excerpt] Not a red rose or a satin heart. I give you an onion. It is a moon wrapped in brown paper. It promises light like the careful undressing of love. Here. It will blind you with tears like a lover. It will make your reflection a wobbling photo of grief. I am trying to be truthful. Not a cute card or a kissogram. I give you an onion. Its fierce kiss will stay on your lips, possessive and faithful as we are, for as long as we are. Take it. Its platinum loops shrink to a wedding ring, if you like. Lethal. Its scent will cling to your fingers, cling to your knife.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. It symbolizes the pleasant first adventures and experiences of love.",
+    "B. It symbolizes unbridled lust.",
+    "C. It is meant to be a literal representation of an onion",
+    "D. It symbolizes the naïve lovers"
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "A",
+   "id": "RE-Q185",
+   "question_text": "[Passage 2: Valentine onion poem]\n\nWhat do lines 4-5, shown below, symbolize? \"It promises light, like the careful undressing of love.\"\n\n[Passage excerpt] Not a red rose or a satin heart. I give you an onion. It is a moon wrapped in brown paper. It promises light like the careful undressing of love. Here. It will blind you with tears like a lover. It will make your reflection a wobbling photo of grief. I am trying to be truthful. Not a cute card or a kissogram. I give you an onion. Its fierce kiss will stay on your lips, possessive and faithful as we are, for as long as we are. Take it. Its platinum loops shrink to a wedding ring, if you like. Lethal. Its scent will cling to your fingers, cling to your knife.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. To show the relationship between the knife and the onion",
+    "B. To end on a grim tone",
+    "C. To represent the escalating of conflict between the lovers",
+    "D. To hint that the lovers killed each other and their children"
+   ],
+   "concept": "rc_authors_purpose",
+   "correct_answer": "C",
+   "id": "RE-Q186",
+   "question_text": "[Passage 2: Valentine onion poem]\n\nWhy does the author mention the word knife in line 23?\n\n[Passage excerpt] Not a red rose or a satin heart. I give you an onion. It is a moon wrapped in brown paper. It promises light like the careful undressing of love. Here. It will blind you with tears like a lover. It will make your reflection a wobbling photo of grief. I am trying to be truthful. Not a cute card or a kissogram. I give you an onion. Its fierce kiss will stay on your lips, possessive and faithful as we are, for as long as we are. Take it. Its platinum loops shrink to a wedding ring, if you like. Lethal. Its scent will cling to your fingers, cling to your knife.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. 47%",
+    "B. 49%",
+    "C. 52%",
+    "D. 39%"
+   ],
+   "concept": "rc_factual_recall",
+   "correct_answer": "C",
+   "id": "RE-Q187",
+   "question_text": "[Passage 3: Sweden snapshots]\n\nThe Swedish government taxes what percent of the country’s GDP?\n\n[Passage excerpt] Swedish snapshot A: Shows a taxed-to-the-eyeballs welfare state where the government grabs more than 52% of the country’s GDP—the highest percentage of any industrial country. A Swedish businessman who earns Euro 200,000 a year gets to keep just 49% of his paycheck. Of OECD countries, only France comes close to Sweden in taxing its most successful businesspeople. Swedish snapshot B: Shows a booming economy bubbling with entrepreneurial activity. Growth is predicted to be 3.5% for 2001; inflation, 1.7%; unemployment, 4% (less than half the European average).",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. By relaying anecdotes on the Swedish economy.",
+    "B. By directly contrasting it with Snapshot A.",
+    "C. By providing statistics.",
+    "D. By quoting expert opinion."
+   ],
+   "concept": "rc_detail_recall",
+   "correct_answer": "C",
+   "id": "RE-Q189",
+   "question_text": "[Passage 3: Sweden snapshots]\n\nHow does Snapshot B support the fact that Sweden is a booming economy?\n\n[Passage excerpt] Swedish snapshot A: Shows a taxed-to-the-eyeballs welfare state where the government grabs more than 52% of the country’s GDP—the highest percentage of any industrial country. A Swedish businessman who earns Euro 200,000 a year gets to keep just 49% of his paycheck. Of OECD countries, only France comes close to Sweden in taxing its most successful businesspeople. Swedish snapshot B: Shows a booming economy bubbling with entrepreneurial activity. Growth is predicted to be 3.5% for 2001; inflation, 1.7%; unemployment, 4% (less than half the European average).",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. By saying that Snapshot B is correct",
+    "B. By stating that it is a amalgamation of both descriptions",
+    "C. By dismissing both statements as erroneous.",
+    "D. By qualifying both statements as true on different levels."
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "B",
+   "id": "RE-Q191",
+   "question_text": "[Passage 3: Sweden snapshots]\n\nHow does the author respond to the questions posed at the end of line 9?\n\n[Passage excerpt] Swedish snapshot A: Shows a taxed-to-the-eyeballs welfare state where the government grabs more than 52% of the country’s GDP—the highest percentage of any industrial country. A Swedish businessman who earns Euro 200,000 a year gets to keep just 49% of his paycheck. Of OECD countries, only France comes close to Sweden in taxing its most successful businesspeople. Swedish snapshot B: Shows a booming economy bubbling with entrepreneurial activity. Growth is predicted to be 3.5% for 2001; inflation, 1.7%; unemployment, 4% (less than half the European average).",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Taxes",
+    "B. Entrepreneurs",
+    "C. Bureaucrats",
+    "D. GDP growth"
+   ],
+   "concept": "rc_factual_recall",
+   "correct_answer": "B",
+   "id": "RE-Q194",
+   "question_text": "[Passage 3: Sweden snapshots]\n\nAccording to line 15, what does a country need to be successful?\n\n[Passage excerpt] Swedish snapshot A: Shows a taxed-to-the-eyeballs welfare state where the government grabs more than 52% of the country’s GDP—the highest percentage of any industrial country. A Swedish businessman who earns Euro 200,000 a year gets to keep just 49% of his paycheck. Of OECD countries, only France comes close to Sweden in taxing its most successful businesspeople. Swedish snapshot B: Shows a booming economy bubbling with entrepreneurial activity. Growth is predicted to be 3.5% for 2001; inflation, 1.7%; unemployment, 4% (less than half the European average).",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. It democratized society.",
+    "B. It lowered taxes back to normal levels for industrial countries.",
+    "C. It created a more business friendly atmosphere.",
+    "D. It gave jobs to entrepreneurs in government."
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "C",
+   "id": "RE-Q195",
+   "question_text": "[Passage 3: Sweden snapshots]\n\nHow did the Swedish Social Democrats respond to the new needs of Sweden?\n\n[Passage excerpt] Swedish snapshot A: Shows a taxed-to-the-eyeballs welfare state where the government grabs more than 52% of the country’s GDP—the highest percentage of any industrial country. A Swedish businessman who earns Euro 200,000 a year gets to keep just 49% of his paycheck. Of OECD countries, only France comes close to Sweden in taxing its most successful businesspeople. Swedish snapshot B: Shows a booming economy bubbling with entrepreneurial activity. Growth is predicted to be 3.5% for 2001; inflation, 1.7%; unemployment, 4% (less than half the European average).",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. The Swedes returned to socialism a few years ago.",
+    "B. The Swedish Social Democrats cemented their hold on government by abolishing other parties.",
+    "C. Entrepreneurs are starting to have a more difficult time doing business.",
+    "D. The Swedes learned to construct a compromise between the extremes of socialism and capitalism."
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "D",
+   "id": "RE-Q196",
+   "question_text": "[Passage 3: Sweden snapshots]\n\nFrom lines 17-18, it can be inferred that ______.\n\n[Passage excerpt] Swedish snapshot A: Shows a taxed-to-the-eyeballs welfare state where the government grabs more than 52% of the country’s GDP—the highest percentage of any industrial country. A Swedish businessman who earns Euro 200,000 a year gets to keep just 49% of his paycheck. Of OECD countries, only France comes close to Sweden in taxing its most successful businesspeople. Swedish snapshot B: Shows a booming economy bubbling with entrepreneurial activity. Growth is predicted to be 3.5% for 2001; inflation, 1.7%; unemployment, 4% (less than half the European average).",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. It could be unsafe for consumption in some isolated cases.",
+    "B. It is totally safe for consumption and may be bred alongside normal salmon.",
+    "C. It is unsafe for consumption and will be banned.",
+    "D. It is safe for consumption, but should be bred in isolated areas."
+   ],
+   "concept": "rc_detail_recall",
+   "correct_answer": "D",
+   "id": "RE-Q198",
+   "question_text": "[Passage 4A: Genetic modification salmon]\n\nAccording to Passage A, what is the F.D.A.’s stance on the safety of genetically modified salmon for raising and consumption?\n\n[Passage excerpt] If patience is a virtue, then AquaBounty, a Massachusetts biotech company, might be the most virtuous entity on the planet. In 1993, the company approached the Food and Drug Administration about selling a genetically modified salmon that grew faster than normal fish. In 1995, AquaBounty formally applied for approval. Last month, more than 17 years later, the public comment period, one of the last steps in the approval process, was finally supposed to conclude. The AquAdvantage fish is an Atlantic salmon that carries two foreign bits of DNA.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. It accelerated growth.",
+    "B. It made the salmon disease-proof.",
+    "C. It made salmon breeding in warm water possible.",
+    "D. It increased the average salmon size and weight fourfold."
+   ],
+   "concept": "rc_cause_effect",
+   "correct_answer": "A",
+   "id": "RE-Q199",
+   "question_text": "[Passage 4A: Genetic modification salmon]\n\nWhat did the genetic adjustment do to the salmon?\n\n[Passage excerpt] If patience is a virtue, then AquaBounty, a Massachusetts biotech company, might be the most virtuous entity on the planet. In 1993, the company approached the Food and Drug Administration about selling a genetically modified salmon that grew faster than normal fish. In 1995, AquaBounty formally applied for approval. Last month, more than 17 years later, the public comment period, one of the last steps in the approval process, was finally supposed to conclude. The AquAdvantage fish is an Atlantic salmon that carries two foreign bits of DNA.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Public protests on the issue",
+    "B. Political opposition",
+    "C. Lack of investors",
+    "D. Movement of researchers to foreign countries"
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "B",
+   "id": "RE-Q200",
+   "question_text": "[Passage 4A: Genetic modification salmon]\n\nIt can be inferred from lines 16-19 of Passage A that the process is taking longer than it should because of __________.\n\n[Passage excerpt] If patience is a virtue, then AquaBounty, a Massachusetts biotech company, might be the most virtuous entity on the planet. In 1993, the company approached the Food and Drug Administration about selling a genetically modified salmon that grew faster than normal fish. In 1995, AquaBounty formally applied for approval. Last month, more than 17 years later, the public comment period, one of the last steps in the approval process, was finally supposed to conclude. The AquAdvantage fish is an Atlantic salmon that carries two foreign bits of DNA.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. China, India and Argentina have hired fresh graduates from American Universities.",
+    "B. Some American researchers stopped doing research.",
+    "C. European anti-Biotech groups hired researchers to do work against Bio Engineering in Switzerland.",
+    "D. Scientists from the University of California moved to do their work in Brazil."
+   ],
+   "concept": "rc_detail_recall",
+   "correct_answer": "D",
+   "id": "RE-Q201",
+   "question_text": "[Passage 4A: Genetic modification salmon]\n\nWhat is the example given of researchers moving to foreign countries to do their work?\n\n[Passage excerpt] If patience is a virtue, then AquaBounty, a Massachusetts biotech company, might be the most virtuous entity on the planet. In 1993, the company approached the Food and Drug Administration about selling a genetically modified salmon that grew faster than normal fish. In 1995, AquaBounty formally applied for approval. Last month, more than 17 years later, the public comment period, one of the last steps in the approval process, was finally supposed to conclude. The AquAdvantage fish is an Atlantic salmon that carries two foreign bits of DNA.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Helen Wallace",
+    "B. France Galton",
+    "C. Emily Anthes",
+    "D. Lloyd Dalton"
+   ],
+   "concept": "rc_factual_recall",
+   "correct_answer": "B",
+   "id": "RE-Q203",
+   "question_text": "[Passage 4B: Against genetic enhancement (eugenics)]\n\nWho came up with the term eugenics found in line 3 of passage B?\n\n[Passage excerpt] Should we improve our genetic make-up so we live longer, healthier lives? At first, the answer to this question may seem obvious - we all dream of winning the battle against ageing. But the idea of genetic improvement is deeply flawed. The term \"eugenics\" was first coined by France Galton in 1883 to mean 'truly' or 'purely' born. It was later developed as 'the science of the improvement of the human race by better breeding'.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. That humans with inferior genes should be isolated in islands",
+    "B. That life is largely determined by genes and inherited traits",
+    "C. That intelligence and health can never be inherited",
+    "D. That genetics is only a very minor cause of social ills"
+   ],
+   "concept": "rc_argument_analysis",
+   "correct_answer": "B",
+   "id": "RE-Q204",
+   "question_text": "[Passage 4B: Against genetic enhancement (eugenics)]\n\nWhat is the main premise of the science of eugenics?\n\n[Passage excerpt] Should we improve our genetic make-up so we live longer, healthier lives? At first, the answer to this question may seem obvious - we all dream of winning the battle against ageing. But the idea of genetic improvement is deeply flawed. The term \"eugenics\" was first coined by France Galton in 1883 to mean 'truly' or 'purely' born. It was later developed as 'the science of the improvement of the human race by better breeding'.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Genetic Engineering is dangerous for the environment.",
+    "B. Genetic Engineering is not the solution to the world’s problems",
+    "C. The fast food industry and the environment are the major issues of the day.",
+    "D. Eugenics is a dangerous science that should be suppressed."
+   ],
+   "concept": "rc_argument_analysis",
+   "correct_answer": "B",
+   "id": "RE-Q206",
+   "question_text": "[Passage 4B: Against genetic enhancement (eugenics)]\n\nWhat is the main idea of Passage B?\n\n[Passage excerpt] Should we improve our genetic make-up so we live longer, healthier lives? At first, the answer to this question may seem obvious - we all dream of winning the battle against ageing. But the idea of genetic improvement is deeply flawed. The term \"eugenics\" was first coined by France Galton in 1883 to mean 'truly' or 'purely' born. It was later developed as 'the science of the improvement of the human race by better breeding'.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Insignificant",
+    "B. Powerful",
+    "C. Highly unstable",
+    "D. Unethical"
+   ],
+   "concept": "rc_argument_analysis",
+   "correct_answer": "B",
+   "id": "RE-Q208",
+   "question_text": "[Passage 4B: Against genetic enhancement (eugenics)]\n\nBoth authors would agree that Genetic Engineering is ____.\n\n[Passage excerpt] Should we improve our genetic make-up so we live longer, healthier lives? At first, the answer to this question may seem obvious - we all dream of winning the battle against ageing. But the idea of genetic improvement is deeply flawed. The term \"eugenics\" was first coined by France Galton in 1883 to mean 'truly' or 'purely' born. It was later developed as 'the science of the improvement of the human race by better breeding'.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. With outright rejection, since genetic engineering should be done away with entirely.",
+    "B. With caution, since this development in genetics could later be used on humans.",
+    "C. With unrestrained optimism, since it will solve world hunger.",
+    "D. With disgust, because of the involvement of politics in science."
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "B",
+   "id": "RE-Q210",
+   "question_text": "[Passage 4B: Against genetic enhancement (eugenics)]\n\nHow would the author of Passage B react to the developments in Passage A?\n\n[Passage excerpt] Should we improve our genetic make-up so we live longer, healthier lives? At first, the answer to this question may seem obvious - we all dream of winning the battle against ageing. But the idea of genetic improvement is deeply flawed. The term \"eugenics\" was first coined by France Galton in 1883 to mean 'truly' or 'purely' born. It was later developed as 'the science of the improvement of the human race by better breeding'.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. 8",
+    "B. 5",
+    "C. 3",
+    "D. 9"
+   ],
+   "concept": "rc_factual_recall",
+   "correct_answer": "D",
+   "id": "RE-Q211",
+   "question_text": "[Passage 5: US college admissions selectivity]\n\nAccording to the passage, Harvard College has an acceptance rate of ____%.\n\n[Passage excerpt] Harvard turned down 1,100 student applicants with perfect 800 scores on the SAT math exam. Yale rejected several applicants with perfect 2400 scores on the three-part SAT, and Princeton turned away thousands of high school applicants with 4.0 grade point averages. Needless to say, high school valedictorians were a dime a dozen. It was the most selective spring in modern memory at America's elite schools, according to college admissions officers. More applications poured into top schools this admissions cycle than in any previous year on record.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Hard to find",
+    "B. Common",
+    "C. In high demand",
+    "D. Cheap"
+   ],
+   "concept": "rc_detail_recall",
+   "correct_answer": "B",
+   "id": "RE-Q212",
+   "question_text": "[Passage 5: US college admissions selectivity]\n\nWhat does the phrase \"a dime a dozen,\" used to describe valedictorian applicants in line 3, most nearly mean?\n\n[Passage excerpt] Harvard turned down 1,100 student applicants with perfect 800 scores on the SAT math exam. Yale rejected several applicants with perfect 2400 scores on the three-part SAT, and Princeton turned away thousands of high school applicants with 4.0 grade point averages. Needless to say, high school valedictorians were a dime a dozen. It was the most selective spring in modern memory at America's elite schools, according to college admissions officers. More applications poured into top schools this admissions cycle than in any previous year on record.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Extraordinarily talented kids were getting rejected by colleges",
+    "B. There were too many applicants to the colleges",
+    "C. Acceptance rates were brutally low",
+    "D. Perfect SAT scores were no longer enough"
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "A",
+   "id": "RE-Q213",
+   "question_text": "[Passage 5: US college admissions selectivity]\n\nWhy were parents shocked by the results of the previous admissions cycle?\n\n[Passage excerpt] Harvard turned down 1,100 student applicants with perfect 800 scores on the SAT math exam. Yale rejected several applicants with perfect 2400 scores on the three-part SAT, and Princeton turned away thousands of high school applicants with 4.0 grade point averages. Needless to say, high school valedictorians were a dime a dozen. It was the most selective spring in modern memory at America's elite schools, according to college admissions officers. More applications poured into top schools this admissions cycle than in any previous year on record.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Multiple applications per student",
+    "B. The high number of high school graduates",
+    "C. More students are enrolling in college right after high school",
+    "D. Super-students with high test scores, stellar grades and outstanding activities have become more common."
+   ],
+   "concept": "rc_cause_effect",
+   "correct_answer": "D",
+   "id": "RE-Q214",
+   "question_text": "[Passage 5: US college admissions selectivity]\n\nWhich of the following is not mentioned as a contributing factor to the low acceptance rates in the top colleges?\n\n[Passage excerpt] Harvard turned down 1,100 student applicants with perfect 800 scores on the SAT math exam. Yale rejected several applicants with perfect 2400 scores on the three-part SAT, and Princeton turned away thousands of high school applicants with 4.0 grade point averages. Needless to say, high school valedictorians were a dime a dozen. It was the most selective spring in modern memory at America's elite schools, according to college admissions officers. More applications poured into top schools this admissions cycle than in any previous year on record.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Applicants to Caltech need to have created a computer system independently while in high school.",
+    "B. Caltech does not hold extracurricular activities in the humanities in high regard.",
+    "C. Because of the highly competitive applicant pool, applicants need to distinguish themselves with activities that clearly show their passion.",
+    "D. Science and technology are always given the most value in college admissions for all schools."
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "C",
+   "id": "RE-Q215",
+   "question_text": "[Passage 5: US college admissions selectivity]\n\nThis quote about Caltech applicants below, from line 37 of the passage indicates that _______. \"The successful students have to have shown some passion for science and technology in high school or their personal life...\"\n\n[Passage excerpt] Harvard turned down 1,100 student applicants with perfect 800 scores on the SAT math exam. Yale rejected several applicants with perfect 2400 scores on the three-part SAT, and Princeton turned away thousands of high school applicants with 4.0 grade point averages. Needless to say, high school valedictorians were a dime a dozen. It was the most selective spring in modern memory at America's elite schools, according to college admissions officers. More applications poured into top schools this admissions cycle than in any previous year on record.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Excited",
+    "B. Matter-of-factly",
+    "C. Sarcastic",
+    "D. Stricken"
+   ],
+   "concept": "rc_authors_purpose",
+   "correct_answer": "B",
+   "id": "RE-Q216",
+   "question_text": "[Passage 5: US college admissions selectivity]\n\nThe tone in lines 1-3 can best be described as ________.\n\n[Passage excerpt] Harvard turned down 1,100 student applicants with perfect 800 scores on the SAT math exam. Yale rejected several applicants with perfect 2400 scores on the three-part SAT, and Princeton turned away thousands of high school applicants with 4.0 grade point averages. Needless to say, high school valedictorians were a dime a dozen. It was the most selective spring in modern memory at America's elite schools, according to college admissions officers. More applications poured into top schools this admissions cycle than in any previous year on record.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Selectivity in Today's Colleges.",
+    "B. Destruction of Hopes and Dreams",
+    "C. The End of the American Dream",
+    "D. Ivy League Admissions"
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "A",
+   "id": "RE-Q217",
+   "question_text": "[Passage 5: US college admissions selectivity]\n\nWhat would be an appropriate title for the passage?\n\n[Passage excerpt] Harvard turned down 1,100 student applicants with perfect 800 scores on the SAT math exam. Yale rejected several applicants with perfect 2400 scores on the three-part SAT, and Princeton turned away thousands of high school applicants with 4.0 grade point averages. Needless to say, high school valedictorians were a dime a dozen. It was the most selective spring in modern memory at America's elite schools, according to college admissions officers. More applications poured into top schools this admissions cycle than in any previous year on record.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. To entertain",
+    "B. To persuade",
+    "C. To inform",
+    "D. To criticize"
+   ],
+   "concept": "rc_authors_purpose",
+   "correct_answer": "C",
+   "id": "RE-Q218",
+   "question_text": "[Passage 5: US college admissions selectivity]\n\nWhat is the author's purpose for writing this passage?\n\n[Passage excerpt] Harvard turned down 1,100 student applicants with perfect 800 scores on the SAT math exam. Yale rejected several applicants with perfect 2400 scores on the three-part SAT, and Princeton turned away thousands of high school applicants with 4.0 grade point averages. Needless to say, high school valedictorians were a dime a dozen. It was the most selective spring in modern memory at America's elite schools, according to college admissions officers. More applications poured into top schools this admissions cycle than in any previous year on record.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Students have it easier these days.",
+    "B. Amherst decreased its number of enrollees this year.",
+    "C. Colleges everywhere have raised the bar for admissions significantly.",
+    "D. Admission to college was less competitive before."
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "D",
+   "id": "RE-Q219",
+   "question_text": "[Passage 5: US college admissions selectivity]\n\nWhat does Mr. Statt's statement in line 43 regarding college admissions imply?\n\n[Passage excerpt] Harvard turned down 1,100 student applicants with perfect 800 scores on the SAT math exam. Yale rejected several applicants with perfect 2400 scores on the three-part SAT, and Princeton turned away thousands of high school applicants with 4.0 grade point averages. Needless to say, high school valedictorians were a dime a dozen. It was the most selective spring in modern memory at America's elite schools, according to college admissions officers. More applications poured into top schools this admissions cycle than in any previous year on record.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. The Ivy League admissions process is ridiculously outdated.",
+    "B. Admission to America's top colleges has become fiercely competitive.",
+    "C. Top schools should accept more students to help stymie the intense competition for limited slots.",
+    "D. Extraordinary students with stellar grades, test scores and activities should prepare for eventual rejection."
+   ],
+   "concept": "rc_argument_analysis",
+   "correct_answer": "B",
+   "id": "RE-Q220",
+   "question_text": "[Passage 5: US college admissions selectivity]\n\nWhat is the main idea of the passage?\n\n[Passage excerpt] Harvard turned down 1,100 student applicants with perfect 800 scores on the SAT math exam. Yale rejected several applicants with perfect 2400 scores on the three-part SAT, and Princeton turned away thousands of high school applicants with 4.0 grade point averages. Needless to say, high school valedictorians were a dime a dozen. It was the most selective spring in modern memory at America's elite schools, according to college admissions officers. More applications poured into top schools this admissions cycle than in any previous year on record.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Kurosawa had an unfulfilled ego.",
+    "B. He was flattered by the title.",
+    "C. It will help him become remembered by the future generations of the world, which was his objective.",
+    "D. He did not believe that he could be written or talked about without his films, because his life was only about his films."
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "D",
+   "id": "RE-Q221",
+   "question_text": "[Passage 6: Remembering Kurosawa filmmaker]\n\nWhy was Kurosawa only interested in the author's project when he learned it was to be called \"The Films of Akira Kurosawa?\"\n\n[Passage excerpt] Not that he himself wanted to be remembered. Rather, he wanted his work to be remembered. He once wrote: \"Take 'myself,' subtract 'movies,' and the result is 'zero.'\" It was as though he thought he did not exist except through his movies. When I was writing my book about him, he sometimes complained that there was nothing to write about if I persisted in asking him about himself. He became interested in my project only when he learned it was to be called The Films of Akira Kurosawa.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. He wanted to convey the fact that artists were more concerned with the practical side of art, not theory.",
+    "B. He wanted to show how artists were obsessed over the emotions and feelings that their works invoke.",
+    "C. Artists were impractical, and thus discussed only mundane concerns.",
+    "D. He wanted it to complement with the discussion on theory by critics."
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "A",
+   "id": "RE-Q222",
+   "question_text": "[Passage 6: Remembering Kurosawa filmmaker]\n\nWhy does the Picasso use the word turpentine in line 6?\n\n[Passage excerpt] Not that he himself wanted to be remembered. Rather, he wanted his work to be remembered. He once wrote: \"Take 'myself,' subtract 'movies,' and the result is 'zero.'\" It was as though he thought he did not exist except through his movies. When I was writing my book about him, he sometimes complained that there was nothing to write about if I persisted in asking him about himself. He became interested in my project only when he learned it was to be called The Films of Akira Kurosawa.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Rashomon",
+    "B. Throne of Blood",
+    "C. Kagemusha",
+    "D. Sugata"
+   ],
+   "concept": "rc_factual_recall",
+   "correct_answer": "B",
+   "id": "RE-Q223",
+   "question_text": "[Passage 6: Remembering Kurosawa filmmaker]\n\nKurosawa had the castle from which film dismantled because it used nails?\n\n[Passage excerpt] Not that he himself wanted to be remembered. Rather, he wanted his work to be remembered. He once wrote: \"Take 'myself,' subtract 'movies,' and the result is 'zero.'\" It was as though he thought he did not exist except through his movies. When I was writing my book about him, he sometimes complained that there was nothing to write about if I persisted in asking him about himself. He became interested in my project only when he learned it was to be called The Films of Akira Kurosawa.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Because he made only ten films in his life as a matter of principle.",
+    "B. Because of his destructive nature in and out of work.",
+    "C. Because of his dictatorial style as director.",
+    "D. Because of the fame he garnered in Japan and abroad."
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "C",
+   "id": "RE-Q224",
+   "question_text": "[Passage 6: Remembering Kurosawa filmmaker]\n\nWhy did Kurosawa gain the title of \"Tenno?\"\n\n[Passage excerpt] Not that he himself wanted to be remembered. Rather, he wanted his work to be remembered. He once wrote: \"Take 'myself,' subtract 'movies,' and the result is 'zero.'\" It was as though he thought he did not exist except through his movies. When I was writing my book about him, he sometimes complained that there was nothing to write about if I persisted in asking him about himself. He became interested in my project only when he learned it was to be called The Films of Akira Kurosawa.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. He gave up and focused on less expensive films, and was thus able to continue his work.",
+    "B. He immigrated to America to gain funding.",
+    "C. He made detailed storyboards of his unmade films and looked for funding abroad.",
+    "D. He quit filmmaking for the rest of his life, and focused on taking care of his grandchildren and negotiating film contracts instead."
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "C",
+   "id": "RE-Q225",
+   "question_text": "[Passage 6: Remembering Kurosawa filmmaker]\n\nWhat did Kurosawa do when he realized that local organizations and companies would not fund his films?\n\n[Passage excerpt] Not that he himself wanted to be remembered. Rather, he wanted his work to be remembered. He once wrote: \"Take 'myself,' subtract 'movies,' and the result is 'zero.'\" It was as though he thought he did not exist except through his movies. When I was writing my book about him, he sometimes complained that there was nothing to write about if I persisted in asking him about himself. He became interested in my project only when he learned it was to be called The Films of Akira Kurosawa.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Kurosawa was still obsessed over minor details in his later years.",
+    "B. The Soviets from Mosfilm had an easy time negotiating, since Kurosawa was desperate for funding.",
+    "C. Kurosawa had another side to his strict and dictatorial nature.",
+    "D. Age had tempered Kurosawa's attitude."
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "C",
+   "id": "RE-Q226",
+   "question_text": "[Passage 6: Remembering Kurosawa filmmaker]\n\nWhat did the event in lines 33-36 show about Kurosawa?\n\n[Passage excerpt] Not that he himself wanted to be remembered. Rather, he wanted his work to be remembered. He once wrote: \"Take 'myself,' subtract 'movies,' and the result is 'zero.'\" It was as though he thought he did not exist except through his movies. When I was writing my book about him, he sometimes complained that there was nothing to write about if I persisted in asking him about himself. He became interested in my project only when he learned it was to be called The Films of Akira Kurosawa.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. He was not popular among Japanese filmmakers.",
+    "B. His reputation was tarnished by his collaboration with Mosfilm.",
+    "C. Oshima had a personal grudge against Kurosawa because he fired him when he was just beginning in the industry.",
+    "D. Kurosawa was never seen as a sensei by anybody before or after the meeting."
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "A",
+   "id": "RE-Q227",
+   "question_text": "[Passage 6: Remembering Kurosawa filmmaker]\n\nWhat do lines 38-39 imply about Kurosawa?\n\n[Passage excerpt] Not that he himself wanted to be remembered. Rather, he wanted his work to be remembered. He once wrote: \"Take 'myself,' subtract 'movies,' and the result is 'zero.'\" It was as though he thought he did not exist except through his movies. When I was writing my book about him, he sometimes complained that there was nothing to write about if I persisted in asking him about himself. He became interested in my project only when he learned it was to be called The Films of Akira Kurosawa.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. It gave him approval to make even more films after rejection by Japanese producers.",
+    "B. It affirmed the influence and greatness of his films, after the doubts cast over him by his countrymen.",
+    "C. It let him retire peacefully and return life he had before filmmaking.",
+    "D. It fulfilled his desire to become known as the greatest Japanese filmmaker of his generation."
+   ],
+   "concept": "rc_detail_recall",
+   "correct_answer": "B",
+   "id": "RE-Q228",
+   "question_text": "[Passage 6: Remembering Kurosawa filmmaker]\n\nWhat does the word vindication, mentioned in line 45, mean for Kurosawa?\n\n[Passage excerpt] Not that he himself wanted to be remembered. Rather, he wanted his work to be remembered. He once wrote: \"Take 'myself,' subtract 'movies,' and the result is 'zero.'\" It was as though he thought he did not exist except through his movies. When I was writing my book about him, he sometimes complained that there was nothing to write about if I persisted in asking him about himself. He became interested in my project only when he learned it was to be called The Films of Akira Kurosawa.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Kurosawa was still obsessed over his reputation.",
+    "B. Kurosawa had created his newest films to cement his legacy.",
+    "C. Kurosawa was about to die, and intended to pass on his experience to a successor.",
+    "D. Kurosawa was always more concerned about imparting lessons to future generations"
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "D",
+   "id": "RE-Q229",
+   "question_text": "[Passage 6: Remembering Kurosawa filmmaker]\n\nLines 45-49 indicate that ________.\n\n[Passage excerpt] Not that he himself wanted to be remembered. Rather, he wanted his work to be remembered. He once wrote: \"Take 'myself,' subtract 'movies,' and the result is 'zero.'\" It was as though he thought he did not exist except through his movies. When I was writing my book about him, he sometimes complained that there was nothing to write about if I persisted in asking him about himself. He became interested in my project only when he learned it was to be called The Films of Akira Kurosawa.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Life was, in Kurosawa's point of view, only about the past.",
+    "B. To contrast with the perception that he was \"summing up\" Kurosawa's life",
+    "C. To point out a common misconception among scholars of Kurosawa",
+    "D. Kurosawa will always remain a mysterious figure whom we may never know well enough."
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "B",
+   "id": "RE-Q230",
+   "question_text": "[Passage 6: Remembering Kurosawa filmmaker]\n\nWhy does the author say that you \"cannot sum up the dead\" in line 53?\n\n[Passage excerpt] Not that he himself wanted to be remembered. Rather, he wanted his work to be remembered. He once wrote: \"Take 'myself,' subtract 'movies,' and the result is 'zero.'\" It was as though he thought he did not exist except through his movies. When I was writing my book about him, he sometimes complained that there was nothing to write about if I persisted in asking him about himself. He became interested in my project only when he learned it was to be called The Films of Akira Kurosawa.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Mr. Darcy was egotistical.",
+    "B. Mr. Darcy was looking for a favor from Elizabeth.",
+    "C. Mr. Darcy did something good for Elizabeth's family.",
+    "D. Mr. Darcy helped everyone in town with their problems."
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "C",
+   "id": "RE-Q231",
+   "question_text": "[Passage 7: Pride and Prejudice Darcy/Elizabeth excerpt]\n\nThe phrase \"If you will thank me\" in line 1 indicates that _______.\n\n[Passage excerpt] \"If you will thank me,\" he replied, \"let it be for yourself alone. That the wish of giving happiness to you might add force to the other inducements which led me on, I shall not attempt to deny. But your family owe me nothing. Much as I respect them, I believe I thought only of you.\" Elizabeth was too much embarrassed to say a word. After a short pause, her companion added, \"you are too generous to trifle with me.\"",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Motives",
+    "B. Initiatives",
+    "C. Thoughts",
+    "D. Punishments"
+   ],
+   "concept": "rc_detail_recall",
+   "correct_answer": "A",
+   "id": "RE-Q232",
+   "question_text": "[Passage 7: Pride and Prejudice Darcy/Elizabeth excerpt]\n\nWhat does the word \"inducements\" in line 2 most nearly mean?\n\n[Passage excerpt] \"If you will thank me,\" he replied, \"let it be for yourself alone. That the wish of giving happiness to you might add force to the other inducements which led me on, I shall not attempt to deny. But your family owe me nothing. Much as I respect them, I believe I thought only of you.\" Elizabeth was too much embarrassed to say a word. After a short pause, her companion added, \"you are too generous to trifle with me.\"",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Mr. Darcy did not care at all for Elizabeth's family.",
+    "B. Mr. Darcy did it out of his affection for Elizabeth.",
+    "C. Mr. Darcy was an obsessive and mad person.",
+    "D. Mr. Darcy only wanted to return a favor to Elizabeth for her help."
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "B",
+   "id": "RE-Q233",
+   "question_text": "[Passage 7: Pride and Prejudice Darcy/Elizabeth excerpt]\n\nWhat does the phrase \"I believe I thought only of you,\" in line 2 mean?\n\n[Passage excerpt] \"If you will thank me,\" he replied, \"let it be for yourself alone. That the wish of giving happiness to you might add force to the other inducements which led me on, I shall not attempt to deny. But your family owe me nothing. Much as I respect them, I believe I thought only of you.\" Elizabeth was too much embarrassed to say a word. After a short pause, her companion added, \"you are too generous to trifle with me.\"",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. She was flattered and shocked by his unexpected remarks.",
+    "B. Darcy was making her family look helpless.",
+    "C. Darcy was being rude to Elizabeth",
+    "D. Elizabeth felt that Darcy was trying to embarrass her again."
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "A",
+   "id": "RE-Q234",
+   "question_text": "[Passage 7: Pride and Prejudice Darcy/Elizabeth excerpt]\n\nWhy was Elizabeth embarrassed by Darcy's remarks?\n\n[Passage excerpt] \"If you will thank me,\" he replied, \"let it be for yourself alone. That the wish of giving happiness to you might add force to the other inducements which led me on, I shall not attempt to deny. But your family owe me nothing. Much as I respect them, I believe I thought only of you.\" Elizabeth was too much embarrassed to say a word. After a short pause, her companion added, \"you are too generous to trifle with me.\"",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. To eat",
+    "B. To dabble",
+    "C. To squander",
+    "D. To give back"
+   ],
+   "concept": "rc_detail_recall",
+   "correct_answer": "B",
+   "id": "RE-Q235",
+   "question_text": "[Passage 7: Pride and Prejudice Darcy/Elizabeth excerpt]\n\nWhat does the word \"trifle\" mentioned in line 3 most nearly mean?\n\n[Passage excerpt] \"If you will thank me,\" he replied, \"let it be for yourself alone. That the wish of giving happiness to you might add force to the other inducements which led me on, I shall not attempt to deny. But your family owe me nothing. Much as I respect them, I believe I thought only of you.\" Elizabeth was too much embarrassed to say a word. After a short pause, her companion added, \"you are too generous to trifle with me.\"",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. That if Elizabeth still dislikes him, she only needs to say so, then he will leave her life.",
+    "B. That he is willing to make peace, even if they hated each other before.",
+    "C. That their love has never faltered at all.",
+    "D. That he had no affection for her at all."
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "A",
+   "id": "RE-Q236",
+   "question_text": "[Passage 7: Pride and Prejudice Darcy/Elizabeth excerpt]\n\nWhat did Darcy wish to express in lines 3-5?\n\n[Passage excerpt] \"If you will thank me,\" he replied, \"let it be for yourself alone. That the wish of giving happiness to you might add force to the other inducements which led me on, I shall not attempt to deny. But your family owe me nothing. Much as I respect them, I believe I thought only of you.\" Elizabeth was too much embarrassed to say a word. After a short pause, her companion added, \"you are too generous to trifle with me.\"",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Regret",
+    "B. Happiness",
+    "C. Pride",
+    "D. Shame"
+   ],
+   "concept": "rc_detail_recall",
+   "correct_answer": "B",
+   "id": "RE-Q237",
+   "question_text": "[Passage 7: Pride and Prejudice Darcy/Elizabeth excerpt]\n\nWhat did Mr. Darcy feel about Elizabeth's reaction in lines 6-8?\n\n[Passage excerpt] \"If you will thank me,\" he replied, \"let it be for yourself alone. That the wish of giving happiness to you might add force to the other inducements which led me on, I shall not attempt to deny. But your family owe me nothing. Much as I respect them, I believe I thought only of you.\" Elizabeth was too much embarrassed to say a word. After a short pause, her companion added, \"you are too generous to trifle with me.\"",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Darcy conducted himself in such a manner that showed it.",
+    "B. Darcy's words expressed it.",
+    "C. Darcy still showed his contempt through his body language.",
+    "D. It showed in his actions."
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "B",
+   "id": "RE-Q238",
+   "question_text": "[Passage 7: Pride and Prejudice Darcy/Elizabeth excerpt]\n\nThough Elizabeth was not able to see Darcy's affection visually, ____.\n\n[Passage excerpt] \"If you will thank me,\" he replied, \"let it be for yourself alone. That the wish of giving happiness to you might add force to the other inducements which led me on, I shall not attempt to deny. But your family owe me nothing. Much as I respect them, I believe I thought only of you.\" Elizabeth was too much embarrassed to say a word. After a short pause, her companion added, \"you are too generous to trifle with me.\"",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Referenced",
+    "B. Withheld",
+    "C. Remembered",
+    "D. Neglect"
+   ],
+   "concept": "rc_detail_recall",
+   "correct_answer": "A",
+   "id": "RE-Q239",
+   "question_text": "[Passage 7: Pride and Prejudice Darcy/Elizabeth excerpt]\n\nWhat does the word \"alluded\" in line 6 most nearly mean?\n\n[Passage excerpt] \"If you will thank me,\" he replied, \"let it be for yourself alone. That the wish of giving happiness to you might add force to the other inducements which led me on, I shall not attempt to deny. But your family owe me nothing. Much as I respect them, I believe I thought only of you.\" Elizabeth was too much embarrassed to say a word. After a short pause, her companion added, \"you are too generous to trifle with me.\"",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. They did not mind each other because of the awkwardness that came about.",
+    "B. They were in love, and could not mind anything else.",
+    "C. They were expressing resentment, and so did not talk much.",
+    "D. Although they admitted that they liked each other, they could not actually converse with each other properly."
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "B",
+   "id": "RE-Q240",
+   "question_text": "[Passage 7: Pride and Prejudice Darcy/Elizabeth excerpt]\n\nLine 11 shows that _______.\n\n[Passage excerpt] \"If you will thank me,\" he replied, \"let it be for yourself alone. That the wish of giving happiness to you might add force to the other inducements which led me on, I shall not attempt to deny. But your family owe me nothing. Much as I respect them, I believe I thought only of you.\" Elizabeth was too much embarrassed to say a word. After a short pause, her companion added, \"you are too generous to trifle with me.\"",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. The pit of his enemies",
+    "B. An executioner's pit",
+    "C. Hell",
+    "D. His grave"
+   ],
+   "concept": "rc_detail_recall",
+   "correct_answer": "C",
+   "id": "RE-Q241",
+   "question_text": "[Passage 8: Invictus poem by Henley]\n\nWhat is the pit being referred to in line 2?\n\n[Passage excerpt] Out of the night that covers me, Black as the Pit from pole to pole, I thank whatever gods may be For my unconquerable soul. In the fell clutch of circumstance I have not winced nor cried aloud. Under the bludgeonings of chance My head is bloody, but unbowed.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Pride at being unbeaten or unconquered.",
+    "B. Defiance of fate",
+    "C. Appreciation of his will to survive",
+    "D. Indebtedness to the gods"
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "D",
+   "id": "RE-Q242",
+   "question_text": "[Passage 8: Invictus poem by Henley]\n\nIn lines 3-4, the author expresses his ___________.\n\n[Passage excerpt] Out of the night that covers me, Black as the Pit from pole to pole, I thank whatever gods may be For my unconquerable soul. In the fell clutch of circumstance I have not winced nor cried aloud. Under the bludgeonings of chance My head is bloody, but unbowed.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. His situation",
+    "B. His blessedness",
+    "C. His mentality",
+    "D. His indomitable attitude"
+   ],
+   "concept": "rc_detail_recall",
+   "correct_answer": "A",
+   "id": "RE-Q243",
+   "question_text": "[Passage 8: Invictus poem by Henley]\n\nWhat does the word circumstance in line 5 refer to?\n\n[Passage excerpt] Out of the night that covers me, Black as the Pit from pole to pole, I thank whatever gods may be For my unconquerable soul. In the fell clutch of circumstance I have not winced nor cried aloud. Under the bludgeonings of chance My head is bloody, but unbowed.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. That he was suffering much",
+    "B. That he will not complain or back down to the circumstances that befell him",
+    "C. That he was weakened by long periods of trying to fight",
+    "D. That he will not go against fate anymore."
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "B",
+   "id": "RE-Q244",
+   "question_text": "[Passage 8: Invictus poem by Henley]\n\nWhen the author wrote that he had \"not winced nor cried aloud,\" what was he trying to express?\n\n[Passage excerpt] Out of the night that covers me, Black as the Pit from pole to pole, I thank whatever gods may be For my unconquerable soul. In the fell clutch of circumstance I have not winced nor cried aloud. Under the bludgeonings of chance My head is bloody, but unbowed.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. A helpless prisoner being executed",
+    "B. A madman inflicting wounds on himself",
+    "C. A soldier fighting on despite his wounds",
+    "D. An animal that remains hostile despite being caged."
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "C",
+   "id": "RE-Q245",
+   "question_text": "[Passage 8: Invictus poem by Henley]\n\nLines 7-8 would most likely convey an image of ________.\n\n[Passage excerpt] Out of the night that covers me, Black as the Pit from pole to pole, I thank whatever gods may be For my unconquerable soul. In the fell clutch of circumstance I have not winced nor cried aloud. Under the bludgeonings of chance My head is bloody, but unbowed.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Safety and peace",
+    "B. More suffering and darkness",
+    "C. Memories and regrets",
+    "D. The warm embrace of the gods"
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "B",
+   "id": "RE-Q246",
+   "question_text": "[Passage 8: Invictus poem by Henley]\n\nWhat lies in the \"beyond\" being referred to in line 9?\n\n[Passage excerpt] Out of the night that covers me, Black as the Pit from pole to pole, I thank whatever gods may be For my unconquerable soul. In the fell clutch of circumstance I have not winced nor cried aloud. Under the bludgeonings of chance My head is bloody, but unbowed.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Fearless",
+    "B. Destitute",
+    "C. Cold and just barely alive",
+    "D. Desperate"
+   ],
+   "concept": "rc_detail_recall",
+   "correct_answer": "A",
+   "id": "RE-Q247",
+   "question_text": "[Passage 8: Invictus poem by Henley]\n\nWhat does the author say he is as the \"menace of the years\" finds him?\n\n[Passage excerpt] Out of the night that covers me, Black as the Pit from pole to pole, I thank whatever gods may be For my unconquerable soul. In the fell clutch of circumstance I have not winced nor cried aloud. Under the bludgeonings of chance My head is bloody, but unbowed.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Peace",
+    "B. A short break from suffering",
+    "C. Death",
+    "D. Even more suffering and punishment"
+   ],
+   "concept": "rc_inferring_purpose",
+   "correct_answer": "D",
+   "id": "RE-Q248",
+   "question_text": "[Passage 8: Invictus poem by Henley]\n\nWhat beckons for the author in line 14?\n\n[Passage excerpt] Out of the night that covers me, Black as the Pit from pole to pole, I thank whatever gods may be For my unconquerable soul. In the fell clutch of circumstance I have not winced nor cried aloud. Under the bludgeonings of chance My head is bloody, but unbowed.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Fear",
+    "B. Impudence",
+    "C. Defiance",
+    "D. Effrontery"
+   ],
+   "concept": "rc_authors_purpose",
+   "correct_answer": "C",
+   "id": "RE-Q249",
+   "question_text": "[Passage 8: Invictus poem by Henley]\n\nThe words in lines 15-16 are a statement of __________.\n\n[Passage excerpt] Out of the night that covers me, Black as the Pit from pole to pole, I thank whatever gods may be For my unconquerable soul. In the fell clutch of circumstance I have not winced nor cried aloud. Under the bludgeonings of chance My head is bloody, but unbowed.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. Fearless",
+    "B. Unconquerable",
+    "C. Vanquished",
+    "D. Protected by the gods"
+   ],
+   "concept": "rc_detail_recall",
+   "correct_answer": "B",
+   "id": "RE-Q250",
+   "question_text": "[Passage 8: Invictus poem by Henley]\n\nBased on the tone and content of the passage, the title Invictus probably means __________.\n\n[Passage excerpt] Out of the night that covers me, Black as the Pit from pole to pole, I thank whatever gods may be For my unconquerable soul. In the fell clutch of circumstance I have not winced nor cried aloud. Under the bludgeonings of chance My head is bloody, but unbowed.",
+   "section": "Reading Comprehension",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. 0 and 6",
+    "B. 24",
+    "C. 4",
+    "D. 3"
+   ],
+   "concept": "basic_arithmetic",
+   "correct_answer": "C",
+   "id": "NU-Q251",
+   "question_text": "In this set of numbers, what is the mode? {0, 2, 3, 4, 4, 5, 6}",
+   "section": "Numerical Ability",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. 15 years old",
+    "B. 7 years old",
+    "C. 17 years old",
+    "D. 20 years old"
+   ],
+   "concept": "systems_of_equations",
+   "correct_answer": "B",
+   "id": "NU-Q255",
+   "question_text": "Gabriel is 3 years younger than Frank at the moment. When their ages are doubled, Frank is 6 years older than Gabriel. Finally, the current total of their ages right now is 17. Which of the following could be Gabriel's age right now?",
+   "section": "Numerical Ability",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. 3 hours",
+    "B. 1 hour",
+    "C. 4 hours",
+    "D. 2 hours"
+   ],
+   "concept": "work_problems",
+   "correct_answer": "D",
+   "id": "NU-Q256",
+   "question_text": "Chris can finish painting a wall in 6 hours. Gretchen can finish painting the same wall twice as fast as Chris does. How quickly can they finish painting the wall together?",
+   "section": "Numerical Ability",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. 520",
+    "B. 450",
+    "C. 1000",
+    "D. 840"
+   ],
+   "concept": "percentages",
+   "correct_answer": "B",
+   "id": "NU-Q257",
+   "question_text": "The Ateneo has 18,000 applicants every year. Only 25% of these applicants will be accepted into the college and only the top 10% of the accepted students can take honors courses in the School of Management. How many students can take honors courses in the School of Management?",
+   "section": "Numerical Ability",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. 3",
+    "B. 4",
+    "C. 7",
+    "D. 3.5"
+   ],
+   "concept": "basic_arithmetic",
+   "correct_answer": "D",
+   "id": "NU-Q261",
+   "question_text": "What is the median of this set of numbers? {1, 2, 3, 4, 5, 6}",
+   "section": "Numerical Ability",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. 4 points",
+    "B. 2 points",
+    "C. 13 points",
+    "D. 5 points"
+   ],
+   "concept": "speed_distance_time",
+   "correct_answer": "B",
+   "id": "NU-Q262",
+   "question_text": "A basketball team is behind by 40 points at the start of the 4th quarter. If the opponent does not score at all in the fourth quarter, what is the average number of points the team needs to score per 30 seconds if the game should be tied by the 10th minute?",
+   "section": "Numerical Ability",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. 20,000",
+    "B. 40,000",
+    "C. 30,000",
+    "D. 35,000"
+   ],
+   "concept": "systems_of_equations",
+   "correct_answer": "B",
+   "id": "NU-Q268",
+   "question_text": "KC invested 20,000 pesos into a business that earns 5% every year. How much more money will she need to invest in a business that earns 10% per year if she wants to earn 5,000 pesos a year?",
+   "section": "Numerical Ability",
+   "source": "booklet",
+   "verified": 1
+  },
+  {
+   "choices": [
+    "A. 28!",
+    "B. 27!",
+    "C. 5!",
+    "D. 2828"
+   ],
+   "concept": "combinatorics",
+   "correct_answer": "A",
+   "id": "NU-Q272",
+   "question_text": "If John's password has twenty-eight letters, how many possible passwords are there?",
+   "section": "Numerical Ability",
+   "source": "booklet",
+   "verified": 1
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+Proportional reasoning solves problems where two quantities have a fixed relationship.
+
+Types of Proportions:
+1. Direct Proportion (y = kx): As x increases, y increases.
+   Ratio remains constant: x₁ / y₁ = x₂ / y₂
+2. Inverse Proportion (xy = k): As x increases, y decreases.
+   Product remains constant: x₁ × y₁ = x₂ × y₂
+
+Strategy:
+1. Determine if the relationship is direct or inverse:
+   - More workers -> less time needed (Inverse).
+   - More distance -> more fuel needed (Direct).
+2. Set up the equation using cross-multiplication for direct, or products for inverse.
+
+Example: If 3 pencils cost $1.50, how much do 8 pencils cost?
+  Direct proportion: 3 / 1.50 = 8 / x  =>  3x = 12  =>  x = $4.00.
+
+Tip: Check if your answer makes intuitive sense: If you bought more items, the cost MUST be higher.

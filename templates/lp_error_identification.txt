@@ -1,0 +1,13 @@
+Error Identification tests your grasp of standard English grammar and usage.
+
+Key Rules & Strategy:
+1. Scan the sentence for Subject-Verb Agreement (singular subjects need singular verbs).
+2. Check Pronoun-Antecedent Agreement and Pronoun Case (subjective vs. objective, e.g., "he and I" vs "him and me").
+3. Inspect Verb Tense consistency across related clauses.
+4. Look for Faulty Parallelism in lists or comparisons (e.g., "singing, dancing, and to act" -> "acting").
+5. Watch out for Dangling or Misplaced Modifiers.
+
+Example: "Neither the teacher nor the students was present."
+  Error: In "neither... nor", the verb agrees with the closer subject ("students"), so it should be "were present".
+
+Tip: Read the sentence silently as a whole. Don't correct what isn't wrong; if no option contains an error, look for "No Error" if available.

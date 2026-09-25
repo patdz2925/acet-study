@@ -1,0 +1,14 @@
+Sentence Completion measures vocabulary and the ability to recognize context clues.
+
+Key Rules & Strategy:
+1. Identify Directional Clues:
+   - Same direction (support): and, moreover, similarly, therefore, thus.
+   - Opposite direction (contrast): although, but, however, despite, conversely.
+2. Predict the missing word in your own mind before looking at the choices.
+3. Eliminate options that don't fit the tone (positive, negative, neutral) of the sentence.
+4. Plug your selected word back into the full sentence to confirm natural meaning.
+
+Example: "Although the critic was usually ________, her review of the novel was surprisingly generous."
+  Clue: "Although" signals contrast with "generous". The missing word must mean harsh or critical (e.g., caustic, acerbic, severe).
+
+Tip: Read the complete sentence before reading choices. Don't let an impressive-sounding word distract you from the true context.

@@ -1,0 +1,13 @@
+Basic algebra involves solving for an unknown variable.
+
+To solve linear equations:
+1. Isolate the variable on one side of the equation.
+2. Do the same operation to both sides (add, subtract, multiply, divide).
+3. Simplify step by step.
+
+Example: Solve 2x + 3 = 11
+  2x = 11 - 3    (subtract 3 from both sides)
+  2x = 8        (simplify)
+  x = 4         (divide both sides by 2)
+
+Always substitute your answer back into the original equation to verify.

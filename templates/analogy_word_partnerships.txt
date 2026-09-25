@@ -1,0 +1,14 @@
+Word Partnerships (Collocations & Idioms) examine words that naturally pair together to form established meanings.
+
+Relationship: [WORD A] and [WORD B] form a standard phrase, compound, or complementary pair.
+
+Strategy:
+1. Formulate how the two words interact in common usage.
+2. Consider complementary pairs: Lock and Key, Salt and Pepper, Bread and Butter.
+3. Check for dependent associations where one word requires the other to fulfill its function.
+
+Example: LOCK : KEY
+  Bridge: A lock requires a key to open and function.
+  Match: NEEDLE : THREAD (A needle requires thread to fulfill its purpose in sewing).
+
+Tip: Ensure the relationship is reciprocal or mutually purposeful, not just random association.

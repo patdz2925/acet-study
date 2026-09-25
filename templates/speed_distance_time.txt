@@ -1,0 +1,16 @@
+Speed, Distance, and Time are governed by linear motion relationships.
+
+Core Formulas:
+  Distance = Speed × Time  (d = s × t)
+  Speed = Distance / Time  (s = d / t)
+  Time = Distance / Speed  (t = d / s)
+
+Unit Conversions:
+  - Hours to minutes: multiply by 60.
+  - km/h to m/s: multiply by (5 / 18).
+  - m/s to km/h: multiply by (18 / 5) or 3.6.
+
+Example: A car travels 150 km in 2.5 hours. What is its speed?
+  Speed = 150 / 2.5 = 60 km/h.
+
+Tip: Keep all units consistent before calculating! If distance is in kilometers and time is in minutes, convert minutes to hours first (e.g., 45 minutes = 3/4 hour).

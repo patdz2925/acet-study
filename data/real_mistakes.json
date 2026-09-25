@@ -1,0 +1,1723 @@
+{
+ "demo": false,
+ "demo_note": "Real ACET Practice Test mistakes. Extracted from ACET Practice Test Booklet.",
+ "mistakes": [
+  {
+   "original_id": "LA-Q6",
+   "section": "Language Proficiency",
+   "question_number": 6,
+   "question_type": "Error Identification",
+   "question_text": "Akihiro tried to acquire as many of the valuable and groundbreaking knowledge as he can from the lecture.",
+   "choices": [
+    "A. as many of the",
+    "B. valuable and groundbreaking",
+    "C. as he can",
+    "D. No Error."
+   ],
+   "correct_answer": "A",
+   "concept": "lp_error_identification",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "LA-Q9",
+   "section": "Language Proficiency",
+   "question_number": 9,
+   "question_type": "Error Identification",
+   "question_text": "Xabi Alonso's shot was wide off the mark and the goalkeeper Casillias did not have to make a save.",
+   "choices": [
+    "A. off",
+    "B. and the goalkeeper",
+    "C. to make a save.",
+    "D. No Error."
+   ],
+   "correct_answer": "A",
+   "concept": "lp_error_identification",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "LA-Q10",
+   "section": "Language Proficiency",
+   "question_number": 10,
+   "question_type": "Error Identification",
+   "question_text": "The proposal made by the British Labour Party was in opposition of privatization of state holdings.",
+   "choices": [
+    "A. by the British Labour Party",
+    "B. opposition of",
+    "C. of state holdings.",
+    "D. No Error."
+   ],
+   "correct_answer": "B",
+   "concept": "lp_error_identification",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "LA-Q12",
+   "section": "Language Proficiency",
+   "question_number": 12,
+   "question_type": "Sentence Completion",
+   "question_text": "The Royal Albert Hall ____ South Kensington, London, was opened by Queen Victoria in 1871.",
+   "choices": [
+    "A. On",
+    "B. In",
+    "C. Over",
+    "D. Along"
+   ],
+   "correct_answer": "B",
+   "concept": "lp_sentence_completion",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "LA-Q15",
+   "section": "Language Proficiency",
+   "question_number": 15,
+   "question_type": "Sentence Completion",
+   "question_text": "My dad gave Erik and ____ some UAAP season tickets.",
+   "choices": [
+    "A. Me",
+    "B. I",
+    "C. Them",
+    "D. Us"
+   ],
+   "correct_answer": "A",
+   "concept": "lp_sentence_completion",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "LA-Q18",
+   "section": "Language Proficiency",
+   "question_number": 18,
+   "question_type": "Sentence Completion",
+   "question_text": "Students prefer the Ateneo ____ other private colleges and universities because of the unique Jesuit education it provides.",
+   "choices": [
+    "A. Than",
+    "B. More than",
+    "C. To",
+    "D. Compared to"
+   ],
+   "correct_answer": "C",
+   "concept": "lp_sentence_completion",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "LA-Q21",
+   "section": "Language Proficiency",
+   "question_number": 21,
+   "question_type": "Vocabulary (Synonyms)",
+   "question_text": "As a result of inbreeding, some members of the Russian Imperial household suffered from hemophilia.",
+   "choices": [
+    "A. Bloodthirstiness",
+    "B. Infertility",
+    "C. Uncontrollable Bleeding",
+    "D. Mental Disorders"
+   ],
+   "correct_answer": "C",
+   "concept": "lp_vocabulary_synonyms",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "LA-Q23",
+   "section": "Language Proficiency",
+   "question_number": 23,
+   "question_type": "Vocabulary (Synonyms)",
+   "question_text": "The candidate committed a serious faux pas when he described the laborers as \"ignorant.\"",
+   "choices": [
+    "A. Sin",
+    "B. Misstep",
+    "C. Offense",
+    "D. Insult"
+   ],
+   "correct_answer": "B",
+   "concept": "lp_vocabulary_synonyms",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "LA-Q24",
+   "section": "Language Proficiency",
+   "question_number": 24,
+   "question_type": "Vocabulary (Synonyms)",
+   "question_text": "George Orwell brilliantly portrayed a socialist dystopia in his book 1984.",
+   "choices": [
+    "A. Fable",
+    "B. Anti-utopia",
+    "C. Myth",
+    "D. Utopia"
+   ],
+   "correct_answer": "B",
+   "concept": "lp_vocabulary_synonyms",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "LA-Q29",
+   "section": "Language Proficiency",
+   "question_number": 29,
+   "question_type": "Vocabulary (Synonyms)",
+   "question_text": "Gabriel was a sedulous student, and was highly regarded by his teachers.",
+   "choices": [
+    "A. Assiduous",
+    "B. Timorous",
+    "C. Intelligent",
+    "D. Creative"
+   ],
+   "correct_answer": "A",
+   "concept": "lp_vocabulary_synonyms",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "LA-Q30",
+   "section": "Language Proficiency",
+   "question_number": 30,
+   "question_type": "Vocabulary (Synonyms)",
+   "question_text": "The Apotheosis of Washington is a unique work of art that can be found in the U.S. Capitol.",
+   "choices": [
+    "A. Glorification",
+    "B. Deification",
+    "C. Inauguration",
+    "D. Archetype"
+   ],
+   "correct_answer": "B",
+   "concept": "lp_vocabulary_synonyms",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "LA-Q33",
+   "section": "Language Proficiency",
+   "question_number": 33,
+   "question_type": "Vocabulary (Antonyms)",
+   "question_text": "After his coronation, Louis XIV was warmly applauded by the Parisians on the streets.",
+   "choices": [
+    "A. Acidulation",
+    "B. Decimation",
+    "C. Abdication",
+    "D. Denunciation"
+   ],
+   "correct_answer": "C",
+   "concept": "lp_vocabulary_antonyms",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "LA-Q34",
+   "section": "Language Proficiency",
+   "question_number": 34,
+   "question_type": "Vocabulary (Antonyms)",
+   "question_text": "The new student appeared rather phlegmatic at first, but proved otherwise when the going got tough.",
+   "choices": [
+    "A. Brilliant",
+    "B. Emotional",
+    "C. Clean",
+    "D. Munificent"
+   ],
+   "correct_answer": "B",
+   "concept": "lp_vocabulary_antonyms",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "LA-Q35",
+   "section": "Language Proficiency",
+   "question_number": 35,
+   "question_type": "Vocabulary (Antonyms)",
+   "question_text": "It was thought as late as the 1960's that a proletarian takeover was inevitable.",
+   "choices": [
+    "A. Bourgeoisie",
+    "B. Anarchist",
+    "C. Elitist",
+    "D. Government"
+   ],
+   "correct_answer": "A",
+   "concept": "lp_vocabulary_antonyms",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "LA-Q37",
+   "section": "Language Proficiency",
+   "question_number": 37,
+   "question_type": "Vocabulary (Antonyms)",
+   "question_text": "Back in her time, Margaret Thatcher was an eminent world leader, although she was very unpopular with the U.K.'s leftist north.",
+   "choices": [
+    "A. Infamous",
+    "B. Obscure",
+    "C. Unimportant",
+    "D. Articulate"
+   ],
+   "correct_answer": "A",
+   "concept": "lp_vocabulary_antonyms",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "LA-Q38",
+   "section": "Language Proficiency",
+   "question_number": 38,
+   "question_type": "Vocabulary (Antonyms)",
+   "question_text": "The redoubtable Netherlands football squad, stacked with world-class players, was humbled in the recent European Championships.",
+   "choices": [
+    "A. Feeble",
+    "B. Doubtable",
+    "C. Formidable",
+    "D. Perturbing"
+   ],
+   "correct_answer": "A",
+   "concept": "lp_vocabulary_antonyms",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "LA-Q39",
+   "section": "Language Proficiency",
+   "question_number": 39,
+   "question_type": "Vocabulary (Antonyms)",
+   "question_text": "The government proved to be profligate in its spending, constructing unnecessary theatres and convention centers.",
+   "choices": [
+    "A. Wise",
+    "B. Careful",
+    "C. Frugal",
+    "D. Creative"
+   ],
+   "correct_answer": "C",
+   "concept": "lp_vocabulary_antonyms",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "LA-Q44",
+   "section": "Language Proficiency",
+   "question_number": 44,
+   "question_type": "Improving Sentences",
+   "question_text": "Erick was made to choose between staying at home for the game or his girlfriend's debut in the theatre.",
+   "choices": [
+    "A. Staying at home for the game or his girlfriend's debut",
+    "B. Staying at home for the game and attending his girlfriend's debut",
+    "C. Staying at home for the game or attending his girlfriend's debut",
+    "D. Staying for the game and attending to his girlfriend"
+   ],
+   "correct_answer": "B",
+   "concept": "lp_improving_sentences",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "LA-Q45",
+   "section": "Language Proficiency",
+   "question_number": 45,
+   "question_type": "Improving Sentences",
+   "question_text": "Frederick the Great of Prussia exhibited wisdom and being idealistic, traits appropriate for the ideal monarch that the Enlightenment thinkers portrayed him as.",
+   "choices": [
+    "A. Exhibited wisdom and being idealistic, traits appropriate",
+    "B. Exhibited wisdom and idealism",
+    "C. Exhibited wisdom and idealistic traits that are especially proper",
+    "D. Exhibited wisdom and idealism, traits appropriate"
+   ],
+   "correct_answer": "D",
+   "concept": "lp_improving_sentences",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "LA-Q46",
+   "section": "Language Proficiency",
+   "question_number": 46,
+   "question_type": "Improving Sentences",
+   "question_text": "The unification of the English and Scottish monarchies was the cause of much friction in the new British state.",
+   "choices": [
+    "A. Monarchies was the cause",
+    "B. Monarchies were the cause",
+    "C. Monarchies caused",
+    "D. Monarchy were a divisive cause"
+   ],
+   "correct_answer": "A",
+   "concept": "lp_improving_sentences",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "LA-Q51",
+   "section": "Language Proficiency",
+   "question_number": 51,
+   "question_type": "Improving Paragraphs",
+   "question_text": "Read the paragraph below, then answer the question. (First draft of an essay; it contains errors in usage and grammar.)\n\n1 The Japanese have built a reputation for the most eccentric things.\n2 Its difficult to find a place to begin with, as this eccentricity is present in most facets of Japanese life.\n3 For example, to show how this eccentricity affects everything, we can start with the humble toilet.\n4 Japanese toilets are naturally weird.\n5 First off, is the famous Washlet, which is one of the most advanced toilets in the world.\n6 These toilets have heated seats, warm water massages, warm air dryers, automatic deodorizers and a digital thermostat.\n7 Also, one more Japanese oddity in the toilet world is the Otohime or \"Sound Princess.\"\n8 These devices are available in women's cubicles, mainly because Japanese women feel ashamed when other people hear the sounds they make when they are in the toilet.\n9 The Otohime, when activated, creates the sound of flushing water, therefore drowning out the sounds the users make.\n\nHow can the first sentence be improved?\nSentence 1: \"The Japanese have built a reputation for the most eccentric things.\"",
+   "choices": [
+    "A. It cannot be improved",
+    "B. Replace \"eccentric\" with \"weird\"",
+    "C. Insert \"creating\" after \"for\"",
+    "D. Replace \"The Japanese\" with \"The Japanese people\""
+   ],
+   "correct_answer": "C",
+   "concept": "lp_improving_paragraphs",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "LA-Q52",
+   "section": "Language Proficiency",
+   "question_number": 52,
+   "question_type": "Improving Paragraphs",
+   "question_text": "Read the paragraph below, then answer the question. (First draft of an essay; it contains errors in usage and grammar.)\n\n1 The Japanese have built a reputation for the most eccentric things.\n2 Its difficult to find a place to begin with, as this eccentricity is present in most facets of Japanese life.\n3 For example, to show how this eccentricity affects everything, we can start with the humble toilet.\n4 Japanese toilets are naturally weird.\n5 First off, is the famous Washlet, which is one of the most advanced toilets in the world.\n6 These toilets have heated seats, warm water massages, warm air dryers, automatic deodorizers and a digital thermostat.\n7 Also, one more Japanese oddity in the toilet world is the Otohime or \"Sound Princess.\"\n8 These devices are available in women's cubicles, mainly because Japanese women feel ashamed when other people hear the sounds they make when they are in the toilet.\n9 The Otohime, when activated, creates the sound of flushing water, therefore drowning out the sounds the users make.\n\nWhich part of sentence 2 is erroneous?\nSentence 2: \"Its difficult to find a place to begin with, as this eccentricity is present in most facets of Japanese life.\"",
+   "choices": [
+    "A. No part is erroneous",
+    "B. \"Its\"",
+    "C. \"a place to begin with\"",
+    "D. \"this eccentricity is present\""
+   ],
+   "correct_answer": "B",
+   "concept": "lp_improving_paragraphs",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "LA-Q53",
+   "section": "Language Proficiency",
+   "question_number": 53,
+   "question_type": "Improving Paragraphs",
+   "question_text": "Read the paragraph below, then answer the question. (First draft of an essay; it contains errors in usage and grammar.)\n\n1 The Japanese have built a reputation for the most eccentric things.\n2 Its difficult to find a place to begin with, as this eccentricity is present in most facets of Japanese life.\n3 For example, to show how this eccentricity affects everything, we can start with the humble toilet.\n4 Japanese toilets are naturally weird.\n5 First off, is the famous Washlet, which is one of the most advanced toilets in the world.\n6 These toilets have heated seats, warm water massages, warm air dryers, automatic deodorizers and a digital thermostat.\n7 Also, one more Japanese oddity in the toilet world is the Otohime or \"Sound Princess.\"\n8 These devices are available in women's cubicles, mainly because Japanese women feel ashamed when other people hear the sounds they make when they are in the toilet.\n9 The Otohime, when activated, creates the sound of flushing water, therefore drowning out the sounds the users make.\n\nAfter which sentence is it most appropriate to begin a new paragraph?",
+   "choices": [
+    "A. Sentence 1",
+    "B. Sentence 6",
+    "C. Sentence 9",
+    "D. Sentence 2"
+   ],
+   "correct_answer": "C",
+   "concept": "lp_improving_paragraphs",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "LA-Q58",
+   "section": "Language Proficiency",
+   "question_number": 58,
+   "question_type": "Paragraph Arrangement",
+   "question_text": "What should be the last sentence?\nSentences: (a) Before him, people thought of themselves as special. (b) The notion of being no different from chimpanzees caused quite a stir. (c) In time, Darwin proved he was correct. (d) Charles Darwin formulated the theory of evolution.",
+   "choices": [
+    "A. (a)",
+    "B. (b)",
+    "C. (c)",
+    "D. (d)"
+   ],
+   "correct_answer": "C",
+   "concept": "lp_paragraph_arrangement",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "LA-Q59",
+   "section": "Language Proficiency",
+   "question_number": 59,
+   "question_type": "Paragraph Arrangement",
+   "question_text": "What should be the third sentence?\nSentences: (a) Before him, people thought of themselves as special. (b) The notion of being no different from chimpanzees caused quite a stir. (c) In time, Darwin proved he was correct. (d) Charles Darwin formulated the theory of evolution.",
+   "choices": [
+    "A. (a)",
+    "B. (b)",
+    "C. (c)",
+    "D. (d)"
+   ],
+   "correct_answer": "B",
+   "concept": "lp_paragraph_arrangement",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "LA-Q60",
+   "section": "Language Proficiency",
+   "question_number": 60,
+   "question_type": "Paragraph Arrangement",
+   "question_text": "What could be the title of this short essay? (About Darwin's theory of evolution and its acceptance)",
+   "choices": [
+    "A. The Life and Works of Charles Darwin",
+    "B. Survival of the Fittest",
+    "C. Evolution's Eventual Acceptance",
+    "D. The Socio-Political Ramifications of Darwinism"
+   ],
+   "correct_answer": "C",
+   "concept": "lp_paragraph_arrangement",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q86",
+   "section": "Mathematics",
+   "question_number": 86,
+   "question_type": "Percentages",
+   "question_text": "27,813 students took the ACET this year. If only 2,836 students were admitted into the Ateneo among those students, what is the Ateneo's acceptance rate?",
+   "choices": [
+    "A. 7.5%",
+    "B. 10.2%",
+    "C. 13.4%",
+    "D. 9.0%"
+   ],
+   "correct_answer": "B",
+   "concept": "percentages",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q89",
+   "section": "Mathematics",
+   "question_number": 89,
+   "question_type": "Composite Functions",
+   "question_text": "Given the functions f(x) = x^4 + x^2, x(y) = y - 1 and g(x) = x + 6, what is the value of f(g(x(y))) if y = 5?",
+   "choices": [
+    "A. 100",
+    "B. 56.7",
+    "C. 102.5",
+    "D. 64.5"
+   ],
+   "correct_answer": "C",
+   "concept": "composite_functions",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q90",
+   "section": "Mathematics",
+   "question_number": 90,
+   "question_type": "Compound Interest",
+   "question_text": "The tuition fee of two semesters in the Loyola Schools costs 150,000. If the fee increases at the rate of 5% per year, around how much will the tuition be in 5 years for one semester?",
+   "choices": [
+    "A. 182,326",
+    "B. 81,274",
+    "C. 95,721",
+    "D. 191,443"
+   ],
+   "correct_answer": "C",
+   "concept": "compound_interest",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q91",
+   "section": "Mathematics",
+   "question_number": 91,
+   "question_type": "Linear Equations",
+   "question_text": "What is the x-intercept of y = 17x + 51?",
+   "choices": [
+    "A. 5",
+    "B. 3",
+    "C. 14",
+    "D. -3"
+   ],
+   "correct_answer": "D",
+   "concept": "linear_equations",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q92",
+   "section": "Mathematics",
+   "question_number": 92,
+   "question_type": "Circle Geometry",
+   "question_text": "Given inscribed angle theta, what is the angle of central angle delta, which subtends the same arc?",
+   "choices": [
+    "A. delta/2",
+    "B. theta + delta",
+    "C. 90",
+    "D. 2 * theta"
+   ],
+   "correct_answer": "D",
+   "concept": "circle_geometry",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q95",
+   "section": "Mathematics",
+   "question_number": 95,
+   "question_type": "Linear Equations",
+   "question_text": "The flat rate of taxis is 45 pesos. For every half-kilometer, 2 pesos and 50 centavos are added to the fare. What is the equation for the total fare if k is the distance traveled in kilometers and t is the cost?",
+   "choices": [
+    "A. 1.25(36 + k) = x",
+    "B. 45 + 2.5k = x",
+    "C. 45 + 5k = x",
+    "D. k^2 + 48 = x"
+   ],
+   "correct_answer": "A",
+   "concept": "linear_equations",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q98",
+   "section": "Mathematics",
+   "question_number": 98,
+   "question_type": "Circle Area",
+   "question_text": "[Figure referenced in original PDF] Given the figure, where AC=5, and BC=12, what is the area of the shaded portions of the circle?",
+   "choices": [
+    "A. 21.125pi - 30",
+    "B. 20pi + 30",
+    "C. 14pi - 30",
+    "D. 13pi - 30"
+   ],
+   "correct_answer": "A",
+   "concept": "circle_area",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q99",
+   "section": "Mathematics",
+   "question_number": 99,
+   "question_type": "Systems of Equations",
+   "question_text": "What is the point of intersection of the following lines?\nLine A: y = 4x + 8\nLine B: y = 7x + 5",
+   "choices": [
+    "A. (4, 16)",
+    "B. (5, 10)",
+    "C. (1, 12)",
+    "D. (1, 24)"
+   ],
+   "correct_answer": "C",
+   "concept": "systems_of_equations",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q100",
+   "section": "Mathematics",
+   "question_number": 100,
+   "question_type": "Functions",
+   "question_text": "[Figure referenced in original PDF] Given figure with cubic and linear functions f(x) and t(x), where f(y)=t(y), which could be a value of y?",
+   "choices": [
+    "A. -1",
+    "B. 5.67",
+    "C. 2",
+    "D. -6"
+   ],
+   "correct_answer": "C",
+   "concept": "functions_graphs",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q101",
+   "section": "Mathematics",
+   "question_number": 101,
+   "question_type": "Standard Deviation",
+   "question_text": "What is the standard deviation of the set of values {2, 4, 4, 4, 5, 7, 9}?",
+   "choices": [
+    "A. 4",
+    "B. 2",
+    "C. 7",
+    "D. 9"
+   ],
+   "correct_answer": "B",
+   "concept": "standard_deviation",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q105",
+   "section": "Mathematics",
+   "question_number": 105,
+   "question_type": "Surds and Radicals",
+   "question_text": "(sqrt(4) + sqrt(3))^2 = ?",
+   "choices": [
+    "A. 7 + 2*sqrt(12)",
+    "B. 7 + 2*sqrt(7)",
+    "C. 25 + 2*sqrt(7)",
+    "D. 5 + sqrt(49)"
+   ],
+   "correct_answer": "A",
+   "concept": "surds_radicals",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q107",
+   "section": "Mathematics",
+   "question_number": 107,
+   "question_type": "Quadrilateral Area",
+   "question_text": "[Figure referenced in original PDF] Gian wants to build a kite with an area of 30cm^2. What could be the lengths of the diagonals that support the kite?",
+   "choices": [
+    "A. 15 and 10",
+    "B. 15 and 15",
+    "C. 6 and 10",
+    "D. 6 and 5"
+   ],
+   "correct_answer": "C",
+   "concept": "quadrilateral_area",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q110",
+   "section": "Mathematics",
+   "question_number": 110,
+   "question_type": "Exponential Equations",
+   "question_text": "Given the equation 4^3 = 2^(y+6), what is a possible real value of y?",
+   "choices": [
+    "A. -35",
+    "B. There are no real values for y",
+    "C. (2x + 6)/3",
+    "D. -32"
+   ],
+   "correct_answer": "A",
+   "concept": "exponential_equations",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q111",
+   "section": "Mathematics",
+   "question_number": 111,
+   "question_type": "Function Graphs",
+   "question_text": "[Graph referenced in original PDF] Given this graph of a function, its equation probably has ________.",
+   "choices": [
+    "A. A squared value",
+    "B. An absolute value",
+    "C. An exponent",
+    "D. A regression"
+   ],
+   "correct_answer": "B",
+   "concept": "function_graphs",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q112",
+   "section": "Mathematics",
+   "question_number": 112,
+   "question_type": "Pythagorean Theorem",
+   "question_text": "Given triangle ABC, where angle ABC is a right angle, AB = x, BC = y, and AC = (x + 4)^2, what is y in terms of x?",
+   "choices": [
+    "A. (x + 4)",
+    "B. x + 4",
+    "C. x^3",
+    "D. 2x + 4"
+   ],
+   "correct_answer": "D",
+   "concept": "pythagorean_theorem",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q114",
+   "section": "Mathematics",
+   "question_number": 114,
+   "question_type": "Algebraic Manipulation",
+   "question_text": "If 5x + n = 45 + 2n, what is n in terms of x?",
+   "choices": [
+    "A. (9 + n)/5",
+    "B. 5x + 45",
+    "C. -45 + 5x",
+    "D. x - 9"
+   ],
+   "correct_answer": "C",
+   "concept": "algebraic_manipulation",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q115",
+   "section": "Mathematics",
+   "question_number": 115,
+   "question_type": "Equations with Infinite Solutions",
+   "question_text": "How many values of x can satisfy the following equation?\nx/y = 3/5",
+   "choices": [
+    "A. One",
+    "B. Two",
+    "C. Three",
+    "D. More than three"
+   ],
+   "correct_answer": "D",
+   "concept": "equations_infinite_solutions",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q116",
+   "section": "Mathematics",
+   "question_number": 116,
+   "question_type": "Exponent Rules",
+   "question_text": "Given the equation (4x)^4 = 4y * 4^6, what is x in terms of y?",
+   "choices": [
+    "A. (3/2)y",
+    "B. y/4 + 3/2",
+    "C. 4^(6+y)",
+    "D. (4y+6)/4"
+   ],
+   "correct_answer": "B",
+   "concept": "exponent_rules",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q118",
+   "section": "Mathematics",
+   "question_number": 118,
+   "question_type": "Trapezoid Area",
+   "question_text": "What is the height of a trapezoid with an area of 30cm^2 and bases with lengths of 10 cm and 5 cm?",
+   "choices": [
+    "A. 1.2 cm",
+    "B. 8 cm",
+    "C. 4 cm",
+    "D. 0.25 cm"
+   ],
+   "correct_answer": "C",
+   "concept": "trapezoid_area",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q119",
+   "section": "Mathematics",
+   "question_number": 119,
+   "question_type": "Number Theory",
+   "question_text": "The sum of two integral numbers is 20. The larger number is the square of the smaller number, and the larger number when squared has a value greater than 600. What are the two numbers?",
+   "choices": [
+    "A. 16 and 4",
+    "B. 25 and -5",
+    "C. 36 and 6",
+    "D. 23 and -3"
+   ],
+   "correct_answer": "B",
+   "concept": "number_theory",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q120",
+   "section": "Mathematics",
+   "question_number": 120,
+   "question_type": "Ratios",
+   "question_text": "The ratio of females to males in the Loyola Schools is 4:6. If you add the 6000 male students of the Grade School and High School to the 8000 students of the Loyola Schools, what will be the approximate ratio of females to males?",
+   "choices": [
+    "A. 3:10",
+    "B. 2:5",
+    "C. 3:20",
+    "D. 4:11"
+   ],
+   "correct_answer": "A",
+   "concept": "ratios",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q121",
+   "section": "Mathematics",
+   "question_number": 121,
+   "question_type": "Sequences and Series",
+   "question_text": "What is the 6th term of this series?\n1, 5, 11, 17, 33...",
+   "choices": [
+    "A. 61",
+    "B. 50",
+    "C. 59",
+    "D. 47"
+   ],
+   "correct_answer": "A",
+   "concept": "sequences_series",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q122",
+   "section": "Mathematics",
+   "question_number": 122,
+   "question_type": "Circle Equation and Line",
+   "question_text": "Given a circle with the equation (x - 4)^2 + (y - 6)^2 = 49, what is the equation of the line that intersects the origin and the center?",
+   "choices": [
+    "A. y = (3/2)x",
+    "B. y = 7x + 6",
+    "C. y = 3x",
+    "D. y = (2/3)x"
+   ],
+   "correct_answer": "A",
+   "concept": "circle_equation_line",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q125",
+   "section": "Mathematics",
+   "question_number": 125,
+   "question_type": "Circle in Square",
+   "question_text": "What is the area of a circle inscribed in a square with diagonals that are 4*sqrt(2) units long?",
+   "choices": [
+    "A. 32pi",
+    "B. 4pi",
+    "C. 16pi",
+    "D. 8pi"
+   ],
+   "correct_answer": "B",
+   "concept": "circle_in_square",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q128",
+   "section": "Mathematics",
+   "question_number": 128,
+   "question_type": "Average Speed",
+   "question_text": "The Trans-Siberian Railway travels 9000 km from Vladivostok to Moscow in 4 days. It then travels another 3000 km from Moscow to Novosibirsk in 1 day. What is the average speed of the train in kilometers per hour throughout its journey?",
+   "choices": [
+    "A. 100 km/hr",
+    "B. 90 km/hr",
+    "C. 110 km/hr",
+    "D. 120 km/hr"
+   ],
+   "correct_answer": "A",
+   "concept": "average_speed",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q129",
+   "section": "Mathematics",
+   "question_number": 129,
+   "question_type": "Rhombus Diagonals",
+   "question_text": "A rhombus with a perimeter of 20 cm has a diagonal that has a length of 8 cm. What is the length of the other diagonal?",
+   "choices": [
+    "A. 4*sqrt(2)",
+    "B. 4*sqrt(3)",
+    "C. 3*sqrt(3)",
+    "D. 3"
+   ],
+   "correct_answer": "D",
+   "concept": "rhombus_diagonals",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q130",
+   "section": "Mathematics",
+   "question_number": 130,
+   "question_type": "Compound Interest",
+   "question_text": "Every year, the price of a Big Mac increases by 15%. If a Big Mac currently costs 145 pesos, around how much will it cost in 4 years?",
+   "choices": [
+    "A. 254 pesos",
+    "B. 270 pesos",
+    "C. 284 pesos",
+    "D. 195 pesos"
+   ],
+   "correct_answer": "A",
+   "concept": "compound_interest",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q131",
+   "section": "Mathematics",
+   "question_number": 131,
+   "question_type": "Inverse Proportion",
+   "question_text": "The amount of sodas sold, x, is inversely proportional to its price, y. Which of the following could be the equation that represents the relationship?",
+   "choices": [
+    "A. xy = 40",
+    "B. x/y = 40",
+    "C. x^2 * y^2 = 40",
+    "D. x^2 * y = 40"
+   ],
+   "correct_answer": "A",
+   "concept": "inverse_proportion",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q132",
+   "section": "Mathematics",
+   "question_number": 132,
+   "question_type": "Cube Diagonal",
+   "question_text": "What is the length of the longest segment that can fit into a cube with sides 4 cm long?",
+   "choices": [
+    "A. 8*sqrt(3)",
+    "B. 4*sqrt(3)",
+    "C. sqrt(51)",
+    "D. 4*sqrt(2) + 5"
+   ],
+   "correct_answer": "B",
+   "concept": "cube_diagonal",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q134",
+   "section": "Mathematics",
+   "question_number": 134,
+   "question_type": "Polygon Interior Angles",
+   "question_text": "What is the value of one internal angle of a regular decagon?",
+   "choices": [
+    "A. 1440",
+    "B. 140",
+    "C. 144",
+    "D. 120"
+   ],
+   "correct_answer": "C",
+   "concept": "polygon_interior_angles",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q135",
+   "section": "Mathematics",
+   "question_number": 135,
+   "question_type": "Exponential Functions",
+   "question_text": "For general exponential functions, where f(x) = b^x, what should be the value of base b?",
+   "choices": [
+    "A. A positive integer",
+    "B. A negative integer",
+    "C. A whole number",
+    "D. A positive constant"
+   ],
+   "correct_answer": "D",
+   "concept": "exponential_functions",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q136",
+   "section": "Mathematics",
+   "question_number": 136,
+   "question_type": "Quadratic Equations",
+   "question_text": "Which is a possible value of x in the equation 2x^2 + 7x + 6 = 0?",
+   "choices": [
+    "A. -2/3",
+    "B. -2",
+    "C. 2",
+    "D. 3/2"
+   ],
+   "correct_answer": "B",
+   "concept": "quadratic_equations",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q137",
+   "section": "Mathematics",
+   "question_number": 137,
+   "question_type": "Domain of Expression",
+   "question_text": "What is the domain of the given expression? sqrt(2y) / (x - 4)",
+   "choices": [
+    "A. {x | x in R, x != 4}",
+    "B. {x | x in R, x != +/-4}",
+    "C. {x | x not in W}",
+    "D. {x | x = 4}"
+   ],
+   "correct_answer": "A",
+   "concept": "domain_expression",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q139",
+   "section": "Mathematics",
+   "question_number": 139,
+   "question_type": "Algebraic Fractions",
+   "question_text": "If 1/x + 1/y = z, then z is equal to what?",
+   "choices": [
+    "A. Insufficient information given",
+    "B. 2/(xy)",
+    "C. (x + y)/(xy)",
+    "D. 2/(x + y)"
+   ],
+   "correct_answer": "C",
+   "concept": "algebraic_fractions",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q141",
+   "section": "Mathematics",
+   "question_number": 141,
+   "question_type": "Basic Arithmetic",
+   "question_text": "If every [symbol] represents 500,000 casualties, how many casualties are represented by this set of 5 symbols?",
+   "choices": [
+    "A. 250,000",
+    "B. 2,500,000",
+    "C. 3,125,000",
+    "D. 1,000,000"
+   ],
+   "correct_answer": "B",
+   "concept": "basic_arithmetic",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q143",
+   "section": "Mathematics",
+   "question_number": 143,
+   "question_type": "Surds and Radicals",
+   "question_text": "5*sqrt(75) + 2*sqrt(3) = ?",
+   "choices": [
+    "A. 7*sqrt(78)",
+    "B. 7*sqrt(225)",
+    "C. 27*sqrt(3)",
+    "D. 4*sqrt(3)"
+   ],
+   "correct_answer": "C",
+   "concept": "surds_radicals",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "MA-Q145",
+   "section": "Mathematics",
+   "question_number": 145,
+   "question_type": "Perpendicular Slope",
+   "question_text": "Line l is perpendicular to line lambda, which has an equation of x = -2(y + 4). What is the slope of line l?",
+   "choices": [
+    "A. 2",
+    "B. 1/2",
+    "C. -1/2",
+    "D. 4"
+   ],
+   "correct_answer": "A",
+   "concept": "perpendicular_slope",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "VE-Q147",
+   "section": "Verbal Analogy",
+   "question_number": 147,
+   "question_type": "Single Word Analogy",
+   "question_text": "Thin: Portly; Irate: _____.",
+   "choices": [
+    "A. Furious",
+    "B. Calm",
+    "C. Confused",
+    "D. Organized"
+   ],
+   "correct_answer": "B",
+   "concept": "analogy_antonyms",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "VE-Q148",
+   "section": "Verbal Analogy",
+   "question_number": 148,
+   "question_type": "Single Word Analogy",
+   "question_text": "Flowing: River; Stagnant: _____.",
+   "choices": [
+    "A. Pond",
+    "B. Ocean",
+    "C. Lake",
+    "D. Glacier"
+   ],
+   "correct_answer": "A",
+   "concept": "analogy_categories",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "VE-Q149",
+   "section": "Verbal Analogy",
+   "question_number": 149,
+   "question_type": "Single Word Analogy",
+   "question_text": "Eyes: Ophthalmologist; Feet: _____.",
+   "choices": [
+    "A. Paleopathologist",
+    "B. Podiatrist",
+    "C. Orthopedist",
+    "D. Gerontologist"
+   ],
+   "correct_answer": "B",
+   "concept": "analogy_professions",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "VE-Q151",
+   "section": "Verbal Analogy",
+   "question_number": 151,
+   "question_type": "Single Word Analogy",
+   "question_text": "Fire:Water; Wood: _____.",
+   "choices": [
+    "A. Tree",
+    "B. Axe",
+    "C. Fire",
+    "D. Water"
+   ],
+   "correct_answer": "C",
+   "concept": "analogy_pairs_opposites",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "VE-Q152",
+   "section": "Verbal Analogy",
+   "question_number": 152,
+   "question_type": "Single Word Analogy",
+   "question_text": "Human:Food; Turbine: _____.",
+   "choices": [
+    "A. Water",
+    "B. Spin",
+    "C. Engineer",
+    "D. Rotate"
+   ],
+   "correct_answer": "A",
+   "concept": "analogy_function",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "VE-Q155",
+   "section": "Verbal Analogy",
+   "question_number": 155,
+   "question_type": "Single Word Analogy",
+   "question_text": "Articulate:Words; Emancipate: _____.",
+   "choices": [
+    "A. Workers",
+    "B. Voters",
+    "C. Unions",
+    "D. Colleges"
+   ],
+   "correct_answer": "B",
+   "concept": "analogy_action_object",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "VE-Q156",
+   "section": "Verbal Analogy",
+   "question_number": 156,
+   "question_type": "Paired Word Analogy",
+   "question_text": "Rice: Paddy -- ___:____",
+   "choices": [
+    "A. Oil: Caves",
+    "B. Staples: Stapler",
+    "C. Car: Factory",
+    "D. Teacher: Prep-School"
+   ],
+   "correct_answer": "C",
+   "concept": "analogy_source_product",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "VE-Q157",
+   "section": "Verbal Analogy",
+   "question_number": 157,
+   "question_type": "Paired Word Analogy",
+   "question_text": "Policeman: Crime -- ___:____",
+   "choices": [
+    "A. Broom: Dust",
+    "B. Fireman: Rescue",
+    "C. Soap: Skin",
+    "D. Eraser: Write"
+   ],
+   "correct_answer": "A",
+   "concept": "analogy_problem_solution",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "VE-Q161",
+   "section": "Verbal Analogy",
+   "question_number": 161,
+   "question_type": "Paired Word Analogy",
+   "question_text": "Tenable: Defensible -- ___:___",
+   "choices": [
+    "A. Impossible: Viable",
+    "B. Arduous: Difficult",
+    "C. Credible: Justifiable",
+    "D. Sweltering: Sun"
+   ],
+   "correct_answer": "B",
+   "concept": "analogy_synonyms",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "VE-Q162",
+   "section": "Verbal Analogy",
+   "question_number": 162,
+   "question_type": "Paired Word Analogy",
+   "question_text": "Xylophilia: Wood -- ___:____",
+   "choices": [
+    "A. Petrophilia: Rock art or structures",
+    "B. Anglophilia: Britain",
+    "C. Logophilia: Pictures",
+    "D. Retrophilia: Disco Music"
+   ],
+   "correct_answer": "B",
+   "concept": "analogy_word_partnerships",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "VE-Q163",
+   "section": "Verbal Analogy",
+   "question_number": 163,
+   "question_type": "Paired Word Analogy",
+   "question_text": "Madrid: Spain -- ___:____",
+   "choices": [
+    "A. New York: U.S.A.",
+    "B. Phnom Penh: Cambodia",
+    "C. Almaty: Kazakhstan",
+    "D. Sydney: Australia"
+   ],
+   "correct_answer": "C",
+   "concept": "analogy_capital_country",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "VE-Q164",
+   "section": "Verbal Analogy",
+   "question_number": 164,
+   "question_type": "Paired Word Analogy",
+   "question_text": "Arbitration: To Settle -- ___:____",
+   "choices": [
+    "A. Mastication: To Chew",
+    "B. Application: To Reject",
+    "C. Destruction: Edification",
+    "D. Elimination: Obstruction"
+   ],
+   "correct_answer": "A",
+   "concept": "analogy_definition_match",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "RE-Q188",
+   "section": "Reading Comprehension",
+   "question_number": 188,
+   "question_type": "Comparing Viewpoints",
+   "question_text": "[Passage 3: Adapted from Richard Heller of Forbes.com]\nPassage discusses Sweden's high taxes (52% of GDP) in Snapshot A vs. its booming economy with 3.5% growth, 4% unemployment, and first-place ranking in IT investment in Snapshot B.\n\nHow does 'Swedish Snapshot A' contrast with 'Swedish Snapshot B?'",
+   "choices": [
+    "A. Snapshot A portrays Sweden negatively, while Snapshot B portrays it positively.",
+    "B. Snapshots A and B portray Sweden as Communistic in nature.",
+    "C. Snapshot B provides a positive interpretation of the data in Snapshot A.",
+    "D. Snapshot B and B provide balanced portrayals of Sweden."
+   ],
+   "correct_answer": "A",
+   "concept": "rc_comparing_viewpoints",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "RE-Q190",
+   "section": "Reading Comprehension",
+   "question_number": 190,
+   "question_type": "Inferring Purpose",
+   "question_text": "[Passage 3: Swedish Economy]\nThe passage asks: 'Is Sweden a bloated welfare state? Or a People's Republic of Entrepreneurs?' and then explains it is a mixture of both.\n\nWhy does the author refer to Sweden as a 'People's Republic of Entrepreneurs?'",
+   "choices": [
+    "A. To present Sweden as a model of an ideal, egalitarian society.",
+    "B. To show Swedish totalitarianism.",
+    "C. To discredit Sweden.",
+    "D. To compare Sweden to a socialist state."
+   ],
+   "correct_answer": "D",
+   "concept": "rc_inferring_purpose",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "RE-Q192",
+   "section": "Reading Comprehension",
+   "question_number": 192,
+   "question_type": "Factual Recall",
+   "question_text": "[Passage 4A: Adapted from Emily Anthes, NY Times]\nThe passage states: 'They averaged 29,000 a year between 1984 and 1989 and 36,000 between 1994 and 1999, an increase of nearly 25%.' (Referencing Swedish business startups)\n\nWhat happened to the number of startups between 1984 and 1999?",
+   "choices": [
+    "A. It increased steadily",
+    "B. It increased exponentially",
+    "C. It stagnated",
+    "D. It decreased slowly"
+   ],
+   "correct_answer": "A",
+   "concept": "rc_factual_recall",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "RE-Q193",
+   "section": "Reading Comprehension",
+   "question_number": 193,
+   "question_type": "Cause and Effect",
+   "question_text": "[Passage 3: Swedish Economy]\nThe passage states: 'Health care is free. So is education; Hence those obscenely high taxes.'\n\nAccording to the passage, why are taxes high in Sweden?",
+   "choices": [
+    "A. Because of the high number of entrepreneurs",
+    "B. Because funding for its business ventures is required",
+    "C. Because health care and education is free.",
+    "D. Because Sweden needs to fund its military."
+   ],
+   "correct_answer": "C",
+   "concept": "rc_cause_effect",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "RE-Q197",
+   "section": "Reading Comprehension",
+   "question_number": 197,
+   "question_type": "Detail Recall",
+   "question_text": "[Passage 4A: Adapted from Emily Anthes, NY Times]\nThe passage discusses AquaBounty's genetically modified fish: 'The AquAdvantage fish is an Atlantic salmon that carries two foreign bits of DNA...'\n\nPassage A tackles what kind of salmon?",
+   "choices": [
+    "A. Norwegian",
+    "B. Pacific",
+    "C. Atlantic",
+    "D. Antarctic"
+   ],
+   "correct_answer": "C",
+   "concept": "rc_detail_recall",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "RE-Q202",
+   "section": "Reading Comprehension",
+   "question_number": 202,
+   "question_type": "Author's Purpose",
+   "question_text": "[Passage 4A: Genetic Modification]\nThe passage ends with: '...And perhaps ourselves.'\n\nWhy does the author of Passage A give emphasis to the last part of line 32?",
+   "choices": [
+    "A. To underline the importance of developing Bio Engineering technology.",
+    "B. To invoke a sense of urgency in the reader.",
+    "C. To destroy the confidence of readers in the government.",
+    "D. To link the dangers of Bio Engineering to humans."
+   ],
+   "correct_answer": "A",
+   "concept": "rc_authors_purpose",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "RE-Q205",
+   "section": "Reading Comprehension",
+   "question_number": 205,
+   "question_type": "Argument Analysis",
+   "question_text": "[Passage 4B: Against Genetic Enhancement]\nPassage B argues that genetic enhancement is a 'dangerous fantasy' and that poverty, malnutrition, and lifestyle factors are the real issues. It states: 'Genetic engineering isn't going to help them - tackling the global fast food industry, agricultural subsidies and other social and environmental factors might.'\n\nHow does the author of Passage B refute the belief of the followers of eugenics?",
+   "choices": [
+    "A. By flatly dismissing it as insufficiently researched",
+    "B. By giving examples of \"abnormal\" people who succeeded",
+    "C. By presenting Genetic Engineering as a viable solution",
+    "D. By explaining how a person's lifestyle, not genetics, has a bigger effect on his quality of life."
+   ],
+   "correct_answer": "D",
+   "concept": "rc_argument_analysis",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "RE-Q207",
+   "section": "Reading Comprehension",
+   "question_number": 207,
+   "question_type": "Comparing Passages",
+   "question_text": "[Passage 4A: Pro Genetic Modification of salmon] vs [Passage 4B: Against genetic enhancement in humans]\n\nWhich of the following is the main difference between Passage A and B?",
+   "choices": [
+    "A. Passage A talks about Genetic Engineering on animals, while Passage B talks about Genetic Engineering on humans.",
+    "B. They have identical topics.",
+    "C. Passage A talks about the political implications of science while Passage B talks about the ethics.",
+    "D. Passage A is pro-science while Passage B is anti-science."
+   ],
+   "correct_answer": "A",
+   "concept": "rc_comparing_passages",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "RE-Q209",
+   "section": "Reading Comprehension",
+   "question_number": 209,
+   "question_type": "Comparing Passages",
+   "question_text": "[Passage 4A vs 4B]\n\nUnlike Passage B, Passage A ______.",
+   "choices": [
+    "A. Uses a lot of anecdotes to support her theory",
+    "B. Portrays politics as an irrelevant force",
+    "C. Makes greater use of statistics and data to support her claims",
+    "D. Generally takes a supportive stance towards genetic engineering"
+   ],
+   "correct_answer": "D",
+   "concept": "rc_comparing_passages",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "NU-Q252",
+   "section": "Numerical Ability",
+   "question_number": 252,
+   "question_type": "Weighted Average",
+   "question_text": "You got an average score of 72 over 100 in three tests. If an average of 75 is passing and you only have one more test, what score must you get in that test to get a passing mark?",
+   "choices": [
+    "A. 92",
+    "B. 82",
+    "C. 84",
+    "D. 78"
+   ],
+   "correct_answer": "C",
+   "concept": "weighted_average",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "NU-Q253",
+   "section": "Numerical Ability",
+   "question_number": 253,
+   "question_type": "Probability",
+   "question_text": "What is the probability of getting a perfect score in 3 items of a test that have 5 choices per item?",
+   "choices": [
+    "A. 1/25",
+    "B. 3/15",
+    "C. 1/64",
+    "D. 1/125"
+   ],
+   "correct_answer": "D",
+   "concept": "probability",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "NU-Q254",
+   "section": "Numerical Ability",
+   "question_number": 254,
+   "question_type": "Speed, Distance, Time",
+   "question_text": "A rocket travels at a speed of 3 miles per second. How far would it have traveled at constant speed if the rocket was traveling for 1 hour?",
+   "choices": [
+    "A. 10,800 miles",
+    "B. 5,400 miles",
+    "C. 3,600 miles",
+    "D. 12,504 miles"
+   ],
+   "correct_answer": "A",
+   "concept": "speed_distance_time",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "NU-Q258",
+   "section": "Numerical Ability",
+   "question_number": 258,
+   "question_type": "Mixture Problems",
+   "question_text": "A chemist wants to mix a 5% alcohol solution with a 10% alcohol solution to make an 8% solution. If there are 3 liters of the 10% solution, around how many liters of the 5% solution does he need to get an 8% solution?",
+   "choices": [
+    "A. 4.6 liters",
+    "B. 6 liters",
+    "C. 2 liters",
+    "D. 10.3 liters"
+   ],
+   "correct_answer": "A",
+   "concept": "mixture_problems",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "NU-Q259",
+   "section": "Numerical Ability",
+   "question_number": 259,
+   "question_type": "Compound Interest",
+   "question_text": "Rachel saved 100,000 pesos in a bank that has an interest rate of 5% per annum. Around how much money will she have in 5 years if the amount earned from the interest is deposited with the original amount?",
+   "choices": [
+    "A. 121,530 pesos",
+    "B. 127,627 pesos",
+    "C. 105,000 pesos",
+    "D. 115,762 pesos"
+   ],
+   "correct_answer": "B",
+   "concept": "compound_interest",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "NU-Q260",
+   "section": "Numerical Ability",
+   "question_number": 260,
+   "question_type": "Set Theory",
+   "question_text": "10 students in section A play Ultimate while 14 play basketball. If 4 of the students who play Ultimate play basketball too, how many students play basketball only?",
+   "choices": [
+    "A. 3",
+    "B. 13",
+    "C. 10",
+    "D. 7"
+   ],
+   "correct_answer": "C",
+   "concept": "set_theory",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "NU-Q263",
+   "section": "Numerical Ability",
+   "question_number": 263,
+   "question_type": "Probability (Dice)",
+   "question_text": "What is the probability of getting a sum of 12 after rolling a dice twice?",
+   "choices": [
+    "A. 1/36",
+    "B. 1/12",
+    "C. 1/6",
+    "D. 1/4"
+   ],
+   "correct_answer": "A",
+   "concept": "probability_dice",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "NU-Q264",
+   "section": "Numerical Ability",
+   "question_number": 264,
+   "question_type": "Speed, Distance, Time",
+   "question_text": "City A is 10,000 miles away from City B. If a plane travels at an average speed of 200 miles per hour, how long will it take for it to travel from City A to City B?",
+   "choices": [
+    "A. 20 hours",
+    "B. 5 hours",
+    "C. 50 hours",
+    "D. 45 hours"
+   ],
+   "correct_answer": "C",
+   "concept": "speed_distance_time",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "NU-Q265",
+   "section": "Numerical Ability",
+   "question_number": 265,
+   "question_type": "Work Problems",
+   "question_text": "Justin can finish cleaning the garage in 5 hours. Bella can finish cleaning the same garage in 10 hours. They worked together for two hours, then Bella left to do some errands, leaving Justin to finish the work. How long did it take in total to clean the garage?",
+   "choices": [
+    "A. 2.5 hours",
+    "B. 3 hours",
+    "C. 4 hours",
+    "D. 5 hours"
+   ],
+   "correct_answer": "B",
+   "concept": "work_problems",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "NU-Q266",
+   "section": "Numerical Ability",
+   "question_number": 266,
+   "question_type": "Percentage Increase",
+   "question_text": "In a small village of 12,000 people, 20% of all residents have been vaccinated for the flu. If the village leader wants to increase this percentage to 40%, how many more people will need to be vaccinated?",
+   "choices": [
+    "A. 4,800",
+    "B. 2,000",
+    "C. 2,400",
+    "D. 3,400"
+   ],
+   "correct_answer": "C",
+   "concept": "percentage_increase",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "NU-Q267",
+   "section": "Numerical Ability",
+   "question_number": 267,
+   "question_type": "Mixture Problems",
+   "question_text": "In a factory, a worker needs to make a 10% solution of chlorine. If there are 15 liters of 20% chlorine solution and an endless supply of 5% chlorine solution, what is the minimum amount of 5% solution needed to make a 10% solution?",
+   "choices": [
+    "A. 30 liters",
+    "B. 15 liters",
+    "C. 10 liters",
+    "D. 5 liters"
+   ],
+   "correct_answer": "A",
+   "concept": "mixture_problems",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "NU-Q269",
+   "section": "Numerical Ability",
+   "question_number": 269,
+   "question_type": "Successive Discounts",
+   "question_text": "A pair of shoes costs 5,000 pesos. It was initially being sold at a 20% discount, but an additional 15% was decreased from the discounted price. What is the price of the pair of shoes?",
+   "choices": [
+    "A. 3400 pesos",
+    "B. 3600 pesos",
+    "C. 4000 pesos",
+    "D. 3200 pesos"
+   ],
+   "correct_answer": "A",
+   "concept": "successive_discounts",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "NU-Q270",
+   "section": "Numerical Ability",
+   "question_number": 270,
+   "question_type": "Systems of Equations",
+   "question_text": "Kim has 400 pesos worth of 20 peso and 50 peso bills. If two more than two times the amount of the 50 peso bills is equal to the amount of 20 peso bills, what is the value of the 50 peso bills she has?",
+   "choices": [
+    "A. 250",
+    "B. 300",
+    "C. 200",
+    "D. 100"
+   ],
+   "correct_answer": "C",
+   "concept": "systems_of_equations",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "NU-Q271",
+   "section": "Numerical Ability",
+   "question_number": 271,
+   "question_type": "Speed, Boat, Current",
+   "question_text": "A boat in a river travels upstream at a rate of 10 km/h and downstream at a rate of 14 km/h. What is the speed of the river's current?",
+   "choices": [
+    "A. 1 km/h",
+    "B. 3 km/h",
+    "C. 4 km/h",
+    "D. 2 km/h"
+   ],
+   "correct_answer": "D",
+   "concept": "speed_boat_current",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "NU-Q273",
+   "section": "Numerical Ability",
+   "question_number": 273,
+   "question_type": "Proportional Reasoning",
+   "question_text": "If 10 cows can produce 20 liters of milk per week, how long will it take 2 cows to make the same amount?",
+   "choices": [
+    "A. 3 weeks",
+    "B. 2 weeks",
+    "C. 5 weeks",
+    "D. 4 weeks"
+   ],
+   "correct_answer": "C",
+   "concept": "proportional_reasoning",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "NU-Q274",
+   "section": "Numerical Ability",
+   "question_number": 274,
+   "question_type": "Combinatorics",
+   "question_text": "How many games are played in a season if there are 10 teams and each team plays another team only once?",
+   "choices": [
+    "A. 10!",
+    "B. 20",
+    "C. 30",
+    "D. 45"
+   ],
+   "correct_answer": "D",
+   "concept": "combinatorics",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  },
+  {
+   "original_id": "NU-Q275",
+   "section": "Numerical Ability",
+   "question_number": 275,
+   "question_type": "Probability (Coins)",
+   "question_text": "What is the probability that 2 coins tossed at the same time will yield two tails?",
+   "choices": [
+    "A. 1/2",
+    "B. 1/4",
+    "C. 1/8",
+    "D. 1/10"
+   ],
+   "correct_answer": "B",
+   "concept": "probability_coins",
+   "your_answer": "incorrect",
+   "date_recorded": "2026-09-21"
+  }
+ ]
+}

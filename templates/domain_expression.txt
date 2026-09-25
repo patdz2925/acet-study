@@ -1,0 +1,15 @@
+The domain of an algebraic expression is the set of all real numbers for which the expression is mathematically defined.
+
+Two Main Restrictions in High School Math:
+1. Denominator cannot be zero:
+   In f(x) = 1 / g(x), we must have g(x) ≠ 0.
+2. radicand of an EVEN root must be non-negative:
+   In f(x) = √g(x), we must have g(x) ≥ 0.
+   If in the denominator, 1 / √g(x), then g(x) > 0.
+
+Example: Find the domain of f(x) = √(x - 4) / (x - 9).
+  Condition 1 (Square root): x - 4 ≥ 0  =>  x ≥ 4.
+  Condition 2 (Denominator): x - 9 ≠ 0  =>  x ≠ 9.
+  Domain: All real x such that x ≥ 4 and x ≠ 9 (or [4, 9) ∪ (9, ∞)).
+
+Tip: Odd roots (like cube roots ∛x) are defined for all real numbers, including negative numbers!

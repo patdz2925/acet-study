@@ -1,0 +1,9 @@
+A fraction represents part of a whole.
+
+To solve fraction problems:
+1. To find a fraction of a number: multiply the number by the fraction.
+   Example: 3/4 of 80 = 80 × (3/4) = 60
+2. To multiply fractions: multiply numerators, multiply denominators.
+3. To simplify: divide both by their greatest common divisor.
+
+Always double-check: does your answer make sense relative to the whole?

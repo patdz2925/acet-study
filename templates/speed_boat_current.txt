@@ -1,0 +1,18 @@
+Boat and Current problems involve relative speed in moving water.
+
+Key Formulas:
+  Let b = speed of boat in still water.
+  Let c = speed of river current.
+1. Downstream Speed (with the current):
+   v_down = b + c
+2. Upstream Speed (against the current):
+   v_up = b - c
+3. Solving for speeds from downstream and upstream rates:
+   b = (v_down + v_up) / 2
+   c = (v_down - v_up) / 2
+
+Example: A boat travels downstream at 18 km/h and upstream at 12 km/h.
+  Speed in still water = (18 + 12) / 2 = 15 km/h.
+  Speed of current = (18 - 12) / 2 = 3 km/h.
+
+Tip: Downstream is always faster because the current aids the boat; upstream is slower because the current opposes it.

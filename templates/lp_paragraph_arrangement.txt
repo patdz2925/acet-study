@@ -1,0 +1,15 @@
+Paragraph Arrangement requires ordering scrambled sentences into a coherent text.
+
+Key Rules & Strategy:
+1. Find the Opening Sentence: It introduces the topic independently and rarely begins with pronouns (he, it, they) or contrast transitions (however, therefore).
+2. Spot Cohesive Pairs: Group sentences that refer to each other (e.g., a term defined in sentence A and elaborated in sentence B).
+3. Follow Chronological or Cause-and-Effect order: Background -> Problem -> Solution -> Conclusion.
+4. Eliminate choices that place concluding sentences early.
+
+Example:
+  (1) Furthermore, trees reduce urban heat.
+  (2) Urban green spaces provide vital benefits.
+  (3) For instance, parks promote mental well-being.
+  Order: 2 (general topic) -> 3 (first benefit) -> 1 (additional benefit with transition).
+
+Tip: Identify the first sentence, then check the answer choices. Often, only one or two choices start with the correct opening sentence.

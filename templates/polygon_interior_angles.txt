@@ -1,0 +1,21 @@
+Formulas for interior and exterior angles of convex polygons.
+
+Formulas (for an n-sided polygon):
+1. Sum of Interior Angles:
+   S = (n - 2) × 180°
+   - Triangle (n=3): (3-2) × 180° = 180°
+   - Quadrilateral (n=4): (4-2) × 180° = 360°
+   - Pentagon (n=5): (5-2) × 180° = 540°
+   - Hexagon (n=6): (6-2) × 180° = 720°
+   - Octagon (n=8): (8-2) × 180° = 1080°
+2. One Interior Angle of a REGULAR polygon:
+   Angle = [(n - 2) × 180°] / n
+3. Sum of Exterior Angles (always!):
+   Exterior Sum = 360° for ANY convex polygon.
+4. One Exterior Angle of a REGULAR polygon: 360° / n.
+
+Example: What is each interior angle of a regular hexagon?
+  n = 6. Sum = (6 - 2) × 180° = 720°.
+  Each angle = 720° / 6 = 120°.
+
+Tip: Finding the exterior angle first (360° / n) and subtracting from 180° is often faster: 180° - (360° / 6) = 180° - 60° = 120°!

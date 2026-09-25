@@ -1,0 +1,15 @@
+Cube dimensions, surface area, volume, and interior space diagonals.
+
+For a cube of edge length s:
+1. Face Diagonal (diagonal of one square face):
+   d_face = s√2
+2. Space Diagonal (interior diagonal connecting opposite corners):
+   d_space = √(s² + s² + s²) = s√3
+3. Volume: V = s³
+4. Total Surface Area: A = 6s²
+
+Example: If the space diagonal of a cube is 6√3 cm, what is its volume?
+  d_space = s√3 = 6√3  =>  s = 6 cm.
+  Volume = s³ = 6³ = 216 cm³.
+
+Tip: Remember the distinction: Face diagonal is s√2 (2D Pythagorean theorem); Space diagonal is s√3 (3D Pythagorean theorem).

@@ -1,0 +1,86 @@
+{
+  "demo": true,
+  "demo_note": "This is DEMO data. Replace with your real ACET mistakes. Set 'demo' to false to use your own data.",
+  "mistakes": [
+    {
+      "original_id": "P1-Q4",
+      "section": "Math",
+      "question_text": "A store sold 200 items in January and 250 items in February. What is the percent increase?",
+      "choices": ["A. 20%", "B. 25%", "C. 30%", "D. 50%"],
+      "correct_answer": "B",
+      "concept": "percentages",
+      "your_answer": "A",
+      "date_recorded": "2026-09-15"
+    },
+    {
+      "original_id": "P1-Q8",
+      "section": "Math",
+      "question_text": "If 3 notebooks cost $4.50, how much do 7 notebooks cost?",
+      "choices": ["A. $7.00", "B. $9.00", "C. $10.50", "D. $12.00"],
+      "correct_answer": "C",
+      "concept": "ratios",
+      "your_answer": "A",
+      "date_recorded": "2026-09-15"
+    },
+    {
+      "original_id": "P2-Q2",
+      "section": "Math",
+      "question_text": "What is 3/4 of 80?",
+      "choices": ["A. 20", "B. 40", "C. 60", "D. 80"],
+      "correct_answer": "C",
+      "concept": "fractions",
+      "your_answer": "B",
+      "date_recorded": "2026-09-14"
+    },
+    {
+      "original_id": "P2-Q6",
+      "section": "Math",
+      "question_text": "The average of 5 numbers is 12. What is their total sum?",
+      "choices": ["A. 17", "B. 25", "C. 60", "D. 170"],
+      "correct_answer": "C",
+      "concept": "averages",
+      "your_answer": "D",
+      "date_recorded": "2026-09-14"
+    },
+    {
+      "original_id": "P3-Q1",
+      "section": "Math",
+      "question_text": "Solve for x: 2x + 3 = 11",
+      "choices": ["A. x = 2", "B. x = 4", "C. x = 5", "D. x = 7"],
+      "correct_answer": "B",
+      "concept": "basic_algebra",
+      "your_answer": "C",
+      "date_recorded": "2026-09-13"
+    },
+    {
+      "original_id": "P3-Q5",
+      "section": "Math",
+      "question_text": "What is 15% of 80?",
+      "choices": ["A. 8", "B. 12", "C. 15", "D. 20"],
+      "correct_answer": "B",
+      "concept": "percentages",
+      "your_answer": "A",
+      "date_recorded": "2026-09-13"
+    },
+    {
+      "original_id": "P3-Q9",
+      "section": "Math",
+      "question_text": "If a car travels 60 miles in 2 hours, what is its average speed?",
+      "choices": ["A. 20 mph", "B. 30 mph", "C. 40 mph", "D. 60 mph"],
+      "correct_answer": "B",
+      "concept": "averages",
+      "your_answer": "A",
+      "date_recorded": "2026-09-12"
+    },
+    {
+      "original_id": "P4-Q3",
+      "section": "Math",
+      "question_text": "Simplify the ratio 12:18",
+      "choices": ["A. 2:3", "B. 3:2", "C. 4:6", "D. 6:9"],
+      "correct_answer": "A",
+      "concept": "ratios",
+      "your_answer": "D",
+      "date_recorded": "2026-09-12"
+    }
+  ]
+}
